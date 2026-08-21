@@ -4,43 +4,35 @@
 <meta charset="UTF-8">
 <meta http-equiv="Cache-Control" content="no-store, must-revalidate">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>全球有色财报入库平台 · 永安期货研究</title>
-<link rel="stylesheet" href="assets/style.73f0f0cb.css">
+<title>Caibao · 财报入库平台 v5</title>
+<link rel="stylesheet" href="assets/style.b513dfac.css">
 </head>
 <body>
 
-<!-- 密码门：本地防窥门槛，非安全加密 -->
-<div id="gate" class="gate">
-  <div class="gate-box">
-    <div class="gate-logo">YAFCO RESEARCH</div>
-    <h1>财报入库平台</h1>
-    <p class="gate-sub">覆盖铜/铝/铅/锌/镍/锡/锂/硅 · 数据来源：公司官方财报</p>
-    <input type="password" id="gate-input" placeholder="访问密码" autocomplete="off">
-    <button id="gate-btn">进入 →</button>
-    <p class="gate-err" id="gate-err"></p>
-    <p class="gate-note">本地防窥门槛，非安全加密</p>
-  </div>
-</div>
-
-<!-- 主界面 -->
-<div id="app" class="app" style="display:none">
+<!-- 主界面（固定顶栏 + 左侧栏 + 主区，形态对齐独立面板 v5） -->
+<div id="app" class="app">
   <header class="topbar">
     <div class="brand">
-      <span class="brand-mark">YAFCO</span>
-      <span class="brand-title">财报入库平台</span>
+      <span class="ic">财</span>
+      <span class="brand-title">Caibao 财报入库平台</span>
+      <span class="ver">v5</span>
     </div>
-    <nav class="tabs" id="tabs"></nav>
     <div class="build-time" id="build-time"></div>
   </header>
+  <aside class="sidebar">
+    <div class="side-sec">工作区</div>
+    <nav class="tabs" id="tabs"></nav>
+    <div class="side-foot">
+      <span class="av">YA</span>
+      <span>永安期货 · 研究工作区<br><span id="build-time-2"></span></span>
+    </div>
+  </aside>
   <main id="main"></main>
-  <footer class="footer">
-    全球有色财报入库平台 · 数据来源：公司官方财报 / 业绩公告 · 本页面为本地静态文件，双击 index.html 即可使用 · 构建于 <span id="build-time-2"></span>
-  </footer>
 </div>
 
 <script src="assets/echarts.min.js"></script>
 <script>if (typeof echarts === "undefined") document.write('<script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"><\/script>');</script>
-<script src="data/data.d37bb33e.js"></script>
-<script src="assets/app.562a1bd3.js"></script>
+<script src="data/data.3b7a82e7.js"></script>
+<script src="assets/app.945bbfe9.js"></script>
 </body>
 </html>
