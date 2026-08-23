@@ -1958,8 +1958,8 @@ def main():
     dugald = next((c for c in zinc_sec_mine["companies"] if c["project"] == "Dugald River"), None)
     checks.append(("锌 Dugald River 26Q2 = 4.61", dugald["data"].get("2026Q2") if dugald else None, 4.61))
     # 2026-07-29 起锌矿表新增16家公司、总计行改为全公司行求和，26Q1 总计口径随之变化
-    # 2026-07-30 Glencore 三矿山改 Zinc in concentrates 口径（Kazzinc Q1 3.39→1.78、McArthur 6.29→6.8、Mount Isa 4.6→6.75），总计 142.2653→143.3153
-    checks.append(("锌矿总计行 26Q1 = 143.3153", zinc_sec_mine["total"]["data"].get("2026Q1"), 143.3153))
+    # 2026-08-23 Nexa 2Q26 入库+新增 El Porvenir/Atacocha/Aripuanã 三行（EDGAR 6-K），总计 143.3153→145.8053
+    checks.append(("锌矿总计行 26Q1 = 145.8053", zinc_sec_mine["total"]["data"].get("2026Q1"), 145.8053))
     zijin = next((c for c in zinc_sec_mine["companies"] if c["name"] == "紫金矿业"), None)
     checks.append(("锌 紫金矿业 25总计 = 35.7453", zijin["data"].get("2025") if zijin else None, 35.7453))
     fres = next((c for c in zinc_sec_mine["companies"] if c["name"] == "Fresnillo"), None)
