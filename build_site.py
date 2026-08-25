@@ -403,7 +403,7 @@ LEAD_CALIBER_NOTES = [
 COMMODITIES = {
     "tin": {
         "name": "锡",
-        "excel": _excel("锡.xlsx", r"D:\拷贝文件\E\永安\锡\海外主要公司产量.xlsx"),
+        "excel": _excel("锡.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\锡\海外主要公司产量.xlsx"),
         "unit_mine": "吨（精矿含锡）",
         "unit_refined": "吨（精炼锡）",
         "extract": "extract_tin",
@@ -413,7 +413,7 @@ COMMODITIES = {
     },
     "zinc": {
         "name": "锌",
-        "excel": _excel("锌.xlsx", r"D:\拷贝文件\E\永安\锌\全球锌企季度产量梳理.xlsx"),
+        "excel": _excel("锌.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\锌\全球锌企季度产量梳理.xlsx"),
         "unit_mine": "万金属吨",
         "unit_refined": "万吨精炼锌",
         "extract": "extract_zinc",
@@ -424,7 +424,7 @@ COMMODITIES = {
     },
     "aluminum": {
         "name": "铝",
-        "excel": _excel("铝.xlsx", r"D:\拷贝文件\E\永安\铝\全球铝企季度产量梳理.xlsx"),
+        "excel": _excel("铝.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\铝\全球铝企季度产量梳理.xlsx"),
         "extract": "extract_aluminum",
         "calendar": ALUMINUM_CALENDAR,
         "caliber_notes": ALUMINUM_CALIBER_NOTES,
@@ -432,7 +432,7 @@ COMMODITIES = {
     },
     "nickel": {
         "name": "镍",
-        "excel": _excel("镍.xlsx", r"D:\拷贝文件\E\永安\镍\全球镍企季度产量梳理.xlsx"),
+        "excel": _excel("镍.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\镍\全球镍企季度产量梳理.xlsx"),
         "extract": "extract_nickel",
         "calendar": NICKEL_CALENDAR,
         "caliber_notes": NICKEL_CALIBER_NOTES,
@@ -440,7 +440,7 @@ COMMODITIES = {
     },
     "copper": {
         "name": "铜",
-        "excel": _excel("铜.xlsx", r"D:\拷贝文件\E\永安\铜\全球铜企季度产量梳理.xlsx"),
+        "excel": _excel("铜.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\铜\全球铜企季度产量梳理.xlsx"),
         "extract": "extract_copper",
         "calendar": COPPER_CALENDAR,
         "caliber_notes": COPPER_CALIBER_NOTES,
@@ -448,7 +448,7 @@ COMMODITIES = {
     },
     "lithium": {
         "name": "锂",
-        "excel": _excel("锂.xlsx", r"D:\拷贝文件\E\永安\锂\全球锂企季度产量梳理.xlsx"),
+        "excel": _excel("锂.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\锂\全球锂企季度产量梳理.xlsx"),
         "extract": "extract_lithium",
         "calendar": LITHIUM_CALENDAR,
         "caliber_notes": LITHIUM_CALIBER_NOTES,
@@ -456,7 +456,7 @@ COMMODITIES = {
     },
     "silicon": {
         "name": "硅",
-        "excel": _excel("硅.xlsx", r"D:\拷贝文件\E\永安\硅产业\全球硅企季度产量梳理.xlsx"),
+        "excel": _excel("硅.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\硅\全球硅企季度产量梳理.xlsx"),
         "extract": "extract_silicon",
         "calendar": SILICON_CALENDAR,
         "caliber_notes": SILICON_CALIBER_NOTES,
@@ -464,7 +464,7 @@ COMMODITIES = {
     },
     "lead": {
         "name": "铅",
-        "excel": _excel("铅.xlsx", r"D:\拷贝文件\E\永安\铅\全球铅企季度产量梳理.xlsx"),
+        "excel": _excel("铅.xlsx", r"D:\Kimi\金属总网\网站构建\财报汇总\铅\全球铅企季度产量梳理.xlsx"),
         "extract": "extract_lead",
         "calendar": LEAD_CALENDAR,
         "caliber_notes": LEAD_CALIBER_NOTES,
