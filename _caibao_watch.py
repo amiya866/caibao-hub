@@ -56,7 +56,7 @@ def scan(path):
             if not name or "总计" in str(name) or "合计" in str(name):
                 continue
             cur, prev = r[cols[CUR_Q]], r[cols[PREV_Q]]
-            if prev not in (None, "", "-") and cur in (None, "", "-"):
+            if prev not in (None, "", "-") and cur in (None, ""):
                 owes.append((ws.title, str(name), str(r[1] or ""), str(r[2] or "") if len(r) > 2 else ""))
     wb.close()
     return owes
