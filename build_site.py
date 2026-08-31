@@ -581,7 +581,10 @@ def make_calendar(entries, commodity_name, companies=None, cur_q=None):
                     note = "真库无对应行，无法自动核对"
                 else:
                     val = next(c for c in companies if c["name"] == row)["data"].get(cur_q)
-                    status = "已入库" if val not in (None, "", "-") else "已披露待核·未入库"
+                    if val not in (None, ""):
+                        status = "已入库" if val != "-" else "已核实·无季度数据"  # '-'=已核实该公司不披露，非欠账
+                    else:
+                        status = "已披露待核·未入库"
         out.append({
             "date": e["date"],
             "approx": bool(e.get("approx")),
