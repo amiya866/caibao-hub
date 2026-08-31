@@ -35,6 +35,9 @@ def _excel(rel: str, legacy: str) -> Path:
 
 BUILD_DATE = datetime.date.today()
 
+from _curq import cur_check_quarter, company_match  # 2026-08-31 起：当前应核季度自动推算 + 日历↔真库公司名匹配
+CUR_Q, PREV_Q = cur_check_quarter(BUILD_DATE)
+
 # ---------------------------------------------------------------------------
 # 披露日历常量（手工维护；status 由本脚本按构建日期自动判定：
 #   日期已过 -> "已披露待核"，未来 -> "待披露"）
@@ -561,17 +564,31 @@ def sum_total(companies, periods):
     return {"data": total, "yoy": yoy}
 
 
-def make_calendar(entries, commodity_name):
+def make_calendar(entries, commodity_name, companies=None, cur_q=None):
+    """状态三档：待披露（未来）/ 已入库（到期且真库当季有数）/ 已披露待核·未入库（到期但当季空缺）。
+    companies=该品种全部公司行（含 name/data），cur_q=当前应核季度。2026-08-31 起入库状态与真库交叉核对。"""
     out = []
     for e in entries:
         d = datetime.date.fromisoformat(e["date"])
+        status, note = "待披露", ""
+        if d <= BUILD_DATE:
+            status = "已披露待核"
+            if companies is not None and cur_q:
+                names = [c["name"] for c in companies]
+                row = company_match(e["company"], names)
+                if row is None:
+                    note = "真库无对应行，无法自动核对"
+                else:
+                    val = next(c for c in companies if c["name"] == row)["data"].get(cur_q)
+                    status = "已入库" if val not in (None, "", "-") else "已披露待核·未入库"
         out.append({
             "date": e["date"],
             "approx": bool(e.get("approx")),
             "company": e["company"],
             "commodity": commodity_name,
             "event": e["event"],
-            "status": "已披露待核" if d <= BUILD_DATE else "待披露",
+            "status": status,
+            "note": note,
         })
     return out
 
@@ -1879,11 +1896,12 @@ def main():
         body = extractor(cfg["excel"])
         body.pop("_all_periods", None)
         n_fitted = body.pop("_fitted", 0)
+        _all_comp = [c for _sec in body.get("sections", []) for c in _sec.get("companies", [])]
         entry = {
             "key": key,
             "name": cfg["name"],
             "default_view": cfg.get("default_view", "quarter"),
-            "calendar": make_calendar(cfg["calendar"], cfg["name"]),
+            "calendar": make_calendar(cfg["calendar"], cfg["name"], companies=_all_comp, cur_q=CUR_Q),
             "caliber_notes": cfg["caliber_notes"],
             **body,
         }
