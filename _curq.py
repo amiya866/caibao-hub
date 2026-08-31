@@ -27,6 +27,12 @@ def cur_check_quarter(today: date | None = None) -> tuple[str, str]:
     return cur, prev
 
 
+def cur_check_quarter_iso(today: date | None = None) -> tuple[str, str]:
+    """网站 data 键格式版：("2026Q2", "2025Q2")。"""
+    cur, prev = cur_check_quarter(today)
+    return "20" + cur, "20" + prev
+
+
 # 日历公司名 → 真库行名（别名表；两边写法不一致时在此登记）
 ALIASES = {
     "Teck": "TECK", "Boliden": "BOLIDEN", "Nexa": "NEXA", "Mitsui Mining": "三井",

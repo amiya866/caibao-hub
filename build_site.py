@@ -35,8 +35,9 @@ def _excel(rel: str, legacy: str) -> Path:
 
 BUILD_DATE = datetime.date.today()
 
-from _curq import cur_check_quarter, company_match  # 2026-08-31 起：当前应核季度自动推算 + 日历↔真库公司名匹配
-CUR_Q, PREV_Q = cur_check_quarter(BUILD_DATE)
+from _curq import cur_check_quarter, cur_check_quarter_iso, company_match  # 2026-08-31 起：当前应核季度自动推算 + 日历↔真库公司名匹配
+CUR_Q, PREV_Q = cur_check_quarter(BUILD_DATE)          # Excel 表头格式 26Q2（守望者用）
+CUR_Q_ISO = cur_check_quarter_iso(BUILD_DATE)[0]       # 网站 data 键格式 2026Q2（日历联动用）
 
 # ---------------------------------------------------------------------------
 # 披露日历常量（手工维护；status 由本脚本按构建日期自动判定：
@@ -1901,7 +1902,7 @@ def main():
             "key": key,
             "name": cfg["name"],
             "default_view": cfg.get("default_view", "quarter"),
-            "calendar": make_calendar(cfg["calendar"], cfg["name"], companies=_all_comp, cur_q=CUR_Q),
+            "calendar": make_calendar(cfg["calendar"], cfg["name"], companies=_all_comp, cur_q=CUR_Q_ISO),
             "caliber_notes": cfg["caliber_notes"],
             **body,
         }
