@@ -35,8 +35,9 @@ def cur_check_quarter_iso(today: date | None = None) -> tuple[str, str]:
 
 # 日历公司名 → 真库行名（别名表；两边写法不一致时在此登记）
 ALIASES = {
-    "Teck": "TECK", "Boliden": "BOLIDEN", "Nexa": "NEXA", "Mitsui Mining": "三井",
+    "Teck": "TECK", "Boliden": "BOLIDEN", "Nexa": "NEXA",
     "明苏尔": "明苏尔", "Minsur": "明苏尔", "Vedanta": "Vedanta",
+    "大全能源": "新疆大全新能源",
 }
 
 

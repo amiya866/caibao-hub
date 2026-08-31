@@ -58,9 +58,11 @@ def sheet_view(path):
         if "日志" in ws.title:
             continue
         hdr = None
-        for r in ws.iter_rows(min_row=1, max_row=5, values_only=True):
+        hdr_row = 0
+        for i, r in enumerate(ws.iter_rows(min_row=1, max_row=5, values_only=True), start=1):
             if r and any(str(v).strip() == CUR_Q for v in r if v):
                 hdr = r
+                hdr_row = i
                 break
         if not hdr:
             continue
@@ -68,11 +70,11 @@ def sheet_view(path):
         if CUR_Q not in cols or PREV_Q not in cols:
             continue
         rows = {}
-        for r in ws.iter_rows(min_row=6, values_only=True):
+        for r in ws.iter_rows(min_row=hdr_row + 1, values_only=True):
             name = r[0]
             if not name or "总计" in str(name) or "合计" in str(name):
                 continue
-            rows[str(name)] = r
+            rows.setdefault(str(name), []).append(r)
         views.append((ws.title, cols, rows))
     wb.close()
     return views
@@ -86,10 +88,11 @@ def scan(path):
     except Exception as e:
         return [("(文件读取失败)", str(e)[:60], "", "")]
     for title, cols, rows in views:
-        for name, r in rows.items():
-            cur, prev = r[cols[CUR_Q]], r[cols[PREV_Q]]
-            if prev not in (None, "", "-") and cur in (None, ""):
-                owes.append((title, name, str(r[1] or ""), str(r[2] or "") if len(r) > 2 else ""))
+        for name, rlist in rows.items():
+            for r in rlist:
+                cur, prev = r[cols[CUR_Q]], r[cols[PREV_Q]]
+                if prev not in (None, "", "-") and cur in (None, ""):
+                    owes.append((title, name, str(r[1] or ""), str(r[2] or "") if len(r) > 2 else ""))
     return owes
 
 
@@ -112,10 +115,13 @@ def cal_cross(comm, path, cal_entries):
         filled = False
         for _, cols, rows in views:
             if row in rows:
-                v = rows[row][cols[CUR_Q]]
-                if v not in (None, "", "-"):
-                    filled = True
-                    break
+                for r in rows[row]:
+                    v = r[cols[CUR_Q]]
+                    if v not in (None, "", "-"):
+                        filled = True
+                        break
+            if filled:
+                break
         if not filled:
             missing.append((e["company"], e["date"], e["event"], (date.today() - d).days))
     return missing, norow
