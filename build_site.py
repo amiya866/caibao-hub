@@ -565,7 +565,36 @@ def sum_total(companies, periods):
     return {"data": total, "yoy": yoy}
 
 
-def make_calendar(entries, commodity_name, companies=None, cur_q=None):
+def _dash_status_map(excel_path):
+    """直读真库 Excel：{行名: 当季单元格原始值}（区分 '-'=已核实无数据 与 真空=未入库）。
+    表头在前 5 行内找含 Excel 格式季度（26Q2）的行，数据从表头下一行起。"""
+    out = {}
+    try:
+        import openpyxl
+        wb = openpyxl.load_workbook(excel_path, read_only=True, data_only=True)
+        for ws in wb:
+            if "日志" in ws.title:
+                continue
+            hdr_row, cols = None, {}
+            for i, r in enumerate(ws.iter_rows(min_row=1, max_row=5, values_only=True), 1):
+                if r and any(str(v).strip() == CUR_Q for v in r if v):
+                    hdr_row = i
+                    cols = {str(v).strip(): j for j, v in enumerate(r) if v}
+                    break
+            if hdr_row is None or CUR_Q not in cols:
+                continue
+            for r in ws.iter_rows(min_row=hdr_row + 1, values_only=True):
+                name = r[0]
+                if not name or "总计" in str(name) or "合计" in str(name):
+                    continue
+                out.setdefault(str(name), r[cols[CUR_Q]])
+        wb.close()
+    except Exception as e:
+        print(f"[build] 警告：日历联动直读真库失败（{e}），'-' 与空将不作区分")
+    return out
+
+
+def make_calendar(entries, commodity_name, companies=None, cur_q=None, dash_map=None):
     """状态三档：待披露（未来）/ 已入库（到期且真库当季有数）/ 已披露待核·未入库（到期但当季空缺）。
     companies=该品种全部公司行（含 name/data），cur_q=当前应核季度。2026-08-31 起入库状态与真库交叉核对。"""
     out = []
@@ -580,9 +609,13 @@ def make_calendar(entries, commodity_name, companies=None, cur_q=None):
                 if row is None:
                     note = "真库无对应行，无法自动核对"
                 else:
-                    val = next(c for c in companies if c["name"] == row)["data"].get(cur_q)
-                    if val not in (None, ""):
-                        status = "已入库" if val != "-" else "已核实·无季度数据"  # '-'=已核实该公司不披露，非欠账
+                    # 同名公司多行（矿/锭/多板块）时逐行看：任一有数=已入库，任一为'-'=已核实无数据
+                    rows_hit = [c for c in companies if c["name"] == row or company_match(e["company"], [c["name"]]) == c["name"]]
+                    vals = [c["data"].get(cur_q) for c in rows_hit]
+                    if any(v not in (None, "") for v in vals):
+                        status = "已入库"
+                    elif dash_map is not None and any(dash_map.get(c["name"]) == "-" for c in rows_hit):
+                        status = "已核实·无季度数据"  # 抽取层会把 '-' 规整成 None，须直读真库区分（2026-08-31）
                     else:
                         status = "已披露待核·未入库"
         out.append({
@@ -1905,7 +1938,8 @@ def main():
             "key": key,
             "name": cfg["name"],
             "default_view": cfg.get("default_view", "quarter"),
-            "calendar": make_calendar(cfg["calendar"], cfg["name"], companies=_all_comp, cur_q=CUR_Q_ISO),
+            "calendar": make_calendar(cfg["calendar"], cfg["name"], companies=_all_comp, cur_q=CUR_Q_ISO,
+                                      dash_map=_dash_status_map(cfg["excel"])),
             "caliber_notes": cfg["caliber_notes"],
             **body,
         }
