@@ -1,0 +1,62 @@
+section key=mine title=锌矿产量 unit=万金属吨 companies=45 quarters=['2024Q3', '2024Q4', '2025Q1', '2025Q2', '2025Q3', '2025Q4', '2026Q1', '2026Q2']
+  Vedanta | Zinc India | 印度 | group=Vedanta（韦丹塔） | guide=109-110
+  Zinc India | Gamsberg | 南非 | group=Vedanta（韦丹塔） | guide=18-20
+  Zinc International | BMM | 黑山 | group=Vedanta（韦丹塔） | guide=5.5-6.5
+  TECK | Antamina(100%口径) | 秘鲁 | group=Teck | guide=无同口径指引（行数据为 100% 口径；Teck 权益 22.5%，权益估算 15.6-20 万吨不可直接对比）
+  TECK | Red Dog | 加拿大 | group=Teck | guide=37.5-41.5
+  Glencore | Kazzinc | 哈萨克斯坦 | group=None | guide=无单体指引（集团 FY26 锌指引 70-74 万吨：Antamina 减量+Mount Isa 资源枯竭）
+  Glencore | McArthur River | 澳大利亚 | group=None | guide=None
+  Glencore | Mount Isa | 澳大利亚 | group=None | guide=None
+  NEXA | Cerro Lindo | 秘鲁 | group=None | guide=12.8-14.5（Nexa 2026 官方指引，中枢 +6%；原 10-11 为旧值已更正）
+  NEXA | Vazante | 巴西 | group=None | guide=12.8-14.5（Nexa 2026 官方指引，中枢 +6%；原 10-11 为旧值已更正）
+  BOLIDEN | Tara | 爱尔兰 | group=None | guide=5.5-6.5（磨矿指引 1.6Mt 折算；Q2 由 1.8Mt 下调，开拓进度不及预期）
+  BOLIDEN | Garpenberg | 瑞典 | group=None | guide=3.2-3.5（地震后 2026 磨矿指引 1.5Mt×品位 2.7% 折算金属量；原 3.7Mt 指引已下调约 60%）
+  BOLIDEN | Neves-Corvo | 葡萄牙 | group=None | guide=10.5-11.5
+  BOLIDEN | Zinkgruvan | 瑞典 | group=None | guide=7.5-8.5
+  MMG | Dugald River | 澳大利亚 | group=None | guide=17-18
+  MMG | Rosebery | 澳大利亚 | group=None | guide=4.5-5.5
+  Newmont | Penasquito | 墨西哥 | group=None | guide=22
+  Polymetal | Ozernaya Minin | 俄罗斯 | group=None | guide=预计10左右
+  South32 | Cannington | 澳大利亚 | group=None | guide=4（FY26实际3.92超指引2%；FY27 ZnEq指引20.47万吨不变）
+  South32 | Capela等 | 墨西哥 | group=None | guide=None
+  Ivanhoe | Kipushi | 刚果（金） | group=None | guide=24-29万吨；C1 $0.85-0.95/lb；资本开支指引$60M(100%口径)
+  紫金矿业 | 新疆紫金锌业/内蒙三贵口等 | 中国 | group=None | guide=矿产锌（铅）40万吨（公司规划为锌+铅合计口径）
+  Peñoles | 墨西哥多矿(Fresnillo/Saucito/Tizapa等) | 墨西哥 | group=None | guide=None
+  Volcan | Yauli/Chungar/Cerro de Pasco/Alpamarca | 秘鲁 | group=None | guide=None
+  Southern Copper | Buenavista/IMMSA | 墨西哥/秘鲁 | group=None | guide=16.39万吨（2026年7月下调；1月16.55→4月16.68→7月16.39）
+  BHP | Antamina(33.75%权益) | 秘鲁 | group=None | guide=FY2026(止6月)9-11万吨(实际9.61万吨)；FY2027大降至3.5-5.5万吨（计划低品位）
+  Fresnillo | Fresnillo/Saucito/Juanicipio(56%) | 墨西哥 | group=None | guide=8.5-9.5万吨（权益锌；2027展望9.3-10.3万吨）
+  Sibanye-Stillwater | Century(尾矿再处理) | 澳大利亚 | group=None | guide=8.63-9.83万吨(payable)
+  KAZ Minerals | East Region多金属矿(Nikolayevsky等) | 哈萨克斯坦 | group=None | guide=None
+  Pan American Silver | Huaron/La Colorada/Juanicipio(44%) | 秘鲁/墨西哥等 | group=None | guide=5.85-6.25万吨（权益）
+  Buenaventura | Uchucchacua/Tambomayo | 秘鲁 | group=None | guide=2.86-3.18万吨（2026年7月更新，原2.78-3.10）
+  Adriatic Metals | Vares(Rupice) | 波黑 | group=None | guide=DPM 2026精矿含锌59-71Mlbs≈2.68-3.22万吨
+  Hudbay | Manitoba(Lalor) | 加拿大 | group=None | guide=1.85万吨
+  Lundin Mining | —（锌资产已剥离） | 加拿大 | group=None | guide=None
+  Sierra Metals | Yauricocha(锌)/Bolivar | 秘鲁/墨西哥 | group=None | guide=None
+  Almina | Aljustrel | 葡萄牙 | group=None | guide=None
+  Mehdiabad | Mehdiabad(亚兹德) | 伊朗 | group=None | guide=None
+  Silvercorp Metals | 中国Ying矿区（铅锌银） | 加拿大 | group=None | guide=None
+  Central Asia Metals | 北马其顿Sasa（铅锌） | 英国 | group=None | guide=None
+  Hecla Mining | Greens Creek+Lucky Friday（铅锌银副产） | 美国 | group=None | guide=None
+  西部矿业 | 铅锌精矿含锌（锡铁山/获各琦等） | 中国 | group=None | guide=None
+  华钰矿业 | 铅锌锑精矿含锌（塔铝金业/扎西康） | 中国 | group=None | guide=None
+  NEXA | El Porvenir | 秘鲁 | group=None | guide=None
+  NEXA | Atacocha | 秘鲁 | group=None | guide=None
+  NEXA | Aripuanã | 巴西 | group=None | guide=None
+section key=refined title=锌锭冶炼产量 unit=万吨精炼锌 companies=14 quarters=['2024Q3', '2024Q4', '2025Q1', '2025Q2', '2025Q3', '2025Q4', '2026Q1', '2026Q2']
+  Boliden-Odda | None | 北欧 | group=BOLIDEN | guide=None
+  Mitsui Mining | None | 日本 | group=None | guide=None
+  Korea Zinc | None | 韩国 | group=None | guide=None
+  Glencore | None | 北美为主 | group=None | guide=None
+  Boliden-Kokkola | None | 加拿大 | group=BOLIDEN | guide=None
+  Três Marias | None | 巴西 | group=NEXA | guide=None
+  Torreon | None | 墨西哥 | group=Peñoles | guide=None
+  Teck-Trail | None | 加拿大 | group=Teck | guide=None
+  Cajamarquilla | None | 秘鲁 | group=NEXA | guide=None
+  SMC | None | 韩国 | group=None | guide=None
+  Zawar & Rampura | None | 印度 | group=Vedanta（韦丹塔） | guide=None
+  Nystar | None | 澳大利亚 | group=None | guide=None
+  中国 | None | 株冶集团 | group=None | guide=None
+  中国 | None | 锌业股份 | group=None | guide=None
+disruptions: [{"commodity": "锌", "date": "2026-07-29", "ongoing": true, "company": "Glencore Lady Loretta / Kidd", "country": "澳大利亚/加拿大", "type": "矿山衰竭+资产出售", "dir": "down", "capacity": "—", "impact": "H1 锌 -21%：Lady Loretta 寿命终结 -51kt、Antamina 品位降 -39.2kt、Kidd 6/1 出售", "recovery": "Lady Loretta/Kidd 为永久性退出，不恢复；Mount Isa 资源渐枯竭延续，2027 集团锌量难回 2025 水平", "source": "Glencore H1 2026 Production Report", "url": "https://www.glencore.com/investors/reports"}, {"commodity": "锌", "date": "2026-07-23", "ongoing": true, 
