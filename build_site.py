@@ -934,16 +934,24 @@ def extract_zinc(path):
     # --- 锌矿企业·季度产量：公司=行2 至总计行-1（2026-07-29 起动态定位，公司行可增删） ---
     ws = wb["锌矿企业·季度产量"]
     mine_total_r = find_total_row(ws)
+    zh = {txt(ws.cell(row=1, column=c).value): c for c in range(1, ws.max_column + 1)
+          if txt(ws.cell(row=1, column=c).value)}
+    # 2026-10-07 起列位按表头动态定位（开新季插列不再改代码）
+    z_reason_c = zh.get("变化原因", 24)
+    z_guide_c = zh.get("FY2026指引", 25)
+    z_cost_c = zh.get("成本（$/t）", 27)
+    z_yoy = {p: zh[h] for p, h in (("2025", "25同比"), ("2026Q1", "26Q1同比"),
+                                   ("2026Q2", "26Q2同比"), ("2026Q3", "26Q3同比")) if h in zh}
     mine_cols = {}
-    for col in range(4, 24):  # D..W
+    for col in range(4, z_reason_c):  # D 起数据区至「变化原因」前
         h = txt(ws.cell(row=1, column=col).value)
         if h in pmap:
             mine_cols[col] = pmap[h]
     mine_companies = read_rows(
-        ws, range(2, mine_total_r), col_name=1, col_country=2, col_project=3, col_reason=24,
+        ws, range(2, mine_total_r), col_name=1, col_country=2, col_project=3, col_reason=z_reason_c,
         data_cols=mine_cols,
-        yoy_cols={"2025": 19, "2026Q1": 21, "2026Q2": 23},
-        col_guide=25, col_cost=27,  # 2026-08-18 版式统一：26=备注(新增)，27=成本，28-31=资本开支
+        yoy_cols=z_yoy,
+        col_guide=z_guide_c, col_cost=z_cost_c,  # 版式：变化原因/指引/备注/成本/资本开支 随开季右移
     )
     for c in mine_companies:
         if c["name"] == "Nyrstar":
@@ -955,7 +963,7 @@ def extract_zinc(path):
     # 总计行（动态定位，B 列=总计）
     total_row = {"data": {}, "yoy": {}}
     provided = {}
-    for p, col in (("2025", 19), ("2026Q1", 21), ("2026Q2", 23)):
+    for p, col in z_yoy.items():
         v = num(ws.cell(row=mine_total_r, column=col).value)
         if v is not None:
             provided[p] = v
@@ -973,21 +981,27 @@ def extract_zinc(path):
     # --- 锌锭冶炼企业·季度产量：公司=行2 至总计行-1（动态定位） ---
     ws2 = wb["锌锭冶炼企业·季度产量"]
     ref_total_r = find_total_row(ws2, scan_cols=(1, 2))
+    zh2 = {txt(ws2.cell(row=1, column=c).value): c for c in range(1, ws2.max_column + 1)
+           if txt(ws2.cell(row=1, column=c).value)}
+    z2_reason_c = zh2.get("变化原因", 24)
+    z2_guide_c = zh2.get("FY2026指引", 25)
+    z2_yoy = {p: zh2[h] for p, h in (("2025", "25同比"), ("2026Q1", "26Q1同比"),
+                                     ("2026Q2", "26Q2同比"), ("2026Q3", "26Q3同比")) if h in zh2}
     ref_cols = {}
-    for col in range(4, 24):  # D..W（2026-08-18 版式统一：A=公司,B=国家,C=项目/口径,D 起为数据区）
+    for col in range(4, z2_reason_c):  # D 起数据区至「变化原因」前
         h = txt(ws2.cell(row=1, column=col).value)
         if h in pmap:
             ref_cols[col] = pmap[h]
     ref_companies = read_rows(
-        ws2, range(2, ref_total_r), col_name=1, col_country=2, col_project=3, col_reason=24,
+        ws2, range(2, ref_total_r), col_name=1, col_country=2, col_project=3, col_reason=z2_reason_c,
         data_cols=ref_cols,
-        yoy_cols={"2025": 19, "2026Q1": 21, "2026Q2": 23},  # 「24累计同比」列已随版式统一移除，2024 同比由 compute_yoy 自算
-        col_guide=25,
+        yoy_cols=z2_yoy,  # 「24累计同比」列已随版式统一移除，2024 同比由 compute_yoy 自算
+        col_guide=z2_guide_c,
     )
     n_fit += fit_missing_quarters(ref_companies)
     ref_total = {"data": {}, "yoy": {}}
     provided = {}
-    for p, col in (("2025", 19), ("2026Q1", 21), ("2026Q2", 23)):
+    for p, col in z2_yoy.items():
         v = num(ws2.cell(row=ref_total_r, column=col).value)
         if v is not None:
             provided[p] = v
@@ -1102,16 +1116,25 @@ def extract_zinc(path):
 # 铝抽取
 # ---------------------------------------------------------------------------
 def _read_alu_sheet(ws, capture_pending=False):
-    """铝/镍产量 sheet 同构：A=公司,B=国家,C=项目/口径,D~R=23Q1..25总计,S=25同比(公式跳过),
-    T=26Q1,U=26Q1同比(公式跳过),V=26Q2,W=26Q2同比(公式跳过),X=变化原因,Y=FY2026指引,Z=备注。
+    """铝/镍/铅产量 sheet 同构：A=公司,B=国家,C=项目/口径,D 起=季度数据区（至「变化原因」列前），
+    变化原因/FY2026指引/备注三列 2026-10-07 起按表头动态定位（开新季插列后列位右移，无需改代码）。
     末行「总计」为 SUM 公式（无缓存值），总计改为自行求和（sum_total，同比按同口径公司集合）。
     镍表末尾另有「注：...」说明行，一并跳过。
-    capture_pending=True 时（镍）：季度列中的非数字文本（如「待发布(~7/27当周)」「未披露」）
+    capture_pending=True 时（镍/铅）：季度列中的非数字文本（如「待发布(~7/27当周)」「未披露」）
     按无数据处理，但记录到 company['pending']={period: 文本}，供公司卡片展示。
     返回 (companies, total, quarters, years)。"""
     pmap = _zinc_period_map()
+    # 2026-10-07 起列位按表头动态定位（铝/铅已开 26Q3 列，镍尚未——各自解析互不干扰）
+    hdr_map = {}
+    for c in range(1, ws.max_column + 1):
+        h = txt(ws.cell(row=1, column=c).value)
+        if h:
+            hdr_map[h] = c
+    reason_c = hdr_map.get("变化原因", 24)
+    guide_c = hdr_map.get("FY2026指引", 25)
+    note_c = hdr_map.get("备注", 26)
     data_cols = {}
-    for col in range(4, 23):  # D..V
+    for col in range(4, reason_c):  # D 起数据区至「变化原因」前
         h = txt(ws.cell(row=1, column=col).value)
         if h in pmap:
             data_cols[col] = pmap[h]
@@ -1137,11 +1160,11 @@ def _read_alu_sheet(ws, capture_pending=False):
             "country": txt(ws.cell(row=r, column=2).value),
             "data": data,
             "yoy": compute_yoy(data),   # 同比列是公式字符串，一律自算
-            "guide": txt(ws.cell(row=r, column=25).value),    # Y=FY2026指引
+            "guide": txt(ws.cell(row=r, column=guide_c).value) if guide_c else None,    # FY2026指引
             "guide_label": "FY2026 指引",
             "guide_progress_periods": [],  # 财年口径混杂（FY27/日历年），不做进度条测算
-            "reason": txt(ws.cell(row=r, column=24).value),   # X=变化原因
-            "note": txt(ws.cell(row=r, column=26).value),     # Z=备注（含披露频率说明）
+            "reason": txt(ws.cell(row=r, column=reason_c).value) if reason_c else None,   # 变化原因
+            "note": txt(ws.cell(row=r, column=note_c).value) if note_c else None,     # 备注（含披露频率说明）
             "pending": pending or None,
             "est": False,
             "est_note": None,

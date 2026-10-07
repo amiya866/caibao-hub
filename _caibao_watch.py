@@ -117,7 +117,7 @@ def cal_cross(comm, path, cal_entries):
             if row in rows:
                 for r in rows[row]:
                     v = r[cols[CUR_Q]]
-                    if v not in (None, "", "-"):
+                    if v not in (None, ""):  # '-' = 已核实无披露（完成态），只有真空才报警
                         filled = True
                         break
             if filled:
