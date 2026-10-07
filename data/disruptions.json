@@ -1,6 +1,6 @@
 {
  "_说明": "近3个月供应扰动梳理（各品种页信息速递下方表格）。手工维护，随财报节点/突发事件更新；字段：commodity=品种名（锡/锌/铝/镍/铜/锂）、date=事件时间、ongoing=true 表示更早发生但影响仍在持续（表格置顶标「持续」）、company=公司/资产、country=国家/地区、type=事件类型、dir=down(减量)/up(复产或增量)、capacity=产能规模、impact=影响量级、recovery=恢复进展与2027预期、source/url=来源。重建后自动上线。",
- "updated": "2026-09-05",
+ "updated": "2026-10-07",
  "items": [
   {
    "commodity": "铝",
@@ -8,11 +8,11 @@
    "ongoing": true,
    "company": "Alba（巴林）",
    "country": "巴林",
-   "type": "地缘局势主动减产",
+   "type": "地缘受损→修复重启",
    "dir": "down",
    "capacity": "162 万吨/年（全球最大单体铝厂）",
    "impact": "26Q2 净成品铝产量 15.55 万吨（同比-61%）：地区紧张局势对 1/2/3 号线控制性停产；销量 28.08 万吨（-32%）",
-   "recovery": "视地区局势；H1 净利同比+228%（高铝价对冲减量）；复产后弹性大",
+   "recovery": "2026-09-30：1-3号受损产线（约31万吨）设施修复完毕，电解槽逐渐启动；4-6号线正常运行，8月年化产量130万吨；欧美现货升水反弹、海外偏紧",
    "source": "Alba Q2/H1 2026 业绩（2026-08-04）",
    "url": "https://www.albasmelter.com/en/article/alba-discloses-its-financial-results-for-the-second-quarter-and-h1-of-2026"
   },
