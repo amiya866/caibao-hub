@@ -640,12 +640,15 @@ def section_stats(companies, quarters, title="矿山"):
             break
     if latest is None:
         return None
-    disclosed = sum(1 for c in companies if c["data"].get(latest) is not None)
+    # 披露口径只计真实值——预填拟合格（est_q）不算披露、不进合计与同比（2026-10-14 机制 1b 配套）
+    def _real(c, q):
+        return c["data"].get(q) is not None and not c.get("est_q", {}).get(q)
+    disclosed = sum(1 for c in companies if _real(c, latest))
     pp = prior_year_period(latest)
     cur = prv = 0.0
     for c in companies:
         a, b = c["data"].get(latest), c["data"].get(pp)
-        if a is not None and b is not None:
+        if _real(c, latest) and b is not None:
             cur += a
             prv += b
     return {
@@ -653,7 +656,7 @@ def section_stats(companies, quarters, title="矿山"):
         "latest_period": latest,
         "disclosed": disclosed,
         "total_companies": len(companies),
-        "mine_total": round(sum(c["data"][latest] for c in companies if c["data"].get(latest) is not None), 4),
+        "mine_total": round(sum(c["data"][latest] for c in companies if _real(c, latest)), 4),
         "mine_yoy": (cur / prv - 1.0) if prv else None,
     }
 
@@ -1319,6 +1322,91 @@ FIT_SKIP_NAME_PROJECT = ("停产", "关停", "已出售", "已售", "待补", "�
 FIT_SKIP_REASON_NOTE = ("已停产", "已关停", "已出售", "完成出售", "待补", "不披露", "保养维护", "care & maintenance")
 
 
+def prefill_current_year(companies, year=2026):
+    """机制 1b：当年「季已结束但尚未披露」的空缺季预填（2026-10-14 加，用户要求线性填补预处理）。
+    与机制 1（年度总计闭合分摊）不同，当年无年报总量，按优先级外推：
+      ① FY 指引有数值（guide2026 lo/hi）：中值×完整年份季节分布，减去已知季后分摊到空缺季；
+      ② 无指引或指引剩余<=0：近 4 个已知季均值（平稳外推，即用户说的线性填补）。
+    只填「公司当年最后一个真实季之后」的空缺（夹在中间的历史空档是未披露/口径问题，不外推伪造）；
+    当年 Q4 只在日历年结束后才进入预填窗（防止 10 月就把全年指引当既成事实）。
+    需公司有当年真实季或数值指引作锚，否则跳过。
+    全部打 est_q 标记（前端斜体），真实披露值录入后自动顶替（只填 None 格，不写 Excel 真源）。
+    披露统计（section_stats）与指引进度（build_guide_progress）均不含预填格。"""
+    today = datetime.date.today()
+    ended = (today.month - 1) // 3  # 10 月 → 3（Q1-Q3 已结束）
+    ended = min(ended, 4)
+    if today.year > year:           # 跨年后当年四季全进窗
+        ended = 4
+    if ended < 1:
+        return 0
+    n = 0
+    for c in companies:
+        blob_np = " ".join(str(x) for x in (c.get("name"), c.get("project")) if x)
+        blob_rn = " ".join(str(x) for x in (c.get("reason"), c.get("note")) if x)
+        if any(kw in blob_np for kw in FIT_SKIP_NAME_PROJECT) or \
+           any(kw in blob_rn for kw in FIT_SKIP_REASON_NOTE):
+            continue
+        data = c["data"]
+        qkeys = [f"{year}Q{i}" for i in range(1, ended + 1)]
+        estq = c.get("est_q", {})
+        real_known = [q for q in qkeys if data.get(q) is not None and not estq.get(q)]
+        if not real_known and not (c.get("guide2026") or {}).get("lo"):
+            continue  # 无锚跳过
+        first_missing = next((q for q in qkeys if data.get(q) is None), None)
+        if first_missing and any(q > first_missing for q in real_known):
+            continue  # 中间空档不外推（如 Vedanta 铅精矿缺 Q2 但有 Q3——待查真值，不伪造）
+        missing = [q for q in qkeys if data.get(q) is None]
+        known = real_known
+        if not missing:
+            continue
+        g = c.get("guide2026") or {}
+        lo, hi = g.get("lo"), g.get("hi")
+        filled = {}
+        if lo is not None and hi is not None:
+            mid = (lo + hi) / 2.0
+            remaining = mid - sum(data[q] for q in known)
+            # 完整年份季节分布
+            shares = []
+            for y in sorted({int(p) for p in data if re.fullmatch(r"\d{4}", p)}):
+                if y >= year:
+                    continue
+                qs = [data.get(f"{y}Q{i}") for i in (1, 2, 3, 4)]
+                if all(v is not None for v in qs) and sum(qs) > 0:
+                    s = sum(qs)
+                    shares.append([v / s for v in qs])
+            if remaining > 0:
+                if shares:
+                    mean_share = [sum(sh[i] for sh in shares) / len(shares) for i in range(4)]
+                    denom = sum(mean_share[int(q[-1]) - 1] for q in missing)
+                    if denom > 0:
+                        for q in missing:
+                            filled[q] = remaining * mean_share[int(q[-1]) - 1] / denom
+                if not filled:
+                    for q in missing:
+                        filled[q] = remaining / len(missing)
+                method = f"预填拟合（{year} 指引中值 {mid:g}×季节分布分摊，披露后自动替换）"
+        if not filled:
+            # 近 4 个已知季均值（含当年已知季；需当年有锚或指引才填）
+            hist = sorted((p for p in data if "Q" in p), key=quarter_sort_key)
+            vals = [data[p] for p in hist if data.get(p) is not None][-4:]
+            if not vals or (not known and lo is None):
+                continue
+            avg = sum(vals) / len(vals)
+            for q in missing:
+                filled[q] = avg
+            method = "预填拟合（近 4 个已知季均值外推，披露后自动替换）"
+        c.setdefault("est_q", {})
+        c.setdefault("est_q_note", {})
+        for q, v in filled.items():
+            data[q] = v
+            c["est_q"][q] = True
+            c["est_q_note"][q] = method
+            n += 1
+        if filled:
+            c["yoy"] = compute_yoy(data)
+    return n
+
+
 def fit_missing_quarters(companies, skip_years=None):
     """某公司某年「年度总计有值、但四个季度有空缺」-> 生成拟合季度值填入空缺：
     - 优先用该公司其他完整四季年份的季节分布（各季占比均值）分摊剩余量；
@@ -1378,6 +1466,7 @@ def fit_missing_quarters(companies, skip_years=None):
                 c["est_q_note"][f"{y}Q{i}"] = note
                 fitted_total += 1
         c["yoy"] = compute_yoy(data)   # 拟合后同比重算
+    fitted_total += prefill_current_year(companies)   # 机制 1b：当年未披露季预填
     return fitted_total
 
 
@@ -1465,7 +1554,8 @@ def build_guide_progress(entry):
             if parsed:
                 lo, hi = parsed
                 mid = (lo + hi) / 2
-            completed_periods = [p for p in ("2026Q1", "2026Q2") if c["data"].get(p) is not None]
+            completed_periods = [p for p in ("2026Q1", "2026Q2")
+                                 if c["data"].get(p) is not None and not c.get("est_q", {}).get(p)]  # 预填拟合格不算完成量
             completed = sum(c["data"][p] for p in completed_periods) if completed_periods else None
             annualized = pct = status = note = None
             full_key = c["name"] + "·" + (c.get("project") or "")
