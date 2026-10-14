@@ -1,5 +1,21 @@
 [
  {
+  "date": "2026-10-08",
+  "commodity": "锌",
+  "category": "公司",
+  "impact": "mid",
+  "title": "Ivanhoe：Kipushi 26Q3精矿含锌77,147吨再创纪录（环比+10%），年化约30.9万吨奔指引上限",
+  "summary": "Ivanhoe 10/8三季度产量公告：Kipushi选厂精矿含锌77,147吨（环比+10%），连续第七个季度环比增长；入选品位41.6%与回收率96%双创纪录，7月单月26,560吨纪录。年化约30.9万吨，公司称2026年产量将奔指引（24-29万吨）上限，并跻身2026年全球第三大锌矿。Q3财报11/3发布。（铜侧：Kamoa-Kakula Q3可售铜76,401吨，环比+19%，全年29-31万吨指引不变、偏下限）",
+  "source": "Ivanhoe Mines 官方新闻稿",
+  "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+  "affects": [
+   {
+    "company": "Ivanhoe",
+    "note": "Kipushi 26Q3=7.71万吨纪录(环比+10%)，连续7季环比增长，年化30.9万吨奔指引上限"
+   }
+  ]
+ },
+ {
   "date": "2026-10-14",
   "commodity": "锡",
   "category": "供应",
