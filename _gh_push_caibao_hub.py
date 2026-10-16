@@ -15,6 +15,8 @@ ROOT = Path(r"D:\Kimi\caibao-hub")
 EXCLUDE = {".git", "__pycache__"}
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+NO_WINDOW = getattr(subprocess, "CREATE_NO_WINDOW", 0)  # 子进程不弹控制台窗口
+
 _tok = Path(r"C:\Users\Yitian Shen\.kimi-work\_gh_amiya866.token")
 os.environ["GH_TOKEN"] = _tok.read_text(encoding="utf-8").strip()
 
@@ -23,7 +25,8 @@ def gh(args, input_data=None, retries=4):
     for attempt in range(retries):
         try:
             r = subprocess.run(["gh", "api"] + args, input=input_data,
-                               capture_output=True, text=True, encoding="utf-8", timeout=90)
+                               capture_output=True, text=True, encoding="utf-8", timeout=90,
+                               creationflags=NO_WINDOW)
             if r.returncode == 0:
                 return json.loads(r.stdout) if r.stdout.strip() else {}
             err = r.stderr[:200]
@@ -42,7 +45,8 @@ def main() -> None:
     # 基线（空仓库则从头建）
     base_commit = base_tree = None
     r = subprocess.run(["gh", "api", f"repos/{REPO}/git/ref/heads/{BRANCH}"],
-                       capture_output=True, text=True, encoding="utf-8", timeout=30)
+                       capture_output=True, text=True, encoding="utf-8", timeout=30,
+                       creationflags=NO_WINDOW)
     if r.returncode == 0:
         base_commit = json.loads(r.stdout)["object"]["sha"]
         base_tree = gh([f"repos/{REPO}/git/commits/{base_commit}"])["tree"]["sha"]

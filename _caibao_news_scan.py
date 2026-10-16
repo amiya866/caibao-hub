@@ -10,6 +10,8 @@
 """
 import io, os, re, sys, json, subprocess, datetime
 
+NO_WINDOW = getattr(subprocess, 'CREATE_NO_WINDOW', 0)  # 子进程不弹控制台窗口
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 NEWS_JSON = os.path.join(BASE, 'data', 'news.json')
 SNAPSHOT = r'D:\Kimi\整合研究站_中哲复制\site\data\news_latest.json'
@@ -128,12 +130,12 @@ def main():
     # 重建 + 推送（失败留到下一档重试，news.json 已落盘不丢）
     r1 = subprocess.run([sys.executable, os.path.join(BASE, 'build_site.py')],
                         cwd=BASE, capture_output=True, text=True, encoding='utf-8',
-                        errors='replace', timeout=600)
+                        errors='replace', timeout=600, creationflags=NO_WINDOW)
     print('build rc=%d' % r1.returncode, (r1.stdout or '')[-200:], (r1.stderr or '')[-200:])
     if r1.returncode == 0:
         r2 = subprocess.run([sys.executable, os.path.join(BASE, '_gh_push_caibao_hub.py')],
                             cwd=BASE, capture_output=True, text=True, encoding='utf-8',
-                            errors='replace', timeout=900)
+                            errors='replace', timeout=900, creationflags=NO_WINDOW)
         print('push rc=%d' % r2.returncode, (r2.stdout or '')[-200:], (r2.stderr or '')[-200:])
 
 
