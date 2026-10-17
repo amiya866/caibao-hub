@@ -1,1571 +1,1581 @@
 [
- {
-  "date": "2026-10-08",
-  "commodity": "锌",
-  "category": "公司",
-  "impact": "mid",
-  "title": "Ivanhoe：Kipushi 26Q3精矿含锌77,147吨再创纪录（环比+10%），年化约30.9万吨奔指引上限",
-  "summary": "Ivanhoe 10/8三季度产量公告：Kipushi选厂精矿含锌77,147吨（环比+10%），连续第七个季度环比增长；入选品位41.6%与回收率96%双创纪录，7月单月26,560吨纪录。年化约30.9万吨，公司称2026年产量将奔指引（24-29万吨）上限，并跻身2026年全球第三大锌矿。Q3财报11/3发布。（铜侧：Kamoa-Kakula Q3可售铜76,401吨，环比+19%，全年29-31万吨指引不变、偏下限）",
-  "source": "Ivanhoe Mines 官方新闻稿",
-  "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
-  "affects": [
-   {
-    "company": "Ivanhoe",
-    "note": "Kipushi 26Q3=7.71万吨纪录(环比+10%)，连续7季环比增长，年化30.9万吨奔指引上限"
-   }
-  ]
- },
- {
-  "date": "2026-10-14",
-  "commodity": "锡",
-  "category": "供应",
-  "impact": "mid",
-  "title": "佤邦复产持续兑现：8月自缅甸进口锡精矿7,395吨（环比+62%），矿端紧张边际缓解",
-  "summary": "海关数据：8月中国锡矿砂及精矿进口19,332吨（环比+14.0%、同比+88.4%），其中缅甸7,395吨（环比+61.8%、同比+253.6%），佤邦复产量持续兑现，但较禁矿前月均万吨级水平仍有差距；云南40%锡精矿加工费17,500元/吨（10/9，较8月18,000元小幅走低）仍钉在低位，矿端难言宽松。9月海关数据约10月下旬发布。（⚙️状态更新：替代8/6「复产慢于预期」旧标记）",
-  "source": "海关总署/Mysteel锡精矿加工费统计（锡数据库）",
-  "url": "",
-  "affects": [
-   {
-    "company": "*",
-    "note": "佤邦复产推进：8月自缅进口锡精矿7,395吨(环比+62%)，矿端边际缓解；TC 17,500元/吨仍处低位"
-   }
-  ]
- },
- {
-  "date": "2026-09-04",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "美国8月非农新增16.2万远超预期（预期5.5万），6/7月合计上修5.5万，9月加息概率升至约58-60%",
-  "summary": "9/4美国劳工统计局8月非农：新增16.2万人（预期5.5万，投行最乐观仅8万），失业率4.1%持平；7月由-2.3万上修至+2.1万、6月由2万上修至3.1万，扭转劳动力市场快速走弱叙事。利率期货9月加息概率升至约58-60%（财联社9/1已报鹰派预期升温至近60%、年内加息预期1.5次）。下周8月CPI（9/11）为9/15-16 FOMC的决定性变量——若通胀反弹，强劲就业将为加息提供支撑。金属宏观面紧缩尾部风险继续抬升，美元走强。",
-  "source": "经济观察网（新华财经）/财新/财联社",
-  "url": "http://www.eeo.com.cn/2026/0904/1024309.shtml"
- },
- {
-  "date": "2026-09-02",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "high",
-  "title": "兴业银锡银漫矿业选尾系统获准复产：选厂9/3复产，采区仍整改待验收",
-  "summary": "兴业银锡9/2晚间公告《关于子公司发生安全事故的进展暨选尾系统复产的公告》：银漫矿业收到西乌旗应急局《关于同意选矿尾矿系统复工复产的通知》（西应急发〔2026〕102号），选厂2026-09-03复产；采矿系统（采区）仍推进整改、尚未复产。背景：7/26井下车辆伤害事故致1死→采区停产；7/30选矿尾矿系统同步停产（全面停产，每月矿产锡约400-600吨）；8/28半年报确认仍全面停产。选厂复产仅恢复存量矿处理，矿产锡完全恢复需待采区安监验收。",
-  "source": "兴业银锡公告/每日经济新闻（搜狐转载）",
-  "url": "https://m.sohu.com/a/1071103307_639898",
-  "affects": [
-   {
-    "company": "兴业银锡",
-    "note": "选厂9/3复产，采区待验收；停产期每月矿产锡约400-600吨"
-   }
-  ]
- },
- {
-  "date": "2026-09-02",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "几内亚铝土矿发运扰动再起（铁路脱轨+出口管控预期），氧化铝反弹逼近成本支撑区，俄铝拟封存部分产能",
-  "summary": "广州期货9/2：几内亚铝土矿发运扰动再起，铁路脱轨叠加出口管控预期，矿端供应不确定性升温；俄铝（0486.HK）暂停氧化铝出口加剧海外担忧，银河期货报俄铝拟封存部分产能。8/31海外成交氧化铝3万吨、$379/mt FOB印尼（10月船期）；CBG巴黎会议推进氧化铝精炼厂项目、力争2026年底前开工。现货已跌至山西等地现金流成本附近，减产预期升温，氧化铝主力参考区间2600-2800元/吨（库存高位+供应过剩限制上方）。",
-  "source": "新浪财经（市场资讯）/广州期货/银河期货",
-  "url": "https://k.sina.com.cn/article_5952915705_162d248f906703n3ma.html"
- },
- {
-  "date": "2026-08-29",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "美联储主席沃什 Jackson Hole 首秀偏鹰：9月大概率按兵不动，12月前加息概率约70%",
-  "summary": "沃什8/28在Jackson Hole年会发表就任后首次主旨演讲，聚焦强化抗通胀信誉、未给出明确反应函数。会前市场对9月加息的定价已从7月中约82%降至约30%；会后主流预期9月不动，但中东局势推高油价、通胀黏性下，交易员定价12月前至少加息25bp概率约70%（路透）。金属宏观面从「降息预期」切换为「加息尾部风险」，美元获支撑，与上半年宽松基调反转。",
-  "source": "Morningstar/Reuters",
-  "url": "https://www.morningstar.com/economy/warsh-sounds-hawkish-will-there-be-september-rate-hike"
- },
- {
-  "date": "2026-08-28",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "high",
-  "title": "兴业银锡半年报确认银漫仍全面停产（采矿+选矿尾矿），H1归母净利预增169-198%靠宇邦+价格对冲",
-  "summary": "兴业银锡2026半年报（8/28披露）：7/26事故（1人死亡）后银漫矿业收西乌旗应急局257/260号决定书，截至目前采矿系统、选矿尾矿系统均停产，事故原因仍在调查，复产须经事故调查与安监验收、时间未定。H1业绩预告归母净利21.4-23.7亿元（+169%~198%），由宇邦矿业产能释放、银锡价格上涨及转让收益贡献。银漫2025年营收占合并55%、净利占近八成；按2025年月均约557吨（26Q1月均259吨）计，全面停产每月矿产锡约-260~560吨。",
-  "source": "兴业银锡2026年半年度报告（巨潮/新浪公告）",
-  "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=000426&id=12570967",
-  "affects": [
-   {
-    "company": "兴业银锡",
-    "note": "半年报确认银漫采矿+选矿尾矿仍全面停产、复产时间未定；H1归母预增169-198%（宇邦放量+银锡涨价对冲）"
-   }
-  ]
- },
- {
-  "date": "2026-08-27",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "high",
-  "title": "伦锌盘中逼近4000美元：LME库存9.51万吨（较6月底-20.7%），1.7万吨交仓约2/3入香港、出口窗口关闭",
-  "summary": "8/27伦锌盘中逼近4000美元/吨，近端供应结构仍偏紧：LME锌库存约9.51万吨、较6月底下降20.7%，仓单持有集中度仍高。近期约1.7万吨锌锭交入LME仓库，其中约三分之二流入香港仓库；国内锌锭流出+海外交仓后出口窗口关闭，挤仓情绪阶段缓和但伦锌back结构继续走强（创元期货8/23）。挤仓从「库存枯竭」转入「低库存+高集中度」僵持阶段。",
-  "source": "新浪财经/创元期货",
-  "url": "https://finance.sina.com.cn/money/future/fmnews/2026-08-27/doc-inipsmim5893512.shtml"
- },
- {
-  "date": "2026-08-20",
-  "commodity": "镍",
-  "category": "政策",
-  "impact": "high",
-  "title": "ESDM确认2026镍矿RKAB配额不再增加（APNI 8/19宣布）；印尼今年暂不对镍征出口税/暴利税",
-  "summary": "据钢联/光大期货有色日报：8/19印尼镍矿商协会APNI宣布ESDM已正式确认2026年镍矿RKAB配额不再增加；ESDM局长Tri Winarno同日称已开始逐企批准2026年煤炭和镍RKAB修订（延续「仅限供应短缺冶炼厂」口径）。经济统筹部长艾尔朗加表示今年暂不对煤炭和镍征收出口税和暴利税，明年政策尚未讨论。另据ESDM预估2026年镍矿产量约2.09亿吨。年中配额博弈落定偏紧，沪镍主力12.8万附近震荡（8/19收127,850）。",
-  "source": "光大期货有色日报（据钢联）/APNI",
-  "url": "https://finance.sina.com.cn/money/future/fmnews/2026-08-26/doc-iniprcpz6239464.shtml"
- },
- {
-  "date": "2026-08-20",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "mid",
-  "title": "锡业股份半年报：H1有色金属总产量19.34万吨（锡5.18万吨），营收同比+49.68%",
-  "summary": "云南锡业2026半年报（8/20披露）：H1有色金属总产量19.34万吨，其中锡5.18万吨、铜6.92万吨、锌7.23万吨；营收同比+49.68%。分季度看锡Q1为2.59万吨、Q2约2.59万吨环比持平——高锡价下以量稳兑现业绩弹性。",
-  "source": "锡业股份2026年半年度报告/搜狐财经",
-  "url": "https://www.sohu.com/a/1068502079_122014422",
-  "affects": [
-   {
-    "company": "云南锡业",
-    "note": "H1锡产量5.18万吨（Q2约2.59万吨环比持平）；营收同比+49.68%"
-   }
-  ]
- },
- {
-  "date": "2026-08-18",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "mid",
-  "title": "ILZSG将2026年锌平衡大幅调转30万吨至短缺，LME库存降至9.5万吨；中国需求疲弱压制上方",
-  "summary": "Crux Investor（8/18）：ILZSG把2026年锌供需平衡下调30万吨、由过剩转为短缺，LME库存降至约9.5万吨；但中国需求疲弱限制锌价上行空间——短缺叙事与弱需求并存。",
-  "source": "Crux Investor",
-  "url": "https://www.cruxinvestor.com/posts/zinc-flips-into-deficit-as-lme-stocks-hit-95-000-tonnes-despite-weak-demand"
- },
- {
-  "date": "2026-08-13",
-  "commodity": "镍",
-  "category": "供应",
-  "impact": "mid",
-  "title": "印尼镍铁让电电解铝进入执行：IWIP 3×380MW机组H2分批交付，印尼年内铝供应增量约73万吨",
-  "summary": "上海金属网（8/13，上轮扫描遗漏补录）：电解铝利润远高于镍铁（SMM测算园区单位电力毛利贡献电解铝为NPI的数十倍），园区镍铁减产让电、电力优先供给电解铝，印尼电解铝项目得以快于预期落地；IWIP园区3×380MW电力机组2026H2起分批交付，电力瓶颈将妥善解决，印尼年内预计贡献铝供应增量73万吨。8月调研遗留的「镍铁让电」变量已从协商进入执行：对镍铁供应为边际减量、对铝为加速增量。",
-  "source": "上海金属网/SMM",
-  "url": "https://www.shmet.com/news/newsDetail-2-921552.html"
- },
- {
-  "date": "2026-08-07",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "mid",
-  "title": "Minsur 26Q2精炼锡7,034吨（同比-1%、环比-15.4%检修），H1累计15,349吨（-2%）",
-  "summary": "SMM锡快讯（8/7，上轮扫描遗漏补录）：Minsur秘鲁Pisco冶炼厂26Q2精炼锡7,034吨，同比-1%、环比-15.4%（检修），入选品位下降被处理量提升部分对冲；H1累计15,349吨（同比-2%）。San Rafael地下矿Q2锡金属产量7,359吨。",
-  "source": "SMM锡快讯/ITA",
-  "url": "https://news.metal.com/en/newscontent/104036828-smm-tin-express-minsur-q2-refined-tin-production-7034-mt-yoy-down-1",
-  "affects": [
-   {
-    "company": "明苏尔",
-    "note": "26Q2精炼锡7,034吨（同比-1%）；H1累计15,349吨（-2%），检修+品位下降"
-   }
-  ]
- },
- {
-  "date": "2026-07-27",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "mid",
-  "title": "Metals X 26Q2 锡精矿 2,809 吨（环比 -2.7%），价升补量减：EBITDA +2.9%",
-  "summary": "Metals X 6 月季报（7/27）：Renison 锡精矿（100% 口径）2,809 吨（环比 -2.7%，设备可用率+采场调度问题，非结构性下滑）；估算收入 A$207.4M（+3.0%）、EBITDA A$125.9M（+2.9%）、利润率约 61%——锡价上涨完全吸收量减。现金 A$374M。Rentails 尾矿再处理 FEED 年底完成、FID 临近；Renison 矿山寿命计划与储量更新下季度发布。C1/AISC 官方值待季报明细回填。",
-  "source": "Metals X 季报/Discovery Alert",
-  "url": "https://discoveryalert.com.au/metals-x-quarterly-earnings-tin-prices-june-2026-renison/",
-  "affects": [
-   {
-    "company": "Metals X",
-    "note": "26Q2 锡精矿 2,809 吨（-2.7%），设备/调度问题；Rentails FID 2026 年底"
-   }
-  ]
- },
- {
-  "date": "2026-04-10",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "中信建投：47 家海外铝厂电力合同梳理——除 Mozal 外 4-5 年难见断签减产，北美电价风险最大",
-  "summary": "2030 年前 9 家铝厂电力合同到期（约 300 万吨），签约电量基本覆盖运行产能且价格较批发价有折扣（Hillside 十年折扣约 50%）：Bell Bay 已续至 2026-12（但 7 月仍永久关停，续电≠保产）、Lista 大概率续期。风险排序：北美（Century Hawesville 电价超 22 年峰值仍闲置；AI 数据中心「100% 自主供电」承诺后铝厂负担或减轻）> 北欧/大洋洲水电（26 年电价逼近 22 年能源危机水平）> 中西欧（瓶颈在设备老化运维成本而非缺电）。印尼：备案氧化铝约 1,800 万吨、电解铝规划超 1,230 万吨，瓶颈在电力配套（自备火电建设周期约 1.5 年），DMO 政策（25% 煤 ≤70 美元/吨供国内）引导工业电价阶梯式下行。",
-  "source": "中信建投期货（王贤伟/刘城鑫）",
-  "url": "https://mp.weixin.qq.com/s/QD7ZxXv-mGNEQM6e_UshZw"
- },
- {
-  "date": "2026-07-30",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "mid",
-  "title": "PT Timah 26Q2 精炼锡 5,235 吨（环比 -7.0%，许可证重新审批延迟）",
-  "summary": "国际锡业协会（7/29）：PT Timah 26Q2 精炼锡产量 5,235 吨，环比 -7.0%（许可证重新审批流程延迟），同比 +38.7%；锡矿产量 5,920 吨含锡，同比 +30.5%，海上作业继续主导。26H1 锡矿合计 12,232 吨，滚动年化约 2.39 万吨 vs 全年 3 万吨目标，进度约 80% 不及。",
-  "source": "ITA/矿立方",
-  "url": "https://kuanglifang.cn",
-  "affects": [
-   {
-    "company": "PT Timah",
-    "note": "26Q2 精炼锡 5,235 吨（环比 -7%，许可证重新审批延迟）；锡矿 5,920 吨（同比 +30.5%）"
-   }
-  ]
- },
- {
-  "date": "2026-07-31",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "high",
-  "title": "兴业银锡银漫矿业升级为全面停产：选矿尾矿系统 7/30 同步停产",
-  "summary": "兴业银锡进展公告（2026-66）：7/30 西乌旗应急局下发 260 号决定书，要求银漫矿业选矿尾矿系统同步停产——继 7/26 井下采区停产后，采矿系统+选矿尾矿系统均已停产。银漫为银/锡/铜/铅/锌采选（165 万吨/年），2025 营收 30.62 亿（占合并 55.12%）、净利 13.46 亿；26Q1 净利 4.75 亿。复产须经事故调查与安监验收，时长未定；按 2025 年月均约 557 吨（26Q1 月均 259 吨），全面停产每月矿产锡约 -260~560 吨。",
-  "source": "兴业银锡公告（巨潮资讯网）",
-  "url": "http://www.cninfo.com.cn/",
-  "affects": [
-   {
-    "company": "兴业银锡",
-    "note": "银漫矿业 7/26 采矿停产+7/30 选矿尾矿停产→全面停产，复产时间未定，影响全部产量（2025 营收占合并 55%）"
-   }
-  ]
- },
- {
-  "date": "2025-10-16",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "紫金资产：中企印尼火电站装机约占全国 30-40%，富裕电力仅可支撑约 310 万吨电解铝",
-  "summary": "紫金资产（2025-10-16）逐园区梳理中企印尼自备火电：IWIP 4,540MW、IMIP 3,360MW（未含老园区 2,080MW）、德龙各期合计 5,325MW、Adaro 一期 1,060MW、南山民丹 160MW。存量电力富裕对应电解铝上限约 310 万吨（vs 全球 8,000 万吨）；关键约束：规划外火电机组出口受限、对印尼 ODI 审批基本暂停，新增电力指标稀缺——「印尼 PR112 + 中国 ODI」双侧约束。南山民丹已见 2×150MW 新机组土建框架；Adaro 三期水电（178.6 亿元）未开建。",
-  "source": "紫金资产（公众号）",
-  "url": "https://mp.weixin.qq.com/s/F4YRfp9gTcw9KEVRLGYTNg"
- },
- {
-  "date": "2026-07-29",
-  "commodity": "镍",
-  "category": "公司",
-  "impact": "mid",
-  "title": "NIC Q2：RKEF 镍 27,864 吨（-8%），ENC 7/21 产首批 MHP、8 月中首批镍阴极",
-  "summary": "Nickel Industries Q2'26（官方季报）：RKEF 镍金属 27,864 吨（环比 -8%，HNI 6 月底一条线大修 4 个月约 50% 产能运行）；NPI 品位 11.3%，合同价 US$14,522/t（+10%），现金成本 US$12,595/t（+20%）。HNC MHP 产量未披露（销量 17,824 吨镍）。ENC HPAL 7/21 产出首批 MHP，首批镍阴极预计 8 月中旬；另收购 CNE 36%/TMI 17.5% 两个 HPAL 扩建，预计 2027 年中投料。",
-  "source": "Nickel Industries Q2 2026 季报（ASX）",
-  "url": "https://nickelindustries.com/",
-  "affects": [
-   {
-    "company": "Nickel Industries",
-    "note": "Q2 RKEF -8%（HNI 大修 4 个月）；ENC 7/21 首批 MHP、8 月中首批镍阴极；扩建 CNE/TMI 2027 年中投料"
-   }
-  ]
- },
- {
-  "date": "2026-07-29",
-  "commodity": "锌",
-  "category": "公司",
-  "impact": "high",
-  "title": "Glencore H1 锌产量 36.56 万吨（-21%），指引 700-740kt 维持但隐含同口径上调",
-  "summary": "Glencore H1'26（官方）：锌 365.6kt（-21%，Lady Loretta 寿命终结 -51kt、Antamina 锌品位降 -39.2kt、Kidd 6/1 出售）。FY26 锌指引 700-740kt 维持——但未扣除 Kidd 出售损失的约 20kt，等于同口径隐含上调。分资产 Q2：Kazzinc 53.7（事故后恢复）、McArthur River 70.0、Mount Isa 39.1（资源渐枯竭）、Kidd 8.3（已售）、Antamina 权益 17.6（-50%）。",
-  "source": "Glencore H1 2026 Production Report",
-  "url": "https://www.glencore.com/investors/reports",
-  "affects": [
-   {
-    "company": "Glencore",
-    "note": "H1锌-21%（Lady Loretta终结/Antamina品位/Kidd出售）；指引维持但隐含同口径上调"
-   }
-  ]
- },
- {
-  "date": "2026-07-29",
-  "commodity": "铜",
-  "category": "公司",
-  "impact": "mid",
-  "title": "Glencore H1 铜产量 39.7 万吨（+15%），非洲铜与 Antamina 驱动",
-  "summary": "Glencore H1'26：铜 397.0kt（+15%，非洲铜 +55kt、Antamina +27.7kt），Q2 197.4kt。FY26 铜指引 810-870kt 维持（同样未扣 Kidd 出售约 11kt，隐含同口径上调）。",
-  "source": "Glencore H1 2026 Production Report",
-  "url": "https://www.glencore.com/investors/reports",
-  "affects": [
-   {
-    "company": "Glencore",
-    "note": "H1铜+15%（非洲铜+55/Antamina+27.7kt），指引维持"
-   }
-  ]
- },
- {
-  "date": "2026-07-29",
-  "commodity": "镍",
-  "category": "公司",
-  "impact": "low",
-  "title": "Glencore H1 镍产量 35.8kt（-2%），INO/Murrin 平稳",
-  "summary": "Glencore H1'26：镍 35.8kt（-2%），Q2 INO 10.4kt、Murrin 8.2kt；FY26 镍指引 70-80kt 维持。",
-  "source": "Glencore H1 2026 Production Report",
-  "url": "https://www.glencore.com/investors/reports",
-  "affects": [
-   {
-    "company": "Glencore",
-    "note": "H1镍-2%，INO/Murrin 平稳，指引维持"
-   }
-  ]
- },
- {
-  "date": "2026-07-28",
-  "commodity": "铝",
-  "category": "政策",
-  "impact": "mid",
-  "title": "几内亚矿业项目总局全国驻场督查，强化矿业项目进度监管",
-  "summary": "几内亚矿业项目总局（DGPM）专项工作组在全国范围内驻场督查开发阶段矿业企业：核查项目推进进度、是否遵照开发进度计划、《矿业法》项下合同义务履行情况，由矿业投资基金（FIM）出资。监管趋严或影响铝土矿新项目投产与老矿扩产节奏。",
-  "source": "阿拉丁(ALD)（综合几内亚媒体）",
-  "url": "https://www.aladdiny.com/news/article/202607282336600.html"
- },
- {
-  "date": "2026-07-28",
-  "commodity": "锡",
-  "category": "公司",
-  "impact": "mid",
-  "title": "兴业银锡子公司银漫矿业安全事故致1人死亡，采区停产约1个月",
-  "summary": "兴业银锡7/28午间公告：全资子公司银漫矿业7/26 15:30井下三区750分层施工中发生安全事故（车辆伤害），致1人死亡。采区已停产（渠道了解约1个月），选厂正常运行，事故原因调查中。银漫为兴业主力矿山（26Q1矿产锡777吨），停产1个月影响26Q3矿产锡数百吨量级，同时影响白银产量；需跟踪复产公告与安监整改要求。",
-  "source": "兴业银锡公告/界面新闻",
-  "url": "https://www.jiemian.com/article/14836796.html",
-  "affects": [
-   {
-    "company": "兴业银锡",
-    "note": "银漫事故采区停产约1个月（选厂正常），26Q3矿产锡预计减数百吨"
-   }
-  ]
- },
- {
-  "date": "2026-07-28",
-  "commodity": "锂",
-  "category": "公司",
-  "impact": "mid",
-  "title": "Liontown FY26Q4 精矿 103,111 dmt，FY26 全年达标，FY27 指引 390-440kdmt",
-  "summary": "Liontown FY26 Q4（日历 2026Q2，官方 7/28）：Kathleen Valley 锂辉石精矿产量 103,111 dmt、销量 108,489 dmt；FY26 全年 391,992 dmt 达标；Q4 回收率约 63%，地下开拓 3,316 米创纪录。FY27 产量指引 390-440 kdmt SC6。",
-  "source": "Liontown FY26 Q4 季报（ASX）",
-  "url": "https://www.ltresources.com.au/",
-  "affects": [
-   {
-    "company": "Liontown",
-    "note": "FY26Q4 精矿 103.1kdmt、FY26 达标；FY27 指引 390-440kdmt"
-   }
-  ]
- },
- {
-  "date": "2026-07-27",
-  "commodity": "镍",
-  "category": "公司",
-  "impact": "mid",
-  "title": "Nornickel Q2 镍 43,282 吨（环比+3.7%），H1 85,028 吨，指引维持",
-  "summary": "Nornickel Q2'26（官方 7/27）：镍 43,282 吨（Q1 41,746），H1 85,028 吨；铜总量 104,394 吨（本部 86,607+外贝加尔 17,787）。FY2026 指引维持：镍 193-203kt、铜本部 336-356kt、外贝加尔 69-73kt。",
-  "source": "Nornickel 官方 Q2 2026 生产报告",
-  "url": "https://www.nornickel.com/",
-  "affects": [
-   {
-    "company": "Nornickel",
-    "note": "Q2 镍 43,282 吨、铜 104.4kt，FY26 指引维持"
-   }
-  ]
- },
- {
-  "date": "2026-07-26",
-  "commodity": "锂",
-  "category": "供应",
-  "impact": "mid",
-  "title": "【传言】枧下窝进入新环评流程，或涉采矿证延续/扩产",
-  "summary": "抖音多位期货博主称枧下窝矿进入新环评流程，市场解读为采矿证延续或扩产前置程序；复产后实际产量爬坡节奏仍待公司披露确认。传言·未经官方证实。",
-  "source": "抖音@老冯说投资",
-  "url": "https://www.douyin.com/video/7667424966060592426"
- },
- {
-  "date": "2026-07-25",
-  "commodity": "铝",
-  "category": "供应",
-  "title": "年产19.5万吨电解铝厂2026年7月永久停产",
-  "summary": "位于澳大利亚塔斯马尼亚州北部的 Bell Bay 铝冶炼厂在经历14个月的临时期后，于2026年7月永久停止运营，结束70余年生产历史。该厂年产能19.5万吨，曾被誉为「澳大利亚最绿铝厂」。",
-  "source": "天下铝讯（微信公众号）",
-  "url": "https://mp.weixin.qq.com/s/7UiWNUProKM7lYsz9cLLyg",
-  "impact": "mid"
- },
- {
-  "date": "2026-07-23",
-  "commodity": "锌",
-  "category": "供应",
-  "title": "Teck Q2：Red Dog 锌 11.2 万吨（-18%），Antamina 权益产量大降",
-  "summary": "Teck Q2 2026：Red Dog 锌精矿 11.2 万吨（同比-18%，品位如矿山计划下降，Q3 销量指引 22-27 万吨）；Antamina 锌 5.4 万吨（100%口径，同比-62%，入选铜锌矿比例降至 33%）；Trail 精炼锌 4.98 万吨（-2%）。FY2026 指引维持不变。",
-  "source": "Teck 官网 Q2 2026 新闻稿",
-  "url": "https://www.teck.com/media/Teck-Q2-2026-Unaudited-Results.pdf",
-  "impact": "high"
- },
- {
-  "date": "2026-07-23",
-  "commodity": "镍",
-  "category": "政策",
-  "title": "印尼 RKAB 配额成 2026 镍供应最大变量：Weda Bay 仅批 12Mwmt（-70%），矿山 5 月转保养",
-  "summary": "Eramet Q1 报告确认：PT Weda Bay 2026 初始 RKAB 仅批 12Mwmt（其中外销 9Mwmt，4 月中已用完），较 2025 年 42Mwmt 降逾 70%；矿山 5 月起转入 Care & Maintenance，NPI 厂靠矿石库存维持正常生产，上调申请待批。同期 Antam 获全额配额 1,810 万 wmt、NIC Hengjaya 获批 1,900 万 wmt。配额收紧是本轮镍价反弹核心驱动（LME Q1 均价 +12%）。",
-  "source": "Eramet Q1 2026 季报（2026-04-23）",
-  "url": "https://www.investegate.co.uk/announcement/gnw/eramet-sa--0mgv/eramet-strong-turnover-momentum-in-q1-2026-d-/9533623",
-  "impact": "high"
- },
- {
-  "date": "2026-07-23",
-  "commodity": "镍",
-  "category": "公司",
-  "title": "Anglo 巴西镍 Q2 产量 9,100 吨（-4%），出售给 MMG 卡在欧盟反垄断审批",
-  "summary": "Anglo Q2 2026：Barro Alto+Codemin 镍铁 9,100 吨（同比 -4%，下半年检修提前，Q3 起回升）。镍已列为退出业务不再给指引；出售给 MMG（1208.HK）交易仍待欧盟反垄断审批，交割后产量数据将转入 MMG 季报口径。",
-  "source": "Anglo American Q2 2026 产量报告",
-  "url": "https://www.investegate.co.uk/announcement/rns/anglo-american--aal/anglo-american-production-report-q2-2026/9682992",
-  "impact": "low"
- },
- {
-  "date": "2026-07-23",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "high",
-  "title": "几内亚上半年铝土矿发运1.15亿湿吨（+16.6%），6月雨季回落至1542万",
-  "summary": "几内亚矿业部数据：2026年1-6月铝土矿合计发货11482.65万湿吨，同比+1637万湿吨（+16.6%），出口矿山企业21家；3月达年内高点2227万湿吨，6月回落至1542万湿吨（雨季扰动）。雨季发运回落叠加海运费高位，铝土矿成本端支撑增强。",
-  "source": "阿拉丁(ALD)（几内亚矿业部数据）",
-  "url": "https://www.aladdiny.com/news/article/202607232284900.html"
- },
- {
-  "date": "2026-07-22",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "high",
-  "title": "IAI：海湾地区6月原铝产量降超三分之一，霍尔木兹再封锁推升成本预期",
-  "summary": "IAI数据：6月全球原铝产量同比-1.5%至598万吨；海湾地区产量降超三分之一至33.2万吨（去年同期50.7万吨），主因3月下旬中东冲突中两家铝冶炼厂遭袭（海湾产能占全球约9%）。霍尔木兹海峡再度封锁，海外氧化铝离岸/海漂招标活跃，中东铝厂建库采购积极；几内亚雨季发运扰动叠加，氧化铝成本预期获支撑。",
-  "source": "阿拉丁(ALD)（引IAI数据）",
-  "url": "https://www.aladdiny.com/news/article/202607222271400.html",
-  "affects": [
-   {
-    "company": "*",
-    "note": "中东冲突两冶炼厂遭袭，海湾6月原铝产量-1/3至33.2万吨（占全球9%），复产节奏是2027供应关键变量"
-   }
-  ]
- },
- {
-  "date": "2026-07-21",
-  "commodity": "镍",
-  "category": "供应",
-  "title": "Vale 2Q26 镍产量 42.0kt（+4.2%），2020 年以来最强 Q2；PTVI 镍锍环比 -21%",
-  "summary": "Vale 2Q26：成品镍 42.0kt（+4.2%），Onça Puma 创历史最高 Q2（+95.8%）、Long Harbour 创纪录，抵消 Sudbury 两年一度计划大检修（-33.6%）；PTVI offtake（80% 权益）11.4kt，环比 -21%（Sorowako 炉子检修，2026 镍锍目标 67,645 吨 -6%）。2026 镍指引 175-200kt 维持。",
-  "source": "Vale 2Q26 产量报告（2026-07-21）",
-  "url": "https://www.vale.com/check-out-the-production-and-sales-in-2q26/-/categories/64874",
-  "impact": "mid"
- },
- {
-  "date": "2026-07-21",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "high",
-  "title": "Boliden Q2 不及预期：Garpenberg 地震减产六成 + Tara 指引下调，锌供应收紧",
-  "summary": "Garpenberg 3/14 异常地震+岩爆停产至 4 月底，Q2 磨矿仅约 0.1Mt（平台数据 26Q2 锌产量仅 0.2 万吨）；2026 磨矿指引自 3.7Mt 下调至 1.5Mt（-60%），锌品位指引 2.9%→2.7%，折金属量约 3.2-3.5 万吨（2025 年实际 10.18 万吨）；2027 磨矿指引 2.3Mt 进入恢复。受损提升机已修复、未受影响区域复产，目前约 30% 产能，Q2 利润因此少约 4 亿克朗。",
-  "source": "Boliden Q2 2026 季报/mining.com",
-  "url": "https://www.mining.com/web/bolidens-first-quarter-earnings-beat-estimates-despite-challenges-at-garpenberg-mine/",
-  "affects": [
-   {
-    "company": "BOLIDEN",
-    "project": "Garpenberg",
-    "note": "3/14地震停产至4月底，2026磨矿指引3.7→1.5Mt(-60%)，26Q2仅0.2万吨；2027磨矿指引2.3Mt恢复"
-   },
-   {
-    "company": "BOLIDEN",
-    "project": "Tara",
-    "note": "Q2 将 2026 磨矿指引 1.8→1.6Mt（开拓进度不及预期，H2 偏弱）"
-   }
-  ]
- },
- {
-  "date": "2026-07-20",
-  "commodity": "锌",
-  "category": "供应",
-  "title": "South32 六月季报：Cannington FY26 锌当量超指引 2%",
-  "summary": "South32 FY26 Q4（止2026-06-30）：Cannington 应付锌 1.14 万吨（同比+8%/环比+25%，自3月洪水影响中恢复）；FY26 锌 3.92 万吨（-12%）、锌当量 20.54 万吨超指引 2%，FY27 锌当量指引 20.47 万吨不变。",
-  "source": "South32 ASX/RNS 季报",
-  "url": "https://south32.net/",
-  "impact": "low"
- },
- {
-  "date": "2026-07-17",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "力拓加拿大 Arvida 旧电解铝产线关闭，AP60 新产能爬坡置换",
-  "summary": "爱择独家调研确认力拓加拿大 Jonquière 综合体 Arvida 旧电解铝产线（约17万吨级）已关闭；同步 AP60 扩产项目（15亿美元、96台电解槽、+16万吨/年低碳水电铝）2026年3月启动、年底全部投产——属产能置换而非净减量，旧产能退出节奏略快于新产能爬坡。",
-  "source": "爱择咨询（独家调研）/ Rio Tinto",
-  "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=301140"
- },
- {
-  "date": "2026-07-15",
-  "commodity": "镍",
-  "category": "政策",
-  "title": "印尼 ESDM 定调：2026 不全面上调镍矿配额，补充配额仅限供应短缺冶炼厂",
-  "summary": "印尼能矿部矿产煤炭总局局长 Tri Winarno 确认：2026 年不会对全国镍矿 RKAB 配额全面上调，基础配额维持 2.6 亿湿吨；补充配额申报窗口为 7 月 1-31 日，逐企个案审批，且必须与印尼本土自有冶炼产能绑定（纯采矿/外销型矿山大概率被驳回），增量预计不显著。此前市场关于配额大幅放宽至 3.6 亿吨的传闻已被官方否认。对镍价构成供应端支撑。",
-  "source": "Mysteel/ESDM（2026-07-13）",
-  "url": "https://xny.mysteel.com/a/26071310/F23D50BD73084A17.html",
-  "impact": "high"
- },
- {
-  "date": "2026-07-13",
-  "commodity": "锡",
-  "category": "供应",
-  "title": "Alphamin Q2 产锡 5,013 吨，滚动四季首达 2 万吨年化目标",
-  "summary": "Alphamin 发布 Q2 2026 经营快报：产量 5,013 吨、销量 5,014 吨，Q3'25–Q2'26 滚动四季合计 20,237 吨，首次达到 2 万吨年化目标；EBITDA 指引 1.673 亿美元创纪录，实现锡价 51,957 美元/吨。",
-  "source": "Alphamin Resources 官网公告",
-  "url": "https://www.alphaminresources.com/2026/07/13/alphamin-announces-record-q2-ebitda-guidance-of-us167-million-exploration-update/",
-  "impact": "mid"
- },
- {
-  "date": "2026-07-09",
-  "commodity": "锂",
-  "category": "供应",
-  "impact": "high",
-  "title": "宁德时代枧下窝锂矿正式复产：停产10个半月，全球最大单体锂云母矿回归",
-  "summary": "枧下窝矿2025/8/9采矿证到期停产，2026/6/17重获用地预审（有效期至2029/6），6/29获批安全生产许可证并于当晚正式复产（证券日报引权威渠道，每经实地走访证实矿卡进场）。年产能约10万吨碳酸锂，下半年或新增供应约4.5万吨，碳酸锂市场迎「再平衡」压力。",
-  "source": "新浪财经/证券日报",
-  "url": "https://finance.sina.com.cn/roll/2026-07-09/doc-inihczph8267646.shtml"
- },
- {
-  "date": "2026-07-09",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "mid",
-  "title": "韩国 Young Poong Seokpo 冶炼厂硫酸装置火灾，锌产量影响待核实",
-  "summary": "Seokpo 锌冶炼厂（锌约 40 万吨/年）硫酸车间起火（一级应急响应），当日 LME 锌涨 3.4%；锌主线是否受损未披露，情绪冲击大于已证实量级。该厂 2025/2 曾因违规排放被法院判令停产 58 天（约 4.6 万吨），2025 全年营业亏损 2,592 亿韩元，属高风险资产。",
-  "source": "joiff/discoveryalert",
-  "url": "https://www.joiff.com/south-korea-fire-at-young-poong-zinc-smelter-raises-concerns-over-sulphuric-acid-supply/"
- },
- {
-  "date": "2026-07-07",
-  "commodity": "铝",
-  "category": "供应",
-  "title": "Metro Mining Q2 铝土矿发运 180 万吨创 Q2 纪录",
-  "summary": "Metro Mining 运营更新：Q2 2026 铝土矿发运 1.8M WMT（同比+7%，Q2 纪录），6 月单月 779k；H1 合计 1.9M。2026 年发运指引 6.6-7.1M WMT。",
-  "source": "Metro Mining ASX 运营更新",
-  "url": "https://announcements.asx.com.au/asxpdf/20260707/pdf/071gpdhyk0yqnr.pdf",
-  "impact": "low"
- },
- {
-  "date": "2026-07-07",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "low",
-  "title": "越南多农电解铝项目电解槽通电，一期投产在即",
-  "summary": "爱择独家调研：越南陈红泉冶金公司多农（Dak Nong）电解铝项目电解槽通电，一期进入投产倒计时，二期建设同步推进——东南亚新增电解铝产能开始兑现，量级有限但方向性增加海外供给。",
-  "source": "爱择咨询（独家调研）",
-  "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=299886"
- },
- {
-  "date": "2026-07-06",
-  "commodity": "锂",
-  "category": "供应",
-  "impact": "low",
-  "title": "【传言】宜春本地账号实地直击枧下窝矿区，选厂车辆进出频繁",
-  "summary": "宜春本地创作者实地拍摄枧下窝矿区实况（2700+赞），奉新时代选厂门口大型板车运输电动矿卡进出，被市场视为复产推进的侧面信号。传言·情绪指标，仅作参考。",
-  "source": "抖音@宜春锂妹-夏夏",
-  "url": "https://www.douyin.com/video/7657115538900783589"
- },
- {
-  "date": "2026-07-06",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "日本Q3铝升水定395美元/吨（+12~13%，2015年来最高），EGA复产快于预期",
-  "summary": "日本买家与生产商敲定7-9月铝升水395美元/吨，较上季350-353美元涨12-13%，连续三季走升、创2015年一季度以来最高（生产商最初要价460-480美元）。阿联酋环球铝业Al Taweelah复产进度快于预期，叠加美伊停火谈判进展，供应短缺忧虑部分缓解。",
-  "source": "阿拉丁(ALD)（综合海外媒体）",
-  "url": "https://www.aladdiny.com/news/article/202607062087200.html",
-  "affects": [
-   {
-    "company": "*",
-    "note": "EGA Al Taweelah复产快于预期，中东供应恢复中；日本Q3升水395美元仍创2015年来新高"
-   }
-  ]
- },
- {
-  "date": "2026-05-28",
-  "commodity": "铜",
-  "category": "供应",
-  "impact": "mid",
-  "title": "FreePort 口径：Grasberg 全面复产时间维持 2027 年底不变",
-  "summary": "市场一度炒作 Grasberg 提前复产，FreePort 确认全面复产时间表维持 2027 年底（26H2 爬产约 65%）。抖音创作者转述公司口径，与季报披露一致；此前「复产提前」传言落空。",
-  "source": "抖音@铜合金OEM定制（转述公司口径）",
-  "url": "https://www.douyin.com/video/7638805844684204657"
- },
- {
-  "date": "2026-05-13",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "mid",
-  "title": "Nexa Cajamarquilla 火灾停产→6月中复满产，Q2 影响约 7,000 吨",
-  "summary": "秘鲁 Cajamarquilla（拉美最大锌冶炼厂，34.4 万吨/年）5/13 变电站火灾全面停产，电解线 5/29 全开、铸造线 6 月中全恢复；Q2 影响约 7,000 吨（约全年 2%），销售计划维持。与 Kazzinc 爆炸叠加引爆 5 月 LME 近四年新高。",
-  "source": "Nexa 公告（5/13、5/29）",
-  "url": "https://www.stockwatch.com/News/Item/U-299099-U!NEXA-20260529/U/NEXA",
-  "affects": [
-   {
-    "company": "NEXA",
-    "note": "Cajamarquilla 5/13 火灾停产，Q2 影响约 7,000 吨，6 月中复满产"
-   }
-  ]
- },
- {
-  "date": "2026-05-07",
-  "commodity": "镍",
-  "category": "公司",
-  "title": "Sherritt 因美国扩大对古巴制裁暂停 Moa 运营参与，精炼厂关停",
-  "summary": "美国 5/1 行政令扩大对古巴制裁后，Sherritt 5/7 宣布暂停对 Moa 合资的直接参与并撤回外籍员工；审计师德勤辞任、OSC 下发停止交易令；Fort Saskatchewan 精炼厂 MSP 原料库存 6/22 耗尽正在关停。2026Q1 成品镍仅 1,885 吨（-36%），指引实质暂停。Q2 结果 8/12 发布（无电话会）。",
-  "source": "Sherritt 官网公告 / Q1 2026 MD&A",
-  "url": "https://sherritt.com/wp-content/uploads/2026/06/Q1-2026-Interim-Report-VF.pdf",
-  "impact": "mid"
- },
- {
-  "date": "2026-05-05",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "mid",
-  "title": "Kazzinc 哈国最大锌厂爆炸 3 死 5 伤，锌铅两厂降负荷运行",
-  "summary": "Glencore 控股 Kazzinc Ust-Kamenogorsk 冶炼厂（2026 锌锭计划约 15 万吨）除尘器爆炸起火，3 死 5 伤、部分厂房坍塌；主产线据称未受损但锌+铅两厂降负荷。7/29 Glencore H1 报告确认 Q2 已事故后恢复（Kazzinc Q2 锌 53.7kt）；2027 为事故低基数上的正常化年份，但集团层面 Lady Loretta 寿命终结+Mount Isa 枯竭为结构性减量。",
-  "source": "Interfax/Reuters",
-  "url": "https://interfax.com/newsroom/top-stories/117518/",
-  "affects": [
-   {
-    "company": "Glencore",
-    "project": "Kazzinc",
-    "note": "5/5 冶炼厂爆炸 3 死 5 伤，锌厂降负荷；Q2 已事故后恢复（7/29 Glencore H1 确认），2027 低基数正常化"
-   }
-  ]
- },
- {
-  "date": "2026-05-01",
-  "commodity": "镍",
-  "category": "公司",
-  "title": "住友商事退出 Ambatovy：54.17% 权益零对价转让 AMRI，倒贴 4.18 亿美元",
-  "summary": "住友商事 5/1 签署协议，将马达加斯加 Ambatovy 镍项目全部 54.17% 权益转让给 AMRI（Essenwood+Zungu 财团），零对价并提供约 4.18 亿美元卖方融资，FY2026 计损约 700 亿日元，交割预计 2026 年 4-9 月。此前项目 2 月遭气旋 Gezani 停产近 3 个月，5 月底酸厂重启。交割后住友系季报或停止披露该项目产量。",
-  "source": "住友商事公告（2026-05-01）",
-  "url": "https://www.sumitomocorp.com/-/media/Files/hq/news/release/2026/21080/21080.pdf?sc_lang=en",
-  "impact": "mid"
- },
- {
-  "date": "2026-04-30",
-  "commodity": "锡",
-  "category": "供应",
-  "title": "PT Timah Q1 锡矿产量 6,312 吨（+96%），净利增 11 倍",
-  "summary": "Timah Q1 2026：锡矿产量 6,312 吨 Sn（+96%），精炼锡 5,630 吨（+82%），销量 6,009 吨（+113%）；平均售价 49,221 美元/吨（+51%），净利 1.5 万亿印尼盾（+1,184%）。2026 年锡矿产量目标 3 万吨。",
-  "source": "PT Timah 官网 Q1 2026 新闻稿",
-  "url": "https://timah.com/userfiles/post/26043069F3497D531E9.pdf",
-  "impact": "mid"
- },
- {
-  "date": "2026-04-29",
-  "commodity": "镍",
-  "category": "供应",
-  "title": "Nickel Industries Q1：RKEF 镍 30,264 吨（-4.4%，品位下降），ENC HPAL 二季度投料",
-  "summary": "NIC 1Q26：RKEF 镍金属 30,264 吨（环比 -3.8%，NPI 品位下降但实物量 +2%）；HNC MHP 21,526 吨镍，超设计产能 44% 运行；ENC HPAL（7.2 万吨镍/年，权益 46% 拟升 55%）26Q2 开始投料、目标 10 月底达产；Hengjaya 矿 RKAB 1,900 万 wmt 获批。NPI 合同价环比 +19% 至 13,201 美元/吨。Q2 季报已定 7/29。",
-  "source": "Nickel Industries Q1 2026 季报（ASX）",
-  "url": "https://www.mysteel.net/news/5122037-flash-nickel-industries-q1-2026-nickel-production-down-441-year-on-year",
-  "impact": "mid"
- },
- {
-  "date": "2026-04-26",
-  "commodity": "铜",
-  "category": "供应",
-  "impact": "low",
-  "title": "【传言】抖音热议 Grasberg 复产不及预期对供需平衡表的冲击",
-  "summary": "财经创作者测算全球第二大铜矿复产不及预期对 2026 年供需平衡表的影响，叠加「铜矿四降产量」等供给收缩叙事发酵；作为市场情绪指标参考，具体数据以 FreePort 季报为准。传言·情绪指标。",
-  "source": "抖音@姜姜的财经世界",
-  "url": "https://www.douyin.com/video/7632572221927525682"
- },
- {
-  "date": "2026-04-01",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "high",
-  "title": "Nyrstar Hobart 减产 25%「无限期」：低 TC+能源成本最典型受害者",
-  "summary": "Nyrstar Hobart（28 万吨/年）2025/4 起减产约 25%（约 6-7 万吨/年）至今超 15 个月无恢复公告，靠澳联邦/州政府两轮共 2.4 亿澳元注资续命；Port Pirie 救助谈判仍在拉锯。持续性支撑欧美现货升水，是本轮冶炼端出清的标志性事件。",
-  "source": "Nyrstar/SMM/Batteries International",
-  "url": "https://www.batteriesinternational.com/2025/06/06/australia-lead-and-zinc-processing-under-pressure-nyrstar-warns/"
- },
- {
-  "date": "2026-03-31",
-  "commodity": "锌",
-  "category": "供应",
-  "impact": "high",
-  "title": "Toho Zinc Annaka 永久退出锌冶炼（约 11 万吨），本周期唯一明确产能出清",
-  "summary": "日本 Toho Zinc 事业振兴计划落地：Annaka 冶炼厂 2025/3 停主要设施、FY2025 末（2026/3）完成锌冶炼全面撤退，约 11 万吨产能永久退出；主因长期亏损+TC 低迷。叠加 Glencore Portovesme 二次锌线关闭，坐实中国以外精炼锌 2025 年 -1.6% 的减量叙事。",
-  "source": "Toho Zinc 官方公告/SMM",
-  "url": "https://www.toho-zinc.co.jp/eng/news/pdf/news_20250627.pdf"
- },
- {
-  "date": "2026-08-03",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "high",
-  "title": "【调研】印尼电解铝投产节奏全面后移：小K 73万吨延期、国企160万吨停滞",
-  "summary": "实地调研验证：小K（纬达贝）在镍铁不减产前提下电力不足，预期投产73万吨电解铝需延期；大K（莫罗瓦利）新建机组进展慢，第二个60万吨推至2028年后；印尼国企合计160万吨规划全部未开工、至少2029年后——Inalum西加60万吨电解铝今年才开工、29H2投产，配套火电还在可研+招标阶段；博赛项目PLN称泗水大区4座电站不确定够用、需自建输电线，进度没新闻传的快。近端亮点是Adaro KAI爬坡超预期：今年1-7月已产13万吨、8月满产50万吨/年run-rate、全年预计37万吨，成本2300美元/吨（不含折旧摊销）、半自备电力租赁约7美分/度，二三期无具体规划、水电只赶得上三期。西加项目从「150万吨27-28全投」修正为「明年底先投50万吨」；孤网工程规律——机组必须从小到大爬坡（Adaro 380MW跳档调试失败回头补150MW，南山工程师质疑哈利达孤网直上380MW可行性），系统性解释了印尼项目延期。调研方将27/28年产量指引下调62.5/37.4万吨至3224.5/3591.6万吨。供应悲观预期过分计价后进一步下修。",
-  "source": "印尼实地调研纪要（2026-08）",
-  "url": "https://amiya866.github.io/yafco-tracker/indonesia-power.html"
- },
- {
-  "date": "2026-08-03",
-  "commodity": "铝",
-  "category": "公司",
-  "impact": "mid",
-  "title": "南山铝业宾坦项目：电力瓶颈松动但产量节奏略晚，27年13万吨/28年35万吨",
-  "summary": "宾坦氧化铝400万吨+电解铝一期25万吨2026-07建成，二期25万吨已公告；现有2×150MW电力只够7-8万吨电解铝，后两台150MW预计27年6-7月建成、350MW争取27年底，电力瓶颈开始松动；两项目合计产量2027年12-13万吨、2028年约35万吨，略晚于市场预期。氧化铝今年指引330-350万吨、完全成本约1900元/吨、售价350-360美元/吨。",
-  "source": "印尼实地调研纪要（2026-08）",
-  "url": "https://amiya866.github.io/yafco-tracker/indonesia-power.html"
- },
- {
-  "date": "2026-08-03",
-  "commodity": "镍",
-  "category": "供应",
-  "impact": "high",
-  "title": "【调研】印尼镍配额不会回到去年宽松状态；湿法硫磺成本700-800美元成最大尾部风险",
-  "summary": "调研多家公司一致判断：镍政策反复源于印尼财政紧张而非营商环境恶化，RKAB配额不会回到去年宽松状态——Vale现有配额约2200万吨（Pomalaa+Bah 810万、Sorowako 1400万），7月补充申请1200万吨有信心，政府财政压力大、目标镍价1.7万美元/吨、价跌配额不松，补充配额预计只有Vale和纬达贝等少数能拿到，成本支撑目标价1.7万美元以上；湿法项目建设符合预期但因硫磺原因投产大概率拖后，若中东战争常态化致硫磺计价抬升，需防范湿法亏现金——硫磺700-800美元/吨成最大尾部风险。HPAL进度：Pomalaa（华友）26Q3争取投产、Sorowako 27Q2、IGIP（格林美）26底-27H1。Harita火法现金成本16美元/吨矿、自备电3.5美分/度（煤70美元/吨），为印尼火法成本曲线下沿锚。6月NPI月产13.44万吨环比-3.4%，IWIP开炉率仅66%。",
-  "source": "印尼实地调研纪要（2026-08）",
-  "url": "https://amiya866.github.io/yafco-tracker/indonesia-power.html"
- },
- {
-  "date": "2026-08-07",
-  "commodity": "镍",
-  "category": "政策",
-  "impact": "high",
-  "title": "印尼RKAB补充配额逐企审批落地：ESDM优先高特许权费率企业，镍价周内剧烈震荡",
-  "summary": "印尼能矿部长巴赫利尔8/3表态：RKAB补充配额优先批准缴纳高比例特许权使用费（19% vs 11%）的矿企，且增量仅限供应短缺的一体化冶炼厂、规模有限。消息周内反复扰动：8/4镍价大幅拉升、8/6盘中跳水、8/7 ESDM声明后反弹。2026年全国配额已从2025年3.79亿湿吨压至约2.6亿吨，无全面上调计划。",
-  "source": "SMM/Mysteel镍早读",
-  "url": "https://hq.smm.cn/nickel/content/104049048"
- },
- {
-  "date": "2026-08-06",
-  "commodity": "锂",
-  "category": "供应",
-  "impact": "mid",
-  "title": "锂盐厂检修范围扩大，国内锂盐产量持续下降、去库加速，锂价反弹",
-  "summary": "同花顺有色早评（8/6）：近期锂盐厂检修不断、范围扩大，国内锂盐产量持续下降，去库随之加速，锂价有所反弹；但当前锂盐库存压力或限制旺季需求扩张带来的上行空间。",
-  "source": "同花顺有色早评",
-  "url": "https://news.10jqka.com.cn/20260806/c678708233.shtml"
- },
- {
-  "date": "2026-07-17",
-  "commodity": "铝",
-  "category": "公司",
-  "impact": "mid",
-  "title": "美铝Alcoa 26Q2：氧化铝220万吨(环比-6%，Pinjarra气旋/天然气供应中断)，电解铝63.6万吨(环比+5%，San Ciprián重启/Alumar/Lista/Portland爬坡)",
-  "summary": "美铝Q2营收39.7亿美元创季度新高，调整后净利润5.62亿美元(环比+51%)，调整后EBITDA 9.01亿(铝板块利润率32.3%创纪录)。下调2026氧化铝产量指引至950-960万吨(Pinjarra生产问题+高能源成本致氧化铝EBITDA转负-9600万)。收购South32铝资产(41亿+7.5亿或有)预计2027H1完成。",
-  "source": "阿拉丁(ALD)/上海金属网/财报原文",
-  "url": "https://www.aladdiny.com/",
-  "affects": [
-   {
-    "company": "美铝 Alcoa",
-    "note": "氧化铝供需偏紧(产量下调)"
-   }
-  ]
- },
- {
-  "date": "2026-07-15",
-  "commodity": "铝",
-  "category": "公司",
-  "impact": "mid",
-  "title": "力拓Rio Tinto 26Q2：铝土矿1520万吨(环比+14%恢复)，氧化铝200万吨(同比+10%，QAL权益80%→100%)，电解铝84.1万吨(环比+1%，Kitimat/NZAS/AP60爬坡)",
-  "summary": "力拓Q2铝土矿受Q1气旋影响后明显恢复(Weipa/Gove提效)，氧化铝同比+10%(QAL并表口径扩大)，电解铝持平(Kitimat向满负荷/NZAS满产/Arvida关停完成AP60过渡)。Yarwun赤泥库制约2026年10月起减产40%(年影响约120万吨)。全年指引不变：铝土矿5800-6100万/氧化铝760-800万/电解铝325-345万吨。",
-  "source": "阿拉丁(ALD)/SMM/财报原文",
-  "url": "https://www.aladdiny.com/",
-  "affects": [
-   {
-    "company": "力拓 Rio Tinto",
-    "note": "海外氧化铝边际(减量)"
-   }
-  ]
- },
- {
-  "date": "2026-07-22",
-  "commodity": "铝",
-  "category": "公司",
-  "impact": "mid",
-  "title": "海德鲁Hydro 26Q2：原铝49.7万吨(环比-4%，Qatalum减产)，氧化铝150.8万吨(环比持平)，业绩好于预期(EBITDA 89.2亿克朗同比+14.5%)",
-  "summary": "海德鲁Q2原铝产量受卡塔尔Qatalum减产影响(Qatalum权益产量环比-39%至4.5万吨，产能利用率约55.6%)，挪威冶炼厂爬坡恢复但增量有限。调整后EBITDA同比+14.5%好于预期，铝金属业务EBITDA同比+165%(铝价3268美元/吨+12%、产品溢价+32%)。Slovalco计划2026H2重启7.5万吨/年产能。",
-  "source": "爱择咨询/财报原文/Mysteel",
-  "url": "https://www.azchina-cn.com/",
-  "affects": [
-   {
-    "company": "海德鲁 Norsk Hydro",
-    "note": "海外电解铝供给(Qatalum减产)"
-   }
-  ]
- },
- {
-  "date": "2026-08-14",
-  "commodity": "铝",
-  "category": "行情",
-  "impact": "mid",
-  "title": "8月中旬铝价高位震荡：伦铝3238美元(获利了结+地缘溢价降温)，国内铝锭库存降至89.8万吨(去库3.5万吨)",
-  "summary": "8/14伦铝大跌2.28%至3238美元领跌基本金属(获利了结+避险溢价降温)，长江现货A00回落240元至24130元/吨。国内电解铝锭持续去库(89.8万吨环比-3.5万，出库12.42万吨近四年同期高位)，LME铝库存25万吨/上期所44万吨均低。EGA塔韦拉227台电解槽重启(产能恢复至事故前18%)，2027Q1恢复战前水平。",
-  "source": "爱择咨询（独家调研）/MEP Middle East/国信期货/SMM",
-  "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=306118",
-  "affects": [
-   {
-    "company": "*",
-    "note": "海外复产压制外盘铝价"
-   }
-  ]
- },
- {
-  "date": "2026-08-13",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "Hydro Alunorte因天然气短缺降至50%负荷，8月13日供气恢复后启动复产",
-  "summary": "8/11巴西Alunorte氧化铝厂因天然气供应中断，将产出降至名义产能约50%；8/13供气恢复后启动复产。市场估算短期减量约10-12万吨，扰动持续时间有限但一度推升海外氧化铝与铝价风险溢价；国内氧化铝库存仍处727.5万吨高位，供需宽松格局未被扭转。",
-  "source": "爱择咨询（独家调研）/Hydro/Kitco",
-  "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=305606",
-  "affects": [
-   {
-    "company": "*",
-    "note": "海外氧化铝短期减量后恢复"
-   }
-  ]
- },
- {
-  "date": "2026-08-17",
-  "commodity": "铝",
-  "category": "行业",
-  "impact": "mid",
-  "title": "国内再生铝：反向开票税务严查致废铝紧缺，全行业主动减产(永茂泰-10%/新太月产2.3万→1.3万吨)，ADC12反累库",
-  "summary": "安徽再生铝调研(8/17)：全国税务票据严查→带票废铝极度紧张、采购价高→全行业减产(永茂泰优先保铝水业务-10%，新太合金月产从2.3万吨缩至1.3万吨、ADC12从2000吨累库至3700吨)。马鞍山反向开票管控全省最严一刀切限额度，顺博合金被行政处罚警示。减产是成本/税票挤压非需求驱动，下游压铸需求弱(汽车透支)。",
-  "source": "安徽再生铝调研/爱择咨询",
-  "url": "",
-  "affects": [
-   {
-    "company": "*",
-    "note": "再生铝供给收缩但ADC12累库"
-   }
-  ]
- },
- {
-  "date": "2026-08-14",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "high",
-  "title": "海德鲁巴西Alunorte氧化铝厂已开始提高产量(此前因事故减产),海外氧化铝供应扰动修复",
-  "summary": "阿拉丁(8/14)：Alunorte氧化铝厂开始提升产量，此前巴西减产氧化铝企业也开始恢复——海外氧化铝短暂供应干扰后快速修复，减产期间损失约10-12万吨、影响有限。8/14海外氧化铝以牙买加FOB 400美元/吨成交3万吨。",
-  "source": "阿拉丁(ALD)",
-  "url": "https://www.aladdiny.com/news/article/20260814256",
-  "affects": [
-   {
-    "company": "海德鲁 Norsk Hydro",
-    "note": "Alunorte复产，氧化铝海外供应修复"
-   }
-  ]
- },
- {
-  "date": "2026-08-13",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "high",
-  "title": "阿联酋EGA Al Taweelah电解铝厂复产227台电解槽(产能恢复至事故前18%),供应担忧缓解",
-  "summary": "爱择独家调研(8/13)+阿拉丁早评：EGA公布复产计划，Al Taweelah已有227台电解槽重启、三条生产线全部通电，产能恢复至事故前18%，预计2027Q1恢复战前水平——全球铝供应端复产预期升温，给外盘铝价直接压制。",
-  "source": "爱择咨询/阿拉丁(ALD)",
-  "url": "https://www.azchina-cn.com/",
-  "affects": [
-   {
-    "company": "*",
-    "note": "EGA复产压制外盘铝价"
-   }
-  ]
- },
- {
-  "date": "2026-08-13",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "氧化铝压减产初露苗头但运行产能仍接近阶段高位；澳铝厂获财政支持化解停产",
-  "summary": "阿拉丁(8/13)氧化铝早评：压减产初露苗头，但运行产能仍不断接近阶段高位；澳洲铝厂获财政支持化解停产风险。8/17氧化铝早评：南北价差走阔、海外成交活跃、出口可能性增强。",
-  "source": "阿拉丁(ALD)",
-  "url": "https://www.aladdiny.com/news/article/20260813256",
-  "affects": [
-   {
-    "company": "*",
-    "note": "氧化铝压减产苗头vs运行产能高位"
-   }
-  ]
- },
- {
-  "date": "2026-08-12",
-  "commodity": "铝",
-  "category": "供应",
-  "impact": "mid",
-  "title": "几内亚铝土矿发运回升(此前雨季/政策扰动),国产矿供应恢复仍缓慢、进口矿成本支撑",
-  "summary": "阿拉丁(8/12)：几内亚铝土矿发运回升；周评(8/14)国产矿山建设有新进展但进口矿价区间博弈。国产矿供应恢复缓慢、进口矿成本支撑仍存(7/31)。贵州播州213矿厂铝土矿启动扩能招标(产能升至80万吨/年)。",
-  "source": "阿拉丁(ALD)",
-  "url": "https://www.aladdiny.com/news/article/20260812256",
-  "affects": [
-   {
-    "company": "*",
-    "note": "几内亚发运回升/国产矿恢复慢"
-   }
-  ]
- },
- {
-  "date": "2026-08-06",
-  "commodity": "锡",
-  "category": "行情",
-  "impact": "high",
-  "title": "LME锡站上57,000美元领涨金属(8/6)，佤邦复产悬而未决+禁矿延续，沪锡42.2-43.97万高位震荡",
-  "summary": "佤邦复产进度明显慢于预期：月度产能仅恢复禁矿前40-50%，全面复产推迟至2027，6月自缅甸进口锡精矿仅6,393实物吨。LME锡8/6站上57,000美元领涨伦敦基本金属；云南40%加工费18,000元维持低位；银漫矿业事故短停影响约1,000吨。库存低位(LME 5,850-6,330吨/上期所5,286吨)，但8月中旬三地社库连续两周回升。",
-  "source": "长江有色/上海有色网/SMM",
-  "url": "https://sn.ccmn.cn/news/ZX018/202608/"
- },
- {
-  "date": "2026-08-14",
-  "commodity": "锂",
-  "category": "供需",
-  "impact": "high",
-  "title": "碳酸锂8月反弹逾17%：多家中矿/天华/九岭停产检修(8月影响9,000-9,500吨)，库存连续去化至9.4万吨年内最低",
-  "summary": "8月碳酸锂从最低13.4万涨至最高15.7万(+17%)。中矿资源/天华新能/江西九岭等产线集中停产检修，SMM测算8月影响产量9,000-9,500吨；8月电池企业排产311.85GWh(环比+5.71%)，9月或增6-8%。SMM大样本库存降至9.4万吨(连续7周去库、年内最低)，8月全月预计去库2.5万吨。8/17主力最高157,540元/吨。",
-  "source": "SMM/中信建投/证券之星",
-  "url": "https://news.smm.cn/",
-  "affects": [
-   {
-    "company": "*",
-    "note": "供给检修+旺季备货驱动锂价反弹"
-   }
-  ]
- },
- {
-  "date": "2026-08-14",
-  "commodity": "镍",
-  "category": "政策",
-  "impact": "high",
-  "title": "印尼APNI建议2026镍矿RKAB配额2.7亿吨+3000万吨缓冲额度(选择性发放)，WBN配额传闻反转，镍价12.5-13万弱势震荡",
-  "summary": "印尼镍矿商协会(APNI)建议维持RKAB基础配额2.7亿湿吨并增设3,000万吨战略缓冲(选择性授予原料低库存冶炼厂)，潜在供应约3亿吨；WBN追加2,500万吨配额传闻遭ESDM否认。2026基础配额2.6-2.7亿吨(较2025年3.79亿吨降30%)，全球镍盈余从26.1万吨压缩至8.9万吨。沪镍8月中旬12.5-13万元弱势震荡。",
-  "source": "Mysteel/瑞达期货/中国有色网",
-  "url": "https://nie.mysteel.com/",
-  "affects": [
-   {
-    "company": "*",
-    "note": "印尼配额放松预期压制镍价"
-   }
-  ]
- },
- {
-  "date": "2026-08-14",
-  "commodity": "铜",
-  "category": "供需",
-  "impact": "high",
-  "title": "铜逼近11万历史高位：COMEX库存暴增至66.7万吨百年新高(美国抢铜潮)，LME骤降至20.5万吨42日连降，TC深度-175美元",
-  "summary": "沪铜主连109,500元逼近11万，LME铜破14,100美元。COMEX-LME价差621美元驱动全球铜大搬家：COMEX库存从40万吨暴增至66.7万吨(百年新高)、美国7月进口20万吨创纪录；LME库存连续42日降至20.5万吨(2014年来最长连降)、现货升水434美元五年最高。TC深度-175美元(冶炼每吨倒亏)。美国232关税(2027年起精炼铜15%)是最大催化。",
-  "source": "东财/经济日报/五矿期货",
-  "url": "https://qhweb.eastmoney.com/",
-  "affects": [
-   {
-    "company": "*",
-    "note": "COMEX挤仓+关税预期,全球铜供应紧张"
-   }
-  ]
- },
- {
-  "date": "2026-08-14",
-  "commodity": "锌",
-  "category": "供需",
-  "impact": "high",
-  "title": "LME锌库存降至9.75万吨+0-3 Back扩大至106美元，挤仓向09合约转移；国内社库26.43万吨现货贴水",
-  "summary": "LME锌库存8/7降至9.75万吨(近年低位)，0-3 Back从56美元扩大至106美元(8/16当周)，08合约交仓仅约1,000吨不足以化解逼仓、大概率向09合约转移。国内SMM七地锌锭社库26.43万吨(周减0.74万)仍偏高，现货贴水40-120元，镀锌/压铸/氧化锌订单偏弱。国产矿TC跌至-1,550元/金属吨(负值倒逼冶炼减产)。",
-  "source": "长江有色/广州期货/SMM",
-  "url": "https://zn.ccmn.cn/news/ZX018/202608/",
-  "affects": [
-   {
-    "company": "*",
-    "note": "伦锌挤仓延续,国内高库存压顶"
-   }
-  ]
- },
- {
-  "date": "2026-08-14",
-  "commodity": "硅",
-  "category": "政策",
-  "impact": "high",
-  "title": "硅料反内卷落地：8/6八大龙头签署倡议书(售价不低于完全成本)，多晶硅主力39,030(+2.4%)、工业硅8,770，美国232设最低价21美元/kg",
-  "summary": "8/6通威/协鑫/大全/新特/亚洲硅业/东方希望/青海丽豪/戈恩斯签署《反内卷倡议书》(覆盖>90%产能)，市场监管总局价格合规指导；美国8/6签署232总统公告(12/4生效，多晶硅最低价21美元/kg+15%关税)。多晶硅8月产量11.1-11.3万吨(爬产)，工业硅8月降约9%至35万吨(电价上涨+停炉)。多晶硅主力39,030元(+2.4%)、工业硅8,770(+2.2%)，但库存仍高、终端弱。",
-  "source": "东方财富/中财网/SMM",
-  "url": "https://finance.eastmoney.com/",
-  "affects": [
-   {
-    "company": "*",
-    "note": "反内卷政策+232关税驱动硅系反弹,基本面仍过剩"
-   }
-  ]
- },
- {
-  "date": "2026-09-16",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "美联储三年来首次加息25bp至3.75%-4.00%",
-  "summary": "北京时间9月17日凌晨，FOMC以12-0一致票型加息25个基点，联邦基金利率目标区间升至3.75%-4.00%，为2023年7月以来首次加息，此前已连续5次会议按兵不动。声明强调通胀仍然高企，主席沃什未给出明确前瞻指引，点阵图偏鹰，市场预计12月可能再加息一次，下一次会议为10月28日。利率决议公布后美元指数走强，有色金融属性承压。",
-  "source": "中证网",
-  "url": "https://www.cs.com.cn/hw2020/2026/09/18/detail_2026091810039980.html",
-  "impact": "high"
- },
- {
-  "date": "2026-10-02",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "美国9月非农仅增2.9万大爆冷，10月加息预期骤降至20%",
-  "summary": "美国劳工部10月2日公布，9月非农新增就业仅2.9万人，远低于预期约9万；失业率升至4.2%，7月、8月合计下修6万人（7月转为-1.0万）。就业扩散指数跌破50至49.0，时薪环比放缓至0.13%。数据被市场解读为\"杀死\"10月加息预期，加息押注从近70%高位骤降至约20%，美股反弹、美元小幅走低，对金属金融属性构成边际利多。",
-  "source": "新浪财经（中信证券固收点评）",
-  "url": "https://finance.sina.com.cn/money/bond/market/2026-10-03/doc-initxwvx3887494.shtml",
-  "impact": "high"
- },
- {
-  "date": "2026-09-11",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "美国8月CPI环比0.4%创6月以来新高，核心环比超预期",
-  "summary": "美国劳工部9月11日公布，8月CPI环比上涨0.4%（为6月以来新高），同比上涨3.4%持平预期与前值；核心CPI环比涨0.3%高于预期的0.2%，同比降至2.4%、连续3个月回落、为2021年3月以来最低。同日8月PPI同比升至5.4%。数据总体强化通胀黏性叙事，交易员将9月FOMC加息概率推至70%上方，直接铺垫了9月16日的加息落地。",
-  "source": "财联社",
-  "url": "https://www.cls.cn/detail/2481259",
-  "impact": "high"
- },
- {
-  "date": "2026-10-02",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "G7宣布4个月释放至多1亿桶油储，原油单日跌约5%",
-  "summary": "10月2日马克龙召集G7领导人视频会议后宣布，七国集团将经IEA协调在4个月内释放至多1亿桶柴油和原油战略储备，前20天集中投放柴油，并承诺成员国间不实施能源出口禁令（今年3月IEA已协调释放4亿桶、已投放超3.2亿桶）。消息落地后原油跌约5%至88.50美元/桶、欧洲柴油一度暴跌逾8%，冶炼能源成本预期明显降温，利多金属成本端。",
-  "source": "联合早报",
-  "url": "https://www.zaobao.com/news/world/story20261002-9774366",
-  "impact": "high"
- },
- {
-  "date": "2026-09-10",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "美伊冲突升级，美油突破100美元关口创5月以来新高",
-  "summary": "9月10日美伊在霍尔木兹海峡的攻防持续升级，市场对\"战事拖长—能源涨价—通胀重燃\"链条定价加深：美国原油收涨6.7%至102.48美元/桶，自5月19日以来首次站上100美元；欧洲柴油零售价突破每升2.41欧元创历史新高、约11%加油站断供；同期10年期美债收益率一度触及约4.9%的三年高位。能源价格飙升直接抬高有色金属冶炼成本并推升通胀与加息预期。",
-  "source": "每日新闻简报（stock.ppap.biz）",
-  "url": "https://stock.ppap.biz/news/news-2026-09-11.html",
-  "impact": "high"
- },
- {
-  "date": "2026-10-01",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "美债收益率飙升：10年期触及5.34%、30年期5.68%创24年新高",
-  "summary": "截至10月2日当周，受通胀担忧与大规模国债发行推动，美债遭遇大幅抛售：10年期收益率盘中一度升至5.34%、30年期触及5.68%，均为2002年以来最高水平；随后因9月非农爆冷（仅增2.9万人）出现显著逆转，收益率走V。实际利率大幅抬升阶段压制贵金属与有色估值，非农后的回落则缓解金融条件，是本月金属价格波动的核心宏观驱动之一。",
-  "source": "Gate Ventures",
-  "url": "https://medium.com/@gate_ventures/gate-ventures-%E6%9C%AC%E5%91%A8%E5%8A%A0%E5%AF%86%E5%B8%82%E5%9C%BA%E5%8A%A8%E6%80%81-2026%E5%B9%B410%E6%9C%885%E6%97%A5-115debb4c7b8",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-18",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "全球加息潮：欧央行、英央行、日本央行10天内接连加息",
-  "summary": "9月10日欧洲央行上调存款机制利率25个基点至2.50%（年内第二次，欧元区8月通胀同比3.3%为三年来最快）；9月16日美联储加息25bp；9月17日英国央行加息；9月18日日本央行将政策利率从1.0%上调至1.25%，为1995年以来31年新高、年内二度加息。本轮全球同步收紧源自中东战局长期化引发的能源通胀，全球流动性预期收紧对有色金属金融属性形成系统性压制。",
-  "source": "财新周刊",
-  "url": "https://weekly.caixin.com/2026-09-26/102488795.html",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-26",
-  "commodity": "宏观",
-  "category": "宏观",
-  "title": "美伊就霍尔木兹海峡展开接触，原油单日跌超3%",
-  "summary": "9月26日市场传出美伊就霍尔木兹海峡问题展开接触，地缘风险溢价快速回落：布伦特原油日内跌幅达3.04%，报97.16美元/桶，盘中一度下探97.05美元。这是9月10日美油破100美元后局势首次明显缓和信号，叠加此后中东原油出口恢复至接近战前水平，为高油价驱动的通胀与加息交易降温，金属成本端压力边际缓解。",
-  "source": "淘AI·通义千问助手",
-  "url": "https://bot.taobao.com/tool-today_discovery/detail/cfa875f768582b69402d2219b0ae7455.html",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-10",
-  "commodity": "镍",
-  "category": "供应",
-  "title": "Eramet旗下WBN获批重启采矿，结束4个月停产维护",
-  "summary": "Eramet公告PT Weda Bay Nickel获印尼主管部门批准逐步重启采矿作业，此前因2026年RKAB配额（1200万湿吨，较2025年4200万吨砍约70%）耗尽停产约4个月。本次获批涉及2026年下半年RKAB补充配额（此前市场报道约2500万湿吨），Eramet未披露具体额度，称复产渐进推进、暂无法预估全年产销量，将后续更新2026年镍矿外售指引。",
-  "source": "Eramet官网/路透社",
-  "url": "https://www.eramet.com/en/news/pt-weda-bay-nickel-restarts-its-mining-operations/",
-  "impact": "high",
-  "affects": [
-   {
-    "company": "Eramet",
-    "note": "WBN 9/10获批重启采矿（RKAB补充配额落地），渐进复产，2026镍矿外售指引待更新"
-   }
-  ]
- },
- {
-  "date": "2026-09-15",
-  "commodity": "镍",
-  "category": "政策",
-  "title": "印尼部长令363号修订HPM：1.2%镍矿基准价腰斩45%",
-  "summary": "ESDM发布Kepmen No.363.K/MB.01/MEM.B/2026并于9月15日生效，修订4月144号令的HPM公式：下调低品位褐铁矿镍修正系数及钴系数，1.2%品位镍矿HPM从44.97美元/湿吨降至24.89美元/湿吨（-45%），1.6%品位不变。距4月刚把该品位从约16美元拉至40美元上方仅5个月即政策反转，直接降低HPAL湿法原料成本、减轻矿山税负，落地后沪镍创年内新低。",
-  "source": "上海有色网SMM",
-  "url": "https://news.smm.cn/news/104117793",
-  "impact": "high"
- },
- {
-  "date": "2026-09-17",
-  "commodity": "镍",
-  "category": "政策",
-  "title": "ESDM收紧RKAB审核：欠税/未复垦企业配额申请叫停，2027年维持年度制",
-  "summary": "ESDM矿产煤炭总司长Tri Winarno明确：存在未结清财务义务或未完成复垦的矿企无法推进RKAB申请；约50家企业2026年配额修订申请仍排队（7月31日截止已过）。政府确认2027年RKAB维持年度审批制（否决Perhapi恢复三年制建议），申请窗口2026年10月1日-11月15日开启。截至8月31日镍贡献非税收入21万亿印尼盾，同比翻倍（去年同期10万亿）。",
-  "source": "搜狐/阳光创译（据SMM及行业媒体）",
-  "url": "https://www.sohu.com/a/1077362479_121123881",
-  "impact": "high"
- },
- {
-  "date": "2026-09-25",
-  "commodity": "镍",
-  "category": "供应",
-  "title": "LME镍跌至16,050美元创2026年新低，库存升至28.5万吨",
-  "summary": "9月25日LME镍现金收盘16,050美元/吨为年内最低，月跌约4.4%；LME库存升至284,946吨，LME+SHFE合计9月22日达47.8万吨（约7周全球消费量），曲线维持contango。驱动：印尼HPM基准价大幅下调、WBN等大矿陆续获批补充配额、菲律宾进口矿放量补缺。跌势延续至10月7日约15,648美元（月跌6.6%）。INSG此前预测2026年缺口3.2万吨被高库存对冲。",
-  "source": "Tacto/Crux Investor",
-  "url": "https://www.tacto.ai/en/commodities/nickel-price",
-  "impact": "high"
- },
- {
-  "date": "2026-09-29",
-  "commodity": "镍",
-  "category": "政策",
-  "title": "印尼战略矿产与商品交易所框架落定，2027年元旦生效争夺镍定价权",
-  "summary": "印尼战略矿产与商品交易所运营框架将于2027年1月1日生效，目标建立国内基准价、提升镍（尤其NPI等Class II产品，占全球矿镍供应约2/3但无法交割LME 99.8%纯度合约）定价影响力，受OJK监管，细则原定2026年9月17日出台。分析认为其将与LME互补而非替代，影响力取决于流动性与商业采纳度；Platts 8月14日印尼10%NPI FOB评估价145.40美元/吨。",
-  "source": "Crux Investor",
-  "url": "https://www.cruxinvestor.com/posts/indonesias-nickel-exchange-could-shift-pricing-across-two-thirds-of-global-supply",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-14",
-  "commodity": "镍",
-  "category": "公司",
-  "title": "格林美：IGIP项目2026年底竣工、2027上半年投产，EcoPro持BNSI 39%",
-  "summary": "格林美在互动平台答复：印尼IGIP镍项目为国家级战略产业项目，核心HPAL高压反应器已于2026年7月就位，建设按计划推进，目标2026年底竣工、2027年上半年投产（产能6.6万吨镍/年，合作方含Vale，远期迈向20万吨级）。同时确认韩国EcoPro通过SPV持有BNSI项目39%股权，股权稀释后格林美出资规模相应减少，持股细节将在定期报告披露。",
-  "source": "同花顺金融研究中心",
-  "url": "https://yuanchuang.10jqka.com.cn/20260914/c679884611.shtml",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-05",
-  "commodity": "镍",
-  "category": "供应",
-  "title": "菲律宾镍矿补缺：印尼1-7月进口1140万吨同比增67%",
-  "summary": "印尼统计部门数据：2026年1-7月自菲律宾进口镍矿1140万吨，同比增约67%（去年同期682万吨），金额6.965亿美元，部分填补RKAB收紧的内矿缺口。FINI年初预计印尼2026年镍矿进口量或升至5000万吨、其中约3000万吨来自菲律宾。同期8月LME镍库存约26.83万吨，9月1日三个月期镍约16,570美元/吨，较5月2万美元高点明显回落。",
-  "source": "维度网（wedoany）",
-  "url": "https://www.wedoany.com/shortnews/467397.html",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-30",
-  "commodity": "铝",
-  "category": "供应",
-  "title": "几内亚雨季扰动到港：8月铝土矿进口环比降18.9%，9月起发运回升",
-  "summary": "海关总署数据：2026年8月中国进口铝土矿1545.1万吨，环比减少359.3万吨（-18.87%）、同比-15.52%，其中几内亚1155.1万吨（占74.76%，环比-22.37%），雨季+海运费高企（8月34→37.5美元、9月升至43.5美元）压制6-7月发运后传导至到港。但7月下旬至9月下旬几内亚周均发运回升至447万吨（较6-7月高约100万吨），雨季影响消退，预计9-10月进口增量体现；几矿10月长协CIF涨至78美元/吨（环比+4-5美元）。",
-  "source": "银河期货铝系10月报（新浪财经）",
-  "url": "https://finance.sina.com.cn/wm/2026-09-30/doc-initqzmc2059086.shtml?froms=ggmp",
-  "impact": "high"
- },
- {
-  "date": "2026-09-30",
-  "commodity": "铝",
-  "category": "供应",
-  "title": "9月氧化铝产量环比提升0.7%，山西赤泥库问题解决，10月供应压力增大",
-  "summary": "SMM统计：2026年9月国内冶金级氧化铝产量环比+0.7%、同比-0.1%；截至9月末全国建成产能约11962万吨/年，运行产能环比增长4%。增量来自山西前期受赤泥库限制企业问题解决后复产，叠加广西新投产能释放；此前9月24日周评显示运行产能9197万吨/年、开工率76.89%续升，累库格局短期难改。SMM预计10月供应压力持续增大；另据银河期货，9月下旬全国氧化铝运行产能9925万吨（开工率81.4%），约300万吨边际产能触碰现金成本，氧化铝期货主力9月中旬一度跌至2683元/吨。",
-  "source": "SMM（上海有色网）",
-  "url": "https://hq.smm.cn/aluminum/content/104141557",
-  "impact": "high"
- },
- {
-  "date": "2026-09-30",
-  "commodity": "铝",
-  "category": "公司",
-  "title": "巴林Alba受损产线修复完毕重启，中东铝厂复产推进但运输存溢价",
-  "summary": "银河期货10月报披露：巴林铝业（Alba）8月铝产品年化产量130万吨，4-6号生产线正常运行；3月底伊朗袭击受损的第1-3号生产线（约31万吨）设施损坏已修复完毕，后续电解槽将逐渐启动。斯洛伐克铝业（7.5万吨）复产略推迟但8月底已启动，预计2027年2月达产。中东冲突未影响当地铝厂复产节奏，但物流运输及情绪面仍受影响，欧美铝现货升水近期反弹，海外现货供给整体偏紧。",
-  "source": "银河期货铝系10月报（新浪财经）",
-  "url": "https://finance.sina.com.cn/wm/2026-09-30/doc-initqzmc2059086.shtml?froms=ggmp",
-  "impact": "high"
- },
- {
-  "date": "2026-10-02",
-  "commodity": "铝",
-  "category": "需求",
-  "title": "伦铝周跌5.46%至3098.5美元，创两至三个月低点",
-  "summary": "截至2026年10月2日当周，伦铝期货收于3098.5美元/吨，全周累计下跌5.46%，周内最高3275美元、最低3095.5美元，周均价3169.8美元。9月30日LME期铝单日下跌44.5美元至3169.5美元，跌破55日均线并触及约12周低点，技术面卖压扩大。国内沪铝主力9月30日收23950元/吨（-1.2%），长江现货A00铝均价24030元/吨；节前国内电解铝社会库存降至64.2万吨。宏观不确定性（美国政府停摆、美联储政策预期）为主要压制因素。",
-  "source": "搜狐财经（伦铝周报）",
-  "url": "https://m.sohu.com/a/1083755769_122014422",
-  "impact": "high"
- },
- {
-  "date": "2026-09-23",
-  "commodity": "铝",
-  "category": "供应",
-  "title": "氧化铝新产能节奏：2026年国内计划新增1150万吨，印尼200万吨，印度Nalco延期",
-  "summary": "一德期货四季报：2025年国内氧化铝实际新投830万吨，2026年计划新增1150万吨且集中于二季度、核心区域为广西；海外明确增量为印尼200万吨，印度Nalco项目存在延期风险。产量方面，1-8月国内冶金级氧化铝产量5809万吨（累计同比-1.7%），海外3988万吨（+0.6%）；7-8月广西、山西逐步复产叠加新投产能释放，国内供应回升。报告判断电解铝缺口预期收敛，铝价运行中枢或维持高位震荡。",
-  "source": "一德期货四季报（新浪财经）",
-  "url": "https://finance.sina.com.cn/money/future/2026-09-23/doc-inisvcpx6044258.shtml",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-08",
-  "commodity": "铝",
-  "category": "供应",
-  "title": "8月中国氧化铝产量786.4万吨环比回升，月度过剩14.75万吨",
-  "summary": "百川盈孚统计：2026年8月中国氧化铝产量786.4万吨，同比+0.91%，平均日产25.37万吨（较7月+0.62万吨）。广西某大型氧化铝企业恢复正常生产，山西停产企业推进复产并于月末实现第一条线出料。当月进口到港26.75万吨、出口26.1万吨，按电解铝产量387.72万吨、吨铝单耗1.93吨计算，8月氧化铝供应过剩14.75万吨，供应稍显富余。",
-  "source": "百川盈孚/世铝网",
-  "url": "https://news.cnal.com/2026/09-08/1788834337669228.shtml",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-07",
-  "commodity": "铝",
-  "category": "供应",
-  "title": "8月电解铝运行产能高位持平：云南668万吨满负荷，枯水期临近待观察",
-  "summary": "卓创资讯2026年8月电解铝产能运行分析：云南建成/运行产能均为668万吨、产能运行率100%，内蒙古692万吨、甘肃306.2万吨、四川107.5万吨、陕西90万吨均满负荷，青海296万吨建成、294.7万吨运行（99.56%）。另据银河期货，截至9月下旬国内电解铝建成产能4575.2万吨、运行4548.1万吨，开工率99.4%；10月河南-新疆/内蒙置换约8万吨及山西省内置换7万吨净增有望释放，此后年内公开变动仅置换、几无增量。云南水电铝11月进入枯水期，限产风险待跟踪。",
-  "source": "卓创资讯",
-  "url": "https://www.sci99.com/info/3_1000002_45506524.html",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-30",
-  "commodity": "铝",
-  "category": "公司",
-  "title": "俄铝封存220万吨氧化铝产能暂无下文；EGA-美铝美国75万吨项目暂缓",
-  "summary": "银河期货10月报：8月28日报道的俄铝（RUSAL）向俄总理申请临时封存境内三座氧化铝厂（合计建成产能约220万吨/年）一事暂无下文，产能未出现变动。新投方面：越南多农15万吨电解铝项目9月已达产，较原计划提前近两个月；阿联酋环球铝业（EGA）与美铝计划2030年在美国合资投产的75万吨电解铝厂因当地居民持续反对处于暂缓状态，若2027年4月公投通过禁铝条例，项目面临调整或取消风险。8月全球原铝产量617.2万吨（IAI，同比-1.7%），海湾地区产量仍处低位。",
-  "source": "银河期货铝系10月报（新浪财经）",
-  "url": "https://finance.sina.com.cn/wm/2026-09-30/doc-initqzmc2059086.shtml?froms=ggmp",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-28",
-  "commodity": "锌",
-  "category": "公司",
-  "title": "Nyrstar启动荷兰Budel锌冶炼厂战略评估",
-  "summary": "Nyrstar宣布对荷兰Budel锌冶炼业务（年产能31.5万吨）启动战略评估，预计2026年底前完成，评估期间维持正常运营。公司称Budel持续面临高能源成本及历史低位加工费压力，连年亏损，且荷兰2027年预算未纳入高耗能行业电网成本减免。若评估后减产或关停，将进一步收紧欧洲精炼锌供应。",
-  "source": "上海有色网SMM",
-  "url": "https://hq.smm.cn/zinc?_track=price",
-  "impact": "high"
- },
- {
-  "date": "2026-09-25",
-  "commodity": "锌",
-  "category": "供应",
-  "title": "LME锌现货结算价升至4060美元 站上4000美元关口",
-  "summary": "9月25日LME现货锌结算价升至4060美元/吨（周涨1.2%），三个月期锌3952美元/吨；LME锌库存增加6300吨至12.16万吨（周增5.5%），但现货对三个月升水由97美元扩大至108美元/吨，现货端仍偏紧。矿端持续收缩：Boliden锌精矿产量环比降16.8%至7.42万吨，嘉能可上半年自有矿山锌产量同比降21%至36.56万吨。",
-  "source": "维度网wedoany",
-  "url": "https://www.wedoany.com/shortnews/482906.html",
-  "impact": "high"
- },
- {
-  "date": "2026-09-21",
-  "commodity": "锌",
-  "category": "供应",
-  "title": "中国有色网：全球锌精矿供应进入收缩周期",
-  "summary": "中国有色网报道，全球锌精矿供应正在进入收缩周期，矿端减产压力沿产业链持续向冶炼端传导，加工费深度承压：2026年年初国产锌精矿TC在1400-1500元/吨，9月初进口锌精矿TC已跌至-120美元/吨。海外主要矿企下调2026年产量指引，矿端收紧预期持续强化，低TC格局将持续约束冶炼端产量释放。",
-  "source": "中国有色网",
-  "url": "https://www.cnmn.com.cn/ShowNews1.aspx?id=474168",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-18",
-  "commodity": "铜",
-  "category": "供应",
-  "title": "进口铜精矿现货TC跌至-221.89美元/干吨创历史新低",
-  "summary": "9月18日SMM进口铜精矿现货TC指数跌至-221.89美元/干吨，创历史新低；2026年进口铜精矿长单基准加工费为零。阳极铜加工费同处历史低位，副产品硫酸价格连续回落约两个半月，冶炼环节压力加大，部分冶炼厂释放减产意向。10-11月国内多家铜冶炼厂将开展计划检修，电解铜供应趋紧。",
-  "source": "SMM/搜狐财经",
-  "url": "https://www.sohu.com/a/1077835115_114984",
-  "impact": "high"
- },
- {
-  "date": "2026-10-02",
-  "commodity": "铜",
-  "category": "需求",
-  "title": "伦铜周跌2.5%收14266美元 高位回落仍同比涨逾30%",
-  "summary": "截至10月2日当周，伦铜期货收于14266.5美元/吨，全周累计下跌2.50%，周内最高14586、最低14213.5美元/吨，自8月25日历史收盘新高14273美元（盘中14396美元）后高位震荡。10月6日COMEX铜报6.61美元/磅，近一月回落约2%但仍较一年前高出30.8%，高价对消费的抑制与矿端紧缺（现货TC深负）形成拉锯。",
-  "source": "金投网/TradingEconomics",
-  "url": "https://m.cngold.org/futures/jg10794528.html",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-23",
-  "commodity": "锡",
-  "category": "供应",
-  "title": "8月中国锡矿进口1.93万吨同比增88% 缅甸增量显著",
-  "summary": "海关总署数据：2026年8月中国锡矿砂及精矿进口量19332吨，环比上升14.0%，同比上升88.4%。分来源看，缅甸仍为第一大来源地，8月自缅甸进口7395吨，环比大增61.8%、同比增253.6%，据Mysteel调研佤邦进口增量明显；刚果（金）居第二，进口3763吨，环比增46.5%。矿端供应恢复对锡价形成压制预期。",
-  "source": "瑞达期货/新浪财经",
-  "url": "https://finance.sina.com.cn/money/future/wemedia/2026-09-23/doc-inisunsi8509474.shtml",
-  "impact": "high"
- },
- {
-  "date": "2026-09-14",
-  "commodity": "锡",
-  "category": "公司",
-  "title": "兴业银锡：银漫矿业采区全力推进整改 争取早日复产",
-  "summary": "兴业银锡9月14日在投资者互动平台回应：银漫矿业选厂已于9月3日复产（选矿尾矿系统获西乌旗应急局复工复产批复），采区正在全力推进各项整改工作，争取早日实现采区复工复产。银漫矿业为国内最大银锡矿山之一（7/26井下事故致采区停产），采区复产时点直接关系到国内锡矿增量释放节奏。",
-  "source": "同花顺财经",
-  "url": "https://m.10jqka.com.cn/20260914/c679876227.shtml",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-04",
-  "commodity": "锂",
-  "category": "需求",
-  "title": "碳酸锂期货单日重挫7.41% 主力流出超14亿元",
-  "summary": "9月4日碳酸锂期货主力合约收报141940元/吨，单日下跌11360元、跌幅7.41%，盘中一度跌超8%触及140540元/吨，当日主力资金流出超14亿元。现货同步跟跌：富宝电池级碳酸锂报149300元/吨（单日跌5600元），工业级146700元/吨，优质电池级150200元/吨。市场对高位价格的分歧与获利了结情绪集中释放。",
-  "source": "富宝资讯/淘江湖",
-  "url": "https://bot.taobao.com/tool-today_discovery/detail/8564fbd4b8bc93a714a520bd0276ce5f.html",
-  "impact": "high"
- },
- {
-  "date": "2026-09-23",
-  "commodity": "锂",
-  "category": "需求",
-  "title": "碳酸锂仓单连续大降 10月锂电排产预计环比增3.9%",
-  "summary": "截至9月22日广期所碳酸锂注册仓单35858吨，单日减少2447吨，连续大幅下降；主力2701合约收134400元/吨（涨2.53%），SMM电碳现货130300-138600元/吨，基差2410元。据TD月度数据，10月中国锂电全市场（储能+动力+消费）总排产约345GWh，环比增长3.9%；磷酸铁锂周度产量135250吨环比续增，旺季需求兑现支撑现货。",
-  "source": "华泰期货/新浪财经",
-  "url": "https://finance.sina.cn/futuremarket/qsyw/2026-09-23/detail-inisunsi8591516.d.html",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-28",
-  "commodity": "硅",
-  "category": "政策",
-  "title": "多晶硅重回4万元/吨一线 产业链陷有价无市博弈",
-  "summary": "9月光伏产业链经历'有价无市'博弈：多晶硅价格触底回升，4万元/吨一线初步站稳，反内卷政策下报价政策性推涨，但终端接受度有限、成交清淡。产能整合平台光和谦成推进下行业协同限产，叠加能耗标准执行预期，供给收缩逻辑支撑价格修复，但需求端装机节奏仍是制约涨价落地的关键变量。",
-  "source": "中国能源产业发展网",
-  "url": "https://www.ccedia.com/newenergy_detail/c-_detailId=1554197866264064000.html",
-  "impact": "high"
- },
- {
-  "date": "2026-09-25",
-  "commodity": "硅",
-  "category": "需求",
-  "title": "财新：光伏装机首超煤电 产业链报价政策性推涨",
-  "summary": "财新周刊报道，中国光伏装机首次超过煤电，产业链报价在反内卷政策推动下上涨。出口结构向中间品倾斜：2026年上半年组件出口额占比首次跌破80%至76.8%，电池片占比由12.1%升至18.6%，反映海外组件产能扩张带动电池片需求，全球制造格局变化。终端对上游涨价的传导仍是产业链博弈焦点。",
-  "source": "财新网",
-  "url": "https://database.caixin.com/2026-09-25/102488672.html",
-  "impact": "mid"
- },
- {
-  "date": "2026-09-20",
-  "commodity": "铅",
-  "category": "供应",
-  "title": "9月原生铅集中检修减量超2万吨 再生复产不及预期",
-  "summary": "首创期货指出，9月国内原生铅冶炼企业迎来集中检修周期，整体供应减量规模超2万吨；再生铅冶炼复产进度不及预期，叠加铅价回落挤压利润，9月18日当周再生铅四省综合开工率回落至32.9%。库存方面，SMM铅锭五地社会库存降至7.19万吨，原料约束下铅现货偏强运行，市场关注旺季需求对沪铅的支撑。",
-  "source": "首创期货/新浪财经",
-  "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-20/doc-inismzux1612037.shtml",
-  "impact": "mid"
- },
- {
-  "date": "2026-10-08",
-  "commodity": "硅",
-  "category": "供应",
-  "title": "通威 7 月起多晶硅全面复产，26Q3 产量 11 万吨；全国月度产量三连升至 12.13 万吨",
-  "summary": "铁合金在线分企业月度明细：全国多晶硅产量 7/8/9 月=10.97/11.95/12.13 万吨（环比逐月上升）。通威 7 月起复产、月度 3/4/4 万吨（Q3=11.0 万吨，同比 -30%），此前 2026-01 起全面停产；新特 Q3=5.2 万吨（同比 +117%）、大全 4.35 万吨（+67%）；东方希望 7 月起归零、弘元 9 月恢复 0.2 万吨。供给端增量主要来自内蒙/新疆基地，减产执行进度慢于预期。",
-  "source": "铁合金在线（cnfeol）白金专栏 7/8/9 月多晶硅企业产量明细",
-  "url": "https://pvip.cnfeol.com/PVIP/PContentDetail/10/176462.html",
-  "impact": "high",
-  "affects": [
-   {
-    "company": "通威股份有限公司",
-    "note": "26Q3=11.0 万吨（7 月起复产，月度 3/4/4 万吨）"
-   },
-   {
-    "company": "上海东方希望",
-    "note": "7 月起产量归零"
-   },
-   {
-    "company": "弘元能源科技",
-    "note": "9 月恢复 0.2 万吨"
-   }
-  ]
- },
- {
-  "date": "2026-10-09",
-  "commodity": "锌",
-  "category": "供应",
-  "title": "【传言】紫金旗下厄立特里亚碧沙(Bisha)锌铜矿停产——柴油断供所致",
-  "summary": "贸易商渠道调研报告(2026-10-08)佐证：Bisha因柴油供应中断停产——矿区无市电、22MW柴油电站+全柴油设备，全球柴油危机(伊朗战争致霍尔木兹航运几近中断、红海补给线被切、埃塞俄比亚燃油配给减半)下燃料耗尽。量级：2025年锌8.3万吨+铜2.3万吨(100%权益)，约占全球锌矿0.7%；月均锌0.7万吨。可信度上调：柴油依赖运营模式与公开披露吻合，且厄立特里亚10月与埃塞俄比亚断交、燃料全赖进口。风险在持续期：红海航运结构性受阻，若停1-3个月叠加油价高企，TC赤峰(-1500元/吨已钉死三周)有进一步下行压力。盯：紫金公告、红海航运恢复、厄国燃油配给、紫金是否对Bisha启动光储替代(9月已在苏里南/圭亚那投15.58亿)、周边Asmara铜矿燃料竞争。传言·未经官方证实，调研报告佐证",
-  "source": "贸易商渠道调研报告(用户微信转)",
-  "url": "",
-  "impact": "mid",
-  "affects": [
-   {
-    "company": "紫金矿业",
-    "note": "旗下碧沙(Bisha)锌铜矿(55%)传因柴油断供停产——2025年产量锌8.3万吨/铜2.3万吨；红海航运受阻下补给恢复时间不明，公司2026年锌铅40万吨目标存风险。未经官方证实"
-   }
-  ]
- },
- {
-  "date": "2026-10-14",
-  "commodity": "铜",
-  "category": "供应",
-  "impact": "mid",
-  "title": "力拓集团铜产量保持稳定 铁矿石销量增长",
-  "summary": "力拓集团第三季度铜产量保持稳定，其蒙古铜矿的强劲表现抵消了其他地区产量下滑的影响；与此同时，铁矿石销量小幅增长。铜业务在力拓今年上半年盈利中占比超过三分之一，是该集团把握能源转型和数据中心推动的电气化需求增长的重要抓手。截至9月的三个月内，…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-14",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "中信证券：金价底部或抬升 黄金板块有望先行",
-  "summary": "中信证券研报称，9月以来，超预期的ETF、央行买盘对于期货端的流动性卖盘形成较为充分的对冲作用，近两周的金价呈现企稳迹象，未来有望较6月底的底部出现抬升。类比7月黄金板块较金价率先反弹，当前金价若企稳将成为黄金板块反弹的重要信号。重视黄金板…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-14",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "mid",
-  "title": "沙特阿美总裁：全球原油库存逼近“危险低位”",
-  "summary": "沙特阿拉伯国家石油公司（沙特阿美公司）总裁兼首席执行官阿明·纳赛尔12日在第二十五届世界石油理事会能源大会（世界石油大会）上表示，全球原油库存正逼近“极度危险”的低位，可能需要两年时间才能恢复至正常水平。受霍尔木兹海峡局势影响，全球能源供应…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-14",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "mid",
-  "title": "DWS：美债收益率近期上升后吸引力增强，未来12个月收益率或小幅下行",
-  "summary": "金十数据10月14日讯，德国资管公司DWS表示，随着近期美国国债收益率明显上升，美债当前的投资吸引力正在增强。DWS投资组合经理萨布丽娜·雷赫表示，市场目前计入的美联储进一步收紧货币政策幅度，高于此前经济前景所暗示的水平。与此同时，经济增长…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-14",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "罗素投资：美联储可能在10月会议上暂停加息 但预计将在12月再次提高利率",
-  "summary": "罗素投资高级投资策略师BeiChenLin表示，美联储可能在10月会议上暂停加息，但预计将在12月再次提高利率。如果通胀意外高于预期，而市场本身已经对物价压力感到担忧，那么这可能促使市场重新评估美联储10月加息的概率，以及本轮紧缩周期的终端…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-15",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "low",
-  "title": "WTI原油期货跌幅扩大至1%",
-  "summary": "WTI原油期货跌幅扩大至1%，报94.129美元/桶。…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-15",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "澳大利亚失业率上升，市场下调澳洲联储加息预期",
-  "summary": "金十数据10月15日讯，澳大利亚失业率上升，9月就业岗位意外减少，表明劳动力市场可能正在降温，促使交易员下调对澳洲联储进一步加息的预期。澳大利亚统计局周四公布的数据显示，9月份失业率为4.7%（8月份数据也向上修正至该水平），高于此前4.6…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-15",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "中信证券：仍预计美联储10月按兵不动后于12月加息",
-  "summary": "中信证券研报称，美国9月CPI超预期，核心环比再度偏热，涨价的细项范围较宽，通胀率未能“以足够快的速度向目标回落”。我们仍预计美联储年内再加息一次，即10月按兵不动后于12月进一步加息25bps。在油价居高不下、通胀粘性犹存的环境下，美国金…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-15",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "low",
-  "title": "国家发改委：2026年10月15日国内成品油价格不作调整",
-  "summary": "据国家发改委，9月24日国内成品油价格调整以来，中东地缘局势复杂多变，国际市场原油价格短暂回落后又出现较大幅度上涨。根据国际市场油价变化情况，本次汽、柴油价格不作调整。…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-15",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "low",
-  "title": "股市走低叠加收益率吸引 美债“避险交易”卷土重来",
-  "summary": "美国国债领涨全球债券市场，因股市抛售加剧了避险情绪且引发了对避险资产的需求。周四亚洲早盘交易时段，基准10年期美债收益率一度下跌10个基点至5.09%，其他期限收益率亦下跌。“市场终于回到了追求优质资产的老路，即在抛售股票时买入国债，”IT…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-16",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "low",
-  "title": "中金财富期货：美元回落，黄金明显反弹",
-  "summary": "昨日公布的美国PPI数据与消费数据依旧偏热，但避险情绪主推美债走强，黄金同样激发了避险因素，叠加美元回落，黄金明显反弹。我们维持之前的观点，虽然当前的宏观环境对黄金仍有明显压力，但是黄金具备避险功能和配置价值，我们仍建议关注金价回落后的做多…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-16",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "德国央行行长Nagel：欧洲央行可能不得不再次加息",
-  "summary": "德国央行行长JoachimNagel表示，欧洲央行可能不得不再次加息。Nagel在曼谷出席国际货币基金组织(IMF)年会时对记者表示：“我们已经两次上调政策利率。如果当前形势没有改变，我们不排除可能还需要再次行动。”欧洲央行在本轮紧缩周期中…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-16",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "日本央行行长：将继续根据经济和物价情况加息",
-  "summary": "日本央行行长植田和男表示，将继续根据经济和物价情况加息，把价格走势稳定在2%左右变得越来越重要。…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-17",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "黄金年内恐再承压，凯投宏观点出两项原因",
-  "summary": "金十数据10月17日讯，凯投宏观气候与大宗商品经济学家哈马德·侯赛因在10月16日判断，今年剩余时间金价可能逐步走低。他列出的原因有两项：美联储继续加息，以及市场对人工智能热潮结束的担忧最终只是暂时现象。这意味着，他对金价的判断同时涉及利率…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-17",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "欧洲央行官员倾向12月加息，政策权衡日趋复杂",
-  "summary": "金十数据10月17日讯，欧洲央行官员正准备在2026年内第三次加息，这也可能是明年日益复杂的局势给货币政策决策带来更大挑战之前的最后一次加息。本周在曼谷发表讲话的政策制定者仍未排除10月加息的可能性，但他们指出，12月加息的可能性更大。交易…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-17",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "国际海事组织秘书长：霍尔木兹海峡通行风险仍高",
-  "summary": "国际海事组织秘书长阿塞尼奥·多明格斯16日表示，霍尔木兹海峡及周边海域安全形势持续恶化，船舶通行风险并未降低。他强调，航运不应被用作冲突中的施压工具，冲突各方只有着手解决危机根源，才能为该地区航运安全恢复创造条件。（新华社）…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-17",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "high",
-  "title": "伊朗革命卫队：又一超级油轮在霍尔木兹海峡触雷起火",
-  "summary": "伊朗伊斯兰革命卫队海军17日在社交媒体发表声明说，“第二艘超级油轮”当天在霍尔木兹海峡触雷后发生剧烈爆炸并起火。声明说，该油轮载有超过200万桶原油，在关闭所有导航和雷达系统后，试图在美军的支持下通过霍尔木兹海峡。伊朗革命卫队海军17日早些…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-17",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "low",
-  "title": "马斯克：解决美债问题的唯一办法是依靠人工智能和机器人",
-  "summary": "金十数据10月17日讯，据AXIOS报道，马斯克表示，他曾领导的政府效率部（DOGE）改革试验最终无果而终，证明“我们根本不可能从政府内部解决财政赤字问题”。马斯克表示：“解决美国国债问题的唯一办法是依靠人工智能和机器人。”他补充说：“我们…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- },
- {
-  "date": "2026-10-17",
-  "commodity": "宏观",
-  "category": "宏观",
-  "impact": "low",
-  "title": "美元指数16日下跌",
-  "summary": "衡量美元对六种主要货币的美元指数当天下跌0.21%，在汇市尾市收于101.837。截至纽约汇市尾市，1欧元兑换1.1233美元，高于前一交易日的1.1212美元；1英镑兑换1.3319美元，高于前一交易日的1.3272美元。1美元兑换158…（⚙️快讯自动收录·CS财经）",
-  "source": "CS财经快讯",
-  "url": ""
- }
+  {
+    "date": "2026-10-17",
+    "commodity": "锡",
+    "category": "供应",
+    "title": "兴业银锡摩洛哥Achmmach锡矿9月开工顺利、进展符合预期",
+    "summary": "兴业银锡旗下Atlantic Tin的摩洛哥Achmmach锡矿项目9月开工顺利、进展符合预期（原计划Q4正式开工，有所提前）。项目采选规模120万吨/年，达产后年产锡精矿含锡约5,000吨，建设期约18个月，预计2027年内投产爬坡。全球锡矿中期供给增量兑现中。",
+    "source": "兴业银锡互动平台/调研",
+    "url": "https://news.metal.com/newscontent/104060312-xingye-silvertin-atlantic-tin-project-expected-to-officially-start-construction-in-q4-h1-net-profit-forecast-to-surge-yoy",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-10-08",
+    "commodity": "锌",
+    "category": "公司",
+    "impact": "mid",
+    "title": "Ivanhoe：Kipushi 26Q3精矿含锌77,147吨再创纪录（环比+10%），年化约30.9万吨奔指引上限",
+    "summary": "Ivanhoe 10/8三季度产量公告：Kipushi选厂精矿含锌77,147吨（环比+10%），连续第七个季度环比增长；入选品位41.6%与回收率96%双创纪录，7月单月26,560吨纪录。年化约30.9万吨，公司称2026年产量将奔指引（24-29万吨）上限，并跻身2026年全球第三大锌矿。Q3财报11/3发布。（铜侧：Kamoa-Kakula Q3可售铜76,401吨，环比+19%，全年29-31万吨指引不变、偏下限）",
+    "source": "Ivanhoe Mines 官方新闻稿",
+    "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+    "affects": [
+      {
+        "company": "Ivanhoe",
+        "note": "Kipushi 26Q3=7.71万吨纪录(环比+10%)，连续7季环比增长，年化30.9万吨奔指引上限"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commodity": "锡",
+    "category": "供应",
+    "impact": "mid",
+    "title": "佤邦复产持续兑现：8月自缅甸进口锡精矿7,395吨（环比+62%），矿端紧张边际缓解",
+    "summary": "海关数据：8月中国锡矿砂及精矿进口19,332吨（环比+14.0%、同比+88.4%），其中缅甸7,395吨（环比+61.8%、同比+253.6%），佤邦复产量持续兑现，但较禁矿前月均万吨级水平仍有差距；云南40%锡精矿加工费17,500元/吨（10/9，较8月18,000元小幅走低）仍钉在低位，矿端难言宽松。9月海关数据约10月下旬发布。（⚙️状态更新：替代8/6「复产慢于预期」旧标记）",
+    "source": "海关总署/Mysteel锡精矿加工费统计（锡数据库）",
+    "url": "",
+    "affects": [
+      {
+        "company": "*",
+        "note": "佤邦复产推进：8月自缅进口锡精矿7,395吨(环比+62%)，矿端边际缓解；TC 17,500元/吨仍处低位"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "美国8月非农新增16.2万远超预期（预期5.5万），6/7月合计上修5.5万，9月加息概率升至约58-60%",
+    "summary": "9/4美国劳工统计局8月非农：新增16.2万人（预期5.5万，投行最乐观仅8万），失业率4.1%持平；7月由-2.3万上修至+2.1万、6月由2万上修至3.1万，扭转劳动力市场快速走弱叙事。利率期货9月加息概率升至约58-60%（财联社9/1已报鹰派预期升温至近60%、年内加息预期1.5次）。下周8月CPI（9/11）为9/15-16 FOMC的决定性变量——若通胀反弹，强劲就业将为加息提供支撑。金属宏观面紧缩尾部风险继续抬升，美元走强。",
+    "source": "经济观察网（新华财经）/财新/财联社",
+    "url": "http://www.eeo.com.cn/2026/0904/1024309.shtml"
+  },
+  {
+    "date": "2026-09-02",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "high",
+    "title": "兴业银锡银漫矿业选尾系统获准复产：选厂9/3复产，采区仍整改待验收",
+    "summary": "兴业银锡9/2晚间公告《关于子公司发生安全事故的进展暨选尾系统复产的公告》：银漫矿业收到西乌旗应急局《关于同意选矿尾矿系统复工复产的通知》（西应急发〔2026〕102号），选厂2026-09-03复产；采矿系统（采区）仍推进整改、尚未复产。背景：7/26井下车辆伤害事故致1死→采区停产；7/30选矿尾矿系统同步停产（全面停产，每月矿产锡约400-600吨）；8/28半年报确认仍全面停产。选厂复产仅恢复存量矿处理，矿产锡完全恢复需待采区安监验收。",
+    "source": "兴业银锡公告/每日经济新闻（搜狐转载）",
+    "url": "https://m.sohu.com/a/1071103307_639898",
+    "affects": [
+      {
+        "company": "兴业银锡",
+        "note": "选厂9/3复产，采区待验收；停产期每月矿产锡约400-600吨"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "几内亚铝土矿发运扰动再起（铁路脱轨+出口管控预期），氧化铝反弹逼近成本支撑区，俄铝拟封存部分产能",
+    "summary": "广州期货9/2：几内亚铝土矿发运扰动再起，铁路脱轨叠加出口管控预期，矿端供应不确定性升温；俄铝（0486.HK）暂停氧化铝出口加剧海外担忧，银河期货报俄铝拟封存部分产能。8/31海外成交氧化铝3万吨、$379/mt FOB印尼（10月船期）；CBG巴黎会议推进氧化铝精炼厂项目、力争2026年底前开工。现货已跌至山西等地现金流成本附近，减产预期升温，氧化铝主力参考区间2600-2800元/吨（库存高位+供应过剩限制上方）。",
+    "source": "新浪财经（市场资讯）/广州期货/银河期货",
+    "url": "https://k.sina.com.cn/article_5952915705_162d248f906703n3ma.html"
+  },
+  {
+    "date": "2026-08-29",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "美联储主席沃什 Jackson Hole 首秀偏鹰：9月大概率按兵不动，12月前加息概率约70%",
+    "summary": "沃什8/28在Jackson Hole年会发表就任后首次主旨演讲，聚焦强化抗通胀信誉、未给出明确反应函数。会前市场对9月加息的定价已从7月中约82%降至约30%；会后主流预期9月不动，但中东局势推高油价、通胀黏性下，交易员定价12月前至少加息25bp概率约70%（路透）。金属宏观面从「降息预期」切换为「加息尾部风险」，美元获支撑，与上半年宽松基调反转。",
+    "source": "Morningstar/Reuters",
+    "url": "https://www.morningstar.com/economy/warsh-sounds-hawkish-will-there-be-september-rate-hike"
+  },
+  {
+    "date": "2026-08-28",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "high",
+    "title": "兴业银锡半年报确认银漫仍全面停产（采矿+选矿尾矿），H1归母净利预增169-198%靠宇邦+价格对冲",
+    "summary": "兴业银锡2026半年报（8/28披露）：7/26事故（1人死亡）后银漫矿业收西乌旗应急局257/260号决定书，截至目前采矿系统、选矿尾矿系统均停产，事故原因仍在调查，复产须经事故调查与安监验收、时间未定。H1业绩预告归母净利21.4-23.7亿元（+169%~198%），由宇邦矿业产能释放、银锡价格上涨及转让收益贡献。银漫2025年营收占合并55%、净利占近八成；按2025年月均约557吨（26Q1月均259吨）计，全面停产每月矿产锡约-260~560吨。",
+    "source": "兴业银锡2026年半年度报告（巨潮/新浪公告）",
+    "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=000426&id=12570967",
+    "affects": [
+      {
+        "company": "兴业银锡",
+        "note": "半年报确认银漫采矿+选矿尾矿仍全面停产、复产时间未定；H1归母预增169-198%（宇邦放量+银锡涨价对冲）"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "high",
+    "title": "伦锌盘中逼近4000美元：LME库存9.51万吨（较6月底-20.7%），1.7万吨交仓约2/3入香港、出口窗口关闭",
+    "summary": "8/27伦锌盘中逼近4000美元/吨，近端供应结构仍偏紧：LME锌库存约9.51万吨、较6月底下降20.7%，仓单持有集中度仍高。近期约1.7万吨锌锭交入LME仓库，其中约三分之二流入香港仓库；国内锌锭流出+海外交仓后出口窗口关闭，挤仓情绪阶段缓和但伦锌back结构继续走强（创元期货8/23）。挤仓从「库存枯竭」转入「低库存+高集中度」僵持阶段。",
+    "source": "新浪财经/创元期货",
+    "url": "https://finance.sina.com.cn/money/future/fmnews/2026-08-27/doc-inipsmim5893512.shtml"
+  },
+  {
+    "date": "2026-08-20",
+    "commodity": "镍",
+    "category": "政策",
+    "impact": "high",
+    "title": "ESDM确认2026镍矿RKAB配额不再增加（APNI 8/19宣布）；印尼今年暂不对镍征出口税/暴利税",
+    "summary": "据钢联/光大期货有色日报：8/19印尼镍矿商协会APNI宣布ESDM已正式确认2026年镍矿RKAB配额不再增加；ESDM局长Tri Winarno同日称已开始逐企批准2026年煤炭和镍RKAB修订（延续「仅限供应短缺冶炼厂」口径）。经济统筹部长艾尔朗加表示今年暂不对煤炭和镍征收出口税和暴利税，明年政策尚未讨论。另据ESDM预估2026年镍矿产量约2.09亿吨。年中配额博弈落定偏紧，沪镍主力12.8万附近震荡（8/19收127,850）。",
+    "source": "光大期货有色日报（据钢联）/APNI",
+    "url": "https://finance.sina.com.cn/money/future/fmnews/2026-08-26/doc-iniprcpz6239464.shtml"
+  },
+  {
+    "date": "2026-08-20",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "mid",
+    "title": "锡业股份半年报：H1有色金属总产量19.34万吨（锡5.18万吨），营收同比+49.68%",
+    "summary": "云南锡业2026半年报（8/20披露）：H1有色金属总产量19.34万吨，其中锡5.18万吨、铜6.92万吨、锌7.23万吨；营收同比+49.68%。分季度看锡Q1为2.59万吨、Q2约2.59万吨环比持平——高锡价下以量稳兑现业绩弹性。",
+    "source": "锡业股份2026年半年度报告/搜狐财经",
+    "url": "https://www.sohu.com/a/1068502079_122014422",
+    "affects": [
+      {
+        "company": "云南锡业",
+        "note": "H1锡产量5.18万吨（Q2约2.59万吨环比持平）；营收同比+49.68%"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "mid",
+    "title": "ILZSG将2026年锌平衡大幅调转30万吨至短缺，LME库存降至9.5万吨；中国需求疲弱压制上方",
+    "summary": "Crux Investor（8/18）：ILZSG把2026年锌供需平衡下调30万吨、由过剩转为短缺，LME库存降至约9.5万吨；但中国需求疲弱限制锌价上行空间——短缺叙事与弱需求并存。",
+    "source": "Crux Investor",
+    "url": "https://www.cruxinvestor.com/posts/zinc-flips-into-deficit-as-lme-stocks-hit-95-000-tonnes-despite-weak-demand"
+  },
+  {
+    "date": "2026-08-13",
+    "commodity": "镍",
+    "category": "供应",
+    "impact": "mid",
+    "title": "印尼镍铁让电电解铝进入执行：IWIP 3×380MW机组H2分批交付，印尼年内铝供应增量约73万吨",
+    "summary": "上海金属网（8/13，上轮扫描遗漏补录）：电解铝利润远高于镍铁（SMM测算园区单位电力毛利贡献电解铝为NPI的数十倍），园区镍铁减产让电、电力优先供给电解铝，印尼电解铝项目得以快于预期落地；IWIP园区3×380MW电力机组2026H2起分批交付，电力瓶颈将妥善解决，印尼年内预计贡献铝供应增量73万吨。8月调研遗留的「镍铁让电」变量已从协商进入执行：对镍铁供应为边际减量、对铝为加速增量。",
+    "source": "上海金属网/SMM",
+    "url": "https://www.shmet.com/news/newsDetail-2-921552.html"
+  },
+  {
+    "date": "2026-08-07",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "mid",
+    "title": "Minsur 26Q2精炼锡7,034吨（同比-1%、环比-15.4%检修），H1累计15,349吨（-2%）",
+    "summary": "SMM锡快讯（8/7，上轮扫描遗漏补录）：Minsur秘鲁Pisco冶炼厂26Q2精炼锡7,034吨，同比-1%、环比-15.4%（检修），入选品位下降被处理量提升部分对冲；H1累计15,349吨（同比-2%）。San Rafael地下矿Q2锡金属产量7,359吨。",
+    "source": "SMM锡快讯/ITA",
+    "url": "https://news.metal.com/en/newscontent/104036828-smm-tin-express-minsur-q2-refined-tin-production-7034-mt-yoy-down-1",
+    "affects": [
+      {
+        "company": "明苏尔",
+        "note": "26Q2精炼锡7,034吨（同比-1%）；H1累计15,349吨（-2%），检修+品位下降"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "mid",
+    "title": "Metals X 26Q2 锡精矿 2,809 吨（环比 -2.7%），价升补量减：EBITDA +2.9%",
+    "summary": "Metals X 6 月季报（7/27）：Renison 锡精矿（100% 口径）2,809 吨（环比 -2.7%，设备可用率+采场调度问题，非结构性下滑）；估算收入 A$207.4M（+3.0%）、EBITDA A$125.9M（+2.9%）、利润率约 61%——锡价上涨完全吸收量减。现金 A$374M。Rentails 尾矿再处理 FEED 年底完成、FID 临近；Renison 矿山寿命计划与储量更新下季度发布。C1/AISC 官方值待季报明细回填。",
+    "source": "Metals X 季报/Discovery Alert",
+    "url": "https://discoveryalert.com.au/metals-x-quarterly-earnings-tin-prices-june-2026-renison/",
+    "affects": [
+      {
+        "company": "Metals X",
+        "note": "26Q2 锡精矿 2,809 吨（-2.7%），设备/调度问题；Rentails FID 2026 年底"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "中信建投：47 家海外铝厂电力合同梳理——除 Mozal 外 4-5 年难见断签减产，北美电价风险最大",
+    "summary": "2030 年前 9 家铝厂电力合同到期（约 300 万吨），签约电量基本覆盖运行产能且价格较批发价有折扣（Hillside 十年折扣约 50%）：Bell Bay 已续至 2026-12（但 7 月仍永久关停，续电≠保产）、Lista 大概率续期。风险排序：北美（Century Hawesville 电价超 22 年峰值仍闲置；AI 数据中心「100% 自主供电」承诺后铝厂负担或减轻）> 北欧/大洋洲水电（26 年电价逼近 22 年能源危机水平）> 中西欧（瓶颈在设备老化运维成本而非缺电）。印尼：备案氧化铝约 1,800 万吨、电解铝规划超 1,230 万吨，瓶颈在电力配套（自备火电建设周期约 1.5 年），DMO 政策（25% 煤 ≤70 美元/吨供国内）引导工业电价阶梯式下行。",
+    "source": "中信建投期货（王贤伟/刘城鑫）",
+    "url": "https://mp.weixin.qq.com/s/QD7ZxXv-mGNEQM6e_UshZw"
+  },
+  {
+    "date": "2026-07-30",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "mid",
+    "title": "PT Timah 26Q2 精炼锡 5,235 吨（环比 -7.0%，许可证重新审批延迟）",
+    "summary": "国际锡业协会（7/29）：PT Timah 26Q2 精炼锡产量 5,235 吨，环比 -7.0%（许可证重新审批流程延迟），同比 +38.7%；锡矿产量 5,920 吨含锡，同比 +30.5%，海上作业继续主导。26H1 锡矿合计 12,232 吨，滚动年化约 2.39 万吨 vs 全年 3 万吨目标，进度约 80% 不及。",
+    "source": "ITA/矿立方",
+    "url": "https://kuanglifang.cn",
+    "affects": [
+      {
+        "company": "PT Timah",
+        "note": "26Q2 精炼锡 5,235 吨（环比 -7%，许可证重新审批延迟）；锡矿 5,920 吨（同比 +30.5%）"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-31",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "high",
+    "title": "兴业银锡银漫矿业升级为全面停产：选矿尾矿系统 7/30 同步停产",
+    "summary": "兴业银锡进展公告（2026-66）：7/30 西乌旗应急局下发 260 号决定书，要求银漫矿业选矿尾矿系统同步停产——继 7/26 井下采区停产后，采矿系统+选矿尾矿系统均已停产。银漫为银/锡/铜/铅/锌采选（165 万吨/年），2025 营收 30.62 亿（占合并 55.12%）、净利 13.46 亿；26Q1 净利 4.75 亿。复产须经事故调查与安监验收，时长未定；按 2025 年月均约 557 吨（26Q1 月均 259 吨），全面停产每月矿产锡约 -260~560 吨。",
+    "source": "兴业银锡公告（巨潮资讯网）",
+    "url": "http://www.cninfo.com.cn/",
+    "affects": [
+      {
+        "company": "兴业银锡",
+        "note": "银漫矿业 7/26 采矿停产+7/30 选矿尾矿停产→全面停产，复产时间未定，影响全部产量（2025 营收占合并 55%）"
+      }
+    ]
+  },
+  {
+    "date": "2025-10-16",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "紫金资产：中企印尼火电站装机约占全国 30-40%，富裕电力仅可支撑约 310 万吨电解铝",
+    "summary": "紫金资产（2025-10-16）逐园区梳理中企印尼自备火电：IWIP 4,540MW、IMIP 3,360MW（未含老园区 2,080MW）、德龙各期合计 5,325MW、Adaro 一期 1,060MW、南山民丹 160MW。存量电力富裕对应电解铝上限约 310 万吨（vs 全球 8,000 万吨）；关键约束：规划外火电机组出口受限、对印尼 ODI 审批基本暂停，新增电力指标稀缺——「印尼 PR112 + 中国 ODI」双侧约束。南山民丹已见 2×150MW 新机组土建框架；Adaro 三期水电（178.6 亿元）未开建。",
+    "source": "紫金资产（公众号）",
+    "url": "https://mp.weixin.qq.com/s/F4YRfp9gTcw9KEVRLGYTNg"
+  },
+  {
+    "date": "2026-07-29",
+    "commodity": "镍",
+    "category": "公司",
+    "impact": "mid",
+    "title": "NIC Q2：RKEF 镍 27,864 吨（-8%），ENC 7/21 产首批 MHP、8 月中首批镍阴极",
+    "summary": "Nickel Industries Q2'26（官方季报）：RKEF 镍金属 27,864 吨（环比 -8%，HNI 6 月底一条线大修 4 个月约 50% 产能运行）；NPI 品位 11.3%，合同价 US$14,522/t（+10%），现金成本 US$12,595/t（+20%）。HNC MHP 产量未披露（销量 17,824 吨镍）。ENC HPAL 7/21 产出首批 MHP，首批镍阴极预计 8 月中旬；另收购 CNE 36%/TMI 17.5% 两个 HPAL 扩建，预计 2027 年中投料。",
+    "source": "Nickel Industries Q2 2026 季报（ASX）",
+    "url": "https://nickelindustries.com/",
+    "affects": [
+      {
+        "company": "Nickel Industries",
+        "note": "Q2 RKEF -8%（HNI 大修 4 个月）；ENC 7/21 首批 MHP、8 月中首批镍阴极；扩建 CNE/TMI 2027 年中投料"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commodity": "锌",
+    "category": "公司",
+    "impact": "high",
+    "title": "Glencore H1 锌产量 36.56 万吨（-21%），指引 700-740kt 维持但隐含同口径上调",
+    "summary": "Glencore H1'26（官方）：锌 365.6kt（-21%，Lady Loretta 寿命终结 -51kt、Antamina 锌品位降 -39.2kt、Kidd 6/1 出售）。FY26 锌指引 700-740kt 维持——但未扣除 Kidd 出售损失的约 20kt，等于同口径隐含上调。分资产 Q2：Kazzinc 53.7（事故后恢复）、McArthur River 70.0、Mount Isa 39.1（资源渐枯竭）、Kidd 8.3（已售）、Antamina 权益 17.6（-50%）。",
+    "source": "Glencore H1 2026 Production Report",
+    "url": "https://www.glencore.com/investors/reports",
+    "affects": [
+      {
+        "company": "Glencore",
+        "note": "H1锌-21%（Lady Loretta终结/Antamina品位/Kidd出售）；指引维持但隐含同口径上调"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commodity": "铜",
+    "category": "公司",
+    "impact": "mid",
+    "title": "Glencore H1 铜产量 39.7 万吨（+15%），非洲铜与 Antamina 驱动",
+    "summary": "Glencore H1'26：铜 397.0kt（+15%，非洲铜 +55kt、Antamina +27.7kt），Q2 197.4kt。FY26 铜指引 810-870kt 维持（同样未扣 Kidd 出售约 11kt，隐含同口径上调）。",
+    "source": "Glencore H1 2026 Production Report",
+    "url": "https://www.glencore.com/investors/reports",
+    "affects": [
+      {
+        "company": "Glencore",
+        "note": "H1铜+15%（非洲铜+55/Antamina+27.7kt），指引维持"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commodity": "镍",
+    "category": "公司",
+    "impact": "low",
+    "title": "Glencore H1 镍产量 35.8kt（-2%），INO/Murrin 平稳",
+    "summary": "Glencore H1'26：镍 35.8kt（-2%），Q2 INO 10.4kt、Murrin 8.2kt；FY26 镍指引 70-80kt 维持。",
+    "source": "Glencore H1 2026 Production Report",
+    "url": "https://www.glencore.com/investors/reports",
+    "affects": [
+      {
+        "company": "Glencore",
+        "note": "H1镍-2%，INO/Murrin 平稳，指引维持"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "commodity": "铝",
+    "category": "政策",
+    "impact": "mid",
+    "title": "几内亚矿业项目总局全国驻场督查，强化矿业项目进度监管",
+    "summary": "几内亚矿业项目总局（DGPM）专项工作组在全国范围内驻场督查开发阶段矿业企业：核查项目推进进度、是否遵照开发进度计划、《矿业法》项下合同义务履行情况，由矿业投资基金（FIM）出资。监管趋严或影响铝土矿新项目投产与老矿扩产节奏。",
+    "source": "阿拉丁(ALD)（综合几内亚媒体）",
+    "url": "https://www.aladdiny.com/news/article/202607282336600.html"
+  },
+  {
+    "date": "2026-07-28",
+    "commodity": "锡",
+    "category": "公司",
+    "impact": "mid",
+    "title": "兴业银锡子公司银漫矿业安全事故致1人死亡，采区停产约1个月",
+    "summary": "兴业银锡7/28午间公告：全资子公司银漫矿业7/26 15:30井下三区750分层施工中发生安全事故（车辆伤害），致1人死亡。采区已停产（渠道了解约1个月），选厂正常运行，事故原因调查中。银漫为兴业主力矿山（26Q1矿产锡777吨），停产1个月影响26Q3矿产锡数百吨量级，同时影响白银产量；需跟踪复产公告与安监整改要求。",
+    "source": "兴业银锡公告/界面新闻",
+    "url": "https://www.jiemian.com/article/14836796.html",
+    "affects": [
+      {
+        "company": "兴业银锡",
+        "note": "银漫事故采区停产约1个月（选厂正常），26Q3矿产锡预计减数百吨"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "commodity": "锂",
+    "category": "公司",
+    "impact": "mid",
+    "title": "Liontown FY26Q4 精矿 103,111 dmt，FY26 全年达标，FY27 指引 390-440kdmt",
+    "summary": "Liontown FY26 Q4（日历 2026Q2，官方 7/28）：Kathleen Valley 锂辉石精矿产量 103,111 dmt、销量 108,489 dmt；FY26 全年 391,992 dmt 达标；Q4 回收率约 63%，地下开拓 3,316 米创纪录。FY27 产量指引 390-440 kdmt SC6。",
+    "source": "Liontown FY26 Q4 季报（ASX）",
+    "url": "https://www.ltresources.com.au/",
+    "affects": [
+      {
+        "company": "Liontown",
+        "note": "FY26Q4 精矿 103.1kdmt、FY26 达标；FY27 指引 390-440kdmt"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "commodity": "镍",
+    "category": "公司",
+    "impact": "mid",
+    "title": "Nornickel Q2 镍 43,282 吨（环比+3.7%），H1 85,028 吨，指引维持",
+    "summary": "Nornickel Q2'26（官方 7/27）：镍 43,282 吨（Q1 41,746），H1 85,028 吨；铜总量 104,394 吨（本部 86,607+外贝加尔 17,787）。FY2026 指引维持：镍 193-203kt、铜本部 336-356kt、外贝加尔 69-73kt。",
+    "source": "Nornickel 官方 Q2 2026 生产报告",
+    "url": "https://www.nornickel.com/",
+    "affects": [
+      {
+        "company": "Nornickel",
+        "note": "Q2 镍 43,282 吨、铜 104.4kt，FY26 指引维持"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "commodity": "锂",
+    "category": "供应",
+    "impact": "mid",
+    "title": "【传言】枧下窝进入新环评流程，或涉采矿证延续/扩产",
+    "summary": "抖音多位期货博主称枧下窝矿进入新环评流程，市场解读为采矿证延续或扩产前置程序；复产后实际产量爬坡节奏仍待公司披露确认。传言·未经官方证实。",
+    "source": "抖音@老冯说投资",
+    "url": "https://www.douyin.com/video/7667424966060592426"
+  },
+  {
+    "date": "2026-07-25",
+    "commodity": "铝",
+    "category": "供应",
+    "title": "年产19.5万吨电解铝厂2026年7月永久停产",
+    "summary": "位于澳大利亚塔斯马尼亚州北部的 Bell Bay 铝冶炼厂在经历14个月的临时期后，于2026年7月永久停止运营，结束70余年生产历史。该厂年产能19.5万吨，曾被誉为「澳大利亚最绿铝厂」。",
+    "source": "天下铝讯（微信公众号）",
+    "url": "https://mp.weixin.qq.com/s/7UiWNUProKM7lYsz9cLLyg",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-07-23",
+    "commodity": "锌",
+    "category": "供应",
+    "title": "Teck Q2：Red Dog 锌 11.2 万吨（-18%），Antamina 权益产量大降",
+    "summary": "Teck Q2 2026：Red Dog 锌精矿 11.2 万吨（同比-18%，品位如矿山计划下降，Q3 销量指引 22-27 万吨）；Antamina 锌 5.4 万吨（100%口径，同比-62%，入选铜锌矿比例降至 33%）；Trail 精炼锌 4.98 万吨（-2%）。FY2026 指引维持不变。",
+    "source": "Teck 官网 Q2 2026 新闻稿",
+    "url": "https://www.teck.com/media/Teck-Q2-2026-Unaudited-Results.pdf",
+    "impact": "high"
+  },
+  {
+    "date": "2026-07-23",
+    "commodity": "镍",
+    "category": "政策",
+    "title": "印尼 RKAB 配额成 2026 镍供应最大变量：Weda Bay 仅批 12Mwmt（-70%），矿山 5 月转保养",
+    "summary": "Eramet Q1 报告确认：PT Weda Bay 2026 初始 RKAB 仅批 12Mwmt（其中外销 9Mwmt，4 月中已用完），较 2025 年 42Mwmt 降逾 70%；矿山 5 月起转入 Care & Maintenance，NPI 厂靠矿石库存维持正常生产，上调申请待批。同期 Antam 获全额配额 1,810 万 wmt、NIC Hengjaya 获批 1,900 万 wmt。配额收紧是本轮镍价反弹核心驱动（LME Q1 均价 +12%）。",
+    "source": "Eramet Q1 2026 季报（2026-04-23）",
+    "url": "https://www.investegate.co.uk/announcement/gnw/eramet-sa--0mgv/eramet-strong-turnover-momentum-in-q1-2026-d-/9533623",
+    "impact": "high"
+  },
+  {
+    "date": "2026-07-23",
+    "commodity": "镍",
+    "category": "公司",
+    "title": "Anglo 巴西镍 Q2 产量 9,100 吨（-4%），出售给 MMG 卡在欧盟反垄断审批",
+    "summary": "Anglo Q2 2026：Barro Alto+Codemin 镍铁 9,100 吨（同比 -4%，下半年检修提前，Q3 起回升）。镍已列为退出业务不再给指引；出售给 MMG（1208.HK）交易仍待欧盟反垄断审批，交割后产量数据将转入 MMG 季报口径。",
+    "source": "Anglo American Q2 2026 产量报告",
+    "url": "https://www.investegate.co.uk/announcement/rns/anglo-american--aal/anglo-american-production-report-q2-2026/9682992",
+    "impact": "low"
+  },
+  {
+    "date": "2026-07-23",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "high",
+    "title": "几内亚上半年铝土矿发运1.15亿湿吨（+16.6%），6月雨季回落至1542万",
+    "summary": "几内亚矿业部数据：2026年1-6月铝土矿合计发货11482.65万湿吨，同比+1637万湿吨（+16.6%），出口矿山企业21家；3月达年内高点2227万湿吨，6月回落至1542万湿吨（雨季扰动）。雨季发运回落叠加海运费高位，铝土矿成本端支撑增强。",
+    "source": "阿拉丁(ALD)（几内亚矿业部数据）",
+    "url": "https://www.aladdiny.com/news/article/202607232284900.html"
+  },
+  {
+    "date": "2026-07-22",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "high",
+    "title": "IAI：海湾地区6月原铝产量降超三分之一，霍尔木兹再封锁推升成本预期",
+    "summary": "IAI数据：6月全球原铝产量同比-1.5%至598万吨；海湾地区产量降超三分之一至33.2万吨（去年同期50.7万吨），主因3月下旬中东冲突中两家铝冶炼厂遭袭（海湾产能占全球约9%）。霍尔木兹海峡再度封锁，海外氧化铝离岸/海漂招标活跃，中东铝厂建库采购积极；几内亚雨季发运扰动叠加，氧化铝成本预期获支撑。",
+    "source": "阿拉丁(ALD)（引IAI数据）",
+    "url": "https://www.aladdiny.com/news/article/202607222271400.html",
+    "affects": [
+      {
+        "company": "*",
+        "note": "中东冲突两冶炼厂遭袭，海湾6月原铝产量-1/3至33.2万吨（占全球9%），复产节奏是2027供应关键变量"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-21",
+    "commodity": "镍",
+    "category": "供应",
+    "title": "Vale 2Q26 镍产量 42.0kt（+4.2%），2020 年以来最强 Q2；PTVI 镍锍环比 -21%",
+    "summary": "Vale 2Q26：成品镍 42.0kt（+4.2%），Onça Puma 创历史最高 Q2（+95.8%）、Long Harbour 创纪录，抵消 Sudbury 两年一度计划大检修（-33.6%）；PTVI offtake（80% 权益）11.4kt，环比 -21%（Sorowako 炉子检修，2026 镍锍目标 67,645 吨 -6%）。2026 镍指引 175-200kt 维持。",
+    "source": "Vale 2Q26 产量报告（2026-07-21）",
+    "url": "https://www.vale.com/check-out-the-production-and-sales-in-2q26/-/categories/64874",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-07-21",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "high",
+    "title": "Boliden Q2 不及预期：Garpenberg 地震减产六成 + Tara 指引下调，锌供应收紧",
+    "summary": "Garpenberg 3/14 异常地震+岩爆停产至 4 月底，Q2 磨矿仅约 0.1Mt（平台数据 26Q2 锌产量仅 0.2 万吨）；2026 磨矿指引自 3.7Mt 下调至 1.5Mt（-60%），锌品位指引 2.9%→2.7%，折金属量约 3.2-3.5 万吨（2025 年实际 10.18 万吨）；2027 磨矿指引 2.3Mt 进入恢复。受损提升机已修复、未受影响区域复产，目前约 30% 产能，Q2 利润因此少约 4 亿克朗。",
+    "source": "Boliden Q2 2026 季报/mining.com",
+    "url": "https://www.mining.com/web/bolidens-first-quarter-earnings-beat-estimates-despite-challenges-at-garpenberg-mine/",
+    "affects": [
+      {
+        "company": "BOLIDEN",
+        "project": "Garpenberg",
+        "note": "3/14地震停产至4月底，2026磨矿指引3.7→1.5Mt(-60%)，26Q2仅0.2万吨；2027磨矿指引2.3Mt恢复"
+      },
+      {
+        "company": "BOLIDEN",
+        "project": "Tara",
+        "note": "Q2 将 2026 磨矿指引 1.8→1.6Mt（开拓进度不及预期，H2 偏弱）"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "commodity": "锌",
+    "category": "供应",
+    "title": "South32 六月季报：Cannington FY26 锌当量超指引 2%",
+    "summary": "South32 FY26 Q4（止2026-06-30）：Cannington 应付锌 1.14 万吨（同比+8%/环比+25%，自3月洪水影响中恢复）；FY26 锌 3.92 万吨（-12%）、锌当量 20.54 万吨超指引 2%，FY27 锌当量指引 20.47 万吨不变。",
+    "source": "South32 ASX/RNS 季报",
+    "url": "https://south32.net/",
+    "impact": "low"
+  },
+  {
+    "date": "2026-07-17",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "力拓加拿大 Arvida 旧电解铝产线关闭，AP60 新产能爬坡置换",
+    "summary": "爱择独家调研确认力拓加拿大 Jonquière 综合体 Arvida 旧电解铝产线（约17万吨级）已关闭；同步 AP60 扩产项目（15亿美元、96台电解槽、+16万吨/年低碳水电铝）2026年3月启动、年底全部投产——属产能置换而非净减量，旧产能退出节奏略快于新产能爬坡。",
+    "source": "爱择咨询（独家调研）/ Rio Tinto",
+    "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=301140"
+  },
+  {
+    "date": "2026-07-15",
+    "commodity": "镍",
+    "category": "政策",
+    "title": "印尼 ESDM 定调：2026 不全面上调镍矿配额，补充配额仅限供应短缺冶炼厂",
+    "summary": "印尼能矿部矿产煤炭总局局长 Tri Winarno 确认：2026 年不会对全国镍矿 RKAB 配额全面上调，基础配额维持 2.6 亿湿吨；补充配额申报窗口为 7 月 1-31 日，逐企个案审批，且必须与印尼本土自有冶炼产能绑定（纯采矿/外销型矿山大概率被驳回），增量预计不显著。此前市场关于配额大幅放宽至 3.6 亿吨的传闻已被官方否认。对镍价构成供应端支撑。",
+    "source": "Mysteel/ESDM（2026-07-13）",
+    "url": "https://xny.mysteel.com/a/26071310/F23D50BD73084A17.html",
+    "impact": "high"
+  },
+  {
+    "date": "2026-07-13",
+    "commodity": "锡",
+    "category": "供应",
+    "title": "Alphamin Q2 产锡 5,013 吨，滚动四季首达 2 万吨年化目标",
+    "summary": "Alphamin 发布 Q2 2026 经营快报：产量 5,013 吨、销量 5,014 吨，Q3'25–Q2'26 滚动四季合计 20,237 吨，首次达到 2 万吨年化目标；EBITDA 指引 1.673 亿美元创纪录，实现锡价 51,957 美元/吨。",
+    "source": "Alphamin Resources 官网公告",
+    "url": "https://www.alphaminresources.com/2026/07/13/alphamin-announces-record-q2-ebitda-guidance-of-us167-million-exploration-update/",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-07-09",
+    "commodity": "锂",
+    "category": "供应",
+    "impact": "high",
+    "title": "宁德时代枧下窝锂矿正式复产：停产10个半月，全球最大单体锂云母矿回归",
+    "summary": "枧下窝矿2025/8/9采矿证到期停产，2026/6/17重获用地预审（有效期至2029/6），6/29获批安全生产许可证并于当晚正式复产（证券日报引权威渠道，每经实地走访证实矿卡进场）。年产能约10万吨碳酸锂，下半年或新增供应约4.5万吨，碳酸锂市场迎「再平衡」压力。",
+    "source": "新浪财经/证券日报",
+    "url": "https://finance.sina.com.cn/roll/2026-07-09/doc-inihczph8267646.shtml"
+  },
+  {
+    "date": "2026-07-09",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "mid",
+    "title": "韩国 Young Poong Seokpo 冶炼厂硫酸装置火灾，锌产量影响待核实",
+    "summary": "Seokpo 锌冶炼厂（锌约 40 万吨/年）硫酸车间起火（一级应急响应），当日 LME 锌涨 3.4%；锌主线是否受损未披露，情绪冲击大于已证实量级。该厂 2025/2 曾因违规排放被法院判令停产 58 天（约 4.6 万吨），2025 全年营业亏损 2,592 亿韩元，属高风险资产。",
+    "source": "joiff/discoveryalert",
+    "url": "https://www.joiff.com/south-korea-fire-at-young-poong-zinc-smelter-raises-concerns-over-sulphuric-acid-supply/"
+  },
+  {
+    "date": "2026-07-07",
+    "commodity": "铝",
+    "category": "供应",
+    "title": "Metro Mining Q2 铝土矿发运 180 万吨创 Q2 纪录",
+    "summary": "Metro Mining 运营更新：Q2 2026 铝土矿发运 1.8M WMT（同比+7%，Q2 纪录），6 月单月 779k；H1 合计 1.9M。2026 年发运指引 6.6-7.1M WMT。",
+    "source": "Metro Mining ASX 运营更新",
+    "url": "https://announcements.asx.com.au/asxpdf/20260707/pdf/071gpdhyk0yqnr.pdf",
+    "impact": "low"
+  },
+  {
+    "date": "2026-07-07",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "low",
+    "title": "越南多农电解铝项目电解槽通电，一期投产在即",
+    "summary": "爱择独家调研：越南陈红泉冶金公司多农（Dak Nong）电解铝项目电解槽通电，一期进入投产倒计时，二期建设同步推进——东南亚新增电解铝产能开始兑现，量级有限但方向性增加海外供给。",
+    "source": "爱择咨询（独家调研）",
+    "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=299886"
+  },
+  {
+    "date": "2026-07-06",
+    "commodity": "锂",
+    "category": "供应",
+    "impact": "low",
+    "title": "【传言】宜春本地账号实地直击枧下窝矿区，选厂车辆进出频繁",
+    "summary": "宜春本地创作者实地拍摄枧下窝矿区实况（2700+赞），奉新时代选厂门口大型板车运输电动矿卡进出，被市场视为复产推进的侧面信号。传言·情绪指标，仅作参考。",
+    "source": "抖音@宜春锂妹-夏夏",
+    "url": "https://www.douyin.com/video/7657115538900783589"
+  },
+  {
+    "date": "2026-07-06",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "日本Q3铝升水定395美元/吨（+12~13%，2015年来最高），EGA复产快于预期",
+    "summary": "日本买家与生产商敲定7-9月铝升水395美元/吨，较上季350-353美元涨12-13%，连续三季走升、创2015年一季度以来最高（生产商最初要价460-480美元）。阿联酋环球铝业Al Taweelah复产进度快于预期，叠加美伊停火谈判进展，供应短缺忧虑部分缓解。",
+    "source": "阿拉丁(ALD)（综合海外媒体）",
+    "url": "https://www.aladdiny.com/news/article/202607062087200.html",
+    "affects": [
+      {
+        "company": "*",
+        "note": "EGA Al Taweelah复产快于预期，中东供应恢复中；日本Q3升水395美元仍创2015年来新高"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "commodity": "铜",
+    "category": "供应",
+    "impact": "mid",
+    "title": "FreePort 口径：Grasberg 全面复产时间维持 2027 年底不变",
+    "summary": "市场一度炒作 Grasberg 提前复产，FreePort 确认全面复产时间表维持 2027 年底（26H2 爬产约 65%）。抖音创作者转述公司口径，与季报披露一致；此前「复产提前」传言落空。",
+    "source": "抖音@铜合金OEM定制（转述公司口径）",
+    "url": "https://www.douyin.com/video/7638805844684204657"
+  },
+  {
+    "date": "2026-05-13",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "mid",
+    "title": "Nexa Cajamarquilla 火灾停产→6月中复满产，Q2 影响约 7,000 吨",
+    "summary": "秘鲁 Cajamarquilla（拉美最大锌冶炼厂，34.4 万吨/年）5/13 变电站火灾全面停产，电解线 5/29 全开、铸造线 6 月中全恢复；Q2 影响约 7,000 吨（约全年 2%），销售计划维持。与 Kazzinc 爆炸叠加引爆 5 月 LME 近四年新高。",
+    "source": "Nexa 公告（5/13、5/29）",
+    "url": "https://www.stockwatch.com/News/Item/U-299099-U!NEXA-20260529/U/NEXA",
+    "affects": [
+      {
+        "company": "NEXA",
+        "note": "Cajamarquilla 5/13 火灾停产，Q2 影响约 7,000 吨，6 月中复满产"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "commodity": "镍",
+    "category": "公司",
+    "title": "Sherritt 因美国扩大对古巴制裁暂停 Moa 运营参与，精炼厂关停",
+    "summary": "美国 5/1 行政令扩大对古巴制裁后，Sherritt 5/7 宣布暂停对 Moa 合资的直接参与并撤回外籍员工；审计师德勤辞任、OSC 下发停止交易令；Fort Saskatchewan 精炼厂 MSP 原料库存 6/22 耗尽正在关停。2026Q1 成品镍仅 1,885 吨（-36%），指引实质暂停。Q2 结果 8/12 发布（无电话会）。",
+    "source": "Sherritt 官网公告 / Q1 2026 MD&A",
+    "url": "https://sherritt.com/wp-content/uploads/2026/06/Q1-2026-Interim-Report-VF.pdf",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-05-05",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "mid",
+    "title": "Kazzinc 哈国最大锌厂爆炸 3 死 5 伤，锌铅两厂降负荷运行",
+    "summary": "Glencore 控股 Kazzinc Ust-Kamenogorsk 冶炼厂（2026 锌锭计划约 15 万吨）除尘器爆炸起火，3 死 5 伤、部分厂房坍塌；主产线据称未受损但锌+铅两厂降负荷。7/29 Glencore H1 报告确认 Q2 已事故后恢复（Kazzinc Q2 锌 53.7kt）；2027 为事故低基数上的正常化年份，但集团层面 Lady Loretta 寿命终结+Mount Isa 枯竭为结构性减量。",
+    "source": "Interfax/Reuters",
+    "url": "https://interfax.com/newsroom/top-stories/117518/",
+    "affects": [
+      {
+        "company": "Glencore",
+        "project": "Kazzinc",
+        "note": "5/5 冶炼厂爆炸 3 死 5 伤，锌厂降负荷；Q2 已事故后恢复（7/29 Glencore H1 确认），2027 低基数正常化"
+      }
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "commodity": "镍",
+    "category": "公司",
+    "title": "住友商事退出 Ambatovy：54.17% 权益零对价转让 AMRI，倒贴 4.18 亿美元",
+    "summary": "住友商事 5/1 签署协议，将马达加斯加 Ambatovy 镍项目全部 54.17% 权益转让给 AMRI（Essenwood+Zungu 财团），零对价并提供约 4.18 亿美元卖方融资，FY2026 计损约 700 亿日元，交割预计 2026 年 4-9 月。此前项目 2 月遭气旋 Gezani 停产近 3 个月，5 月底酸厂重启。交割后住友系季报或停止披露该项目产量。",
+    "source": "住友商事公告（2026-05-01）",
+    "url": "https://www.sumitomocorp.com/-/media/Files/hq/news/release/2026/21080/21080.pdf?sc_lang=en",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-04-30",
+    "commodity": "锡",
+    "category": "供应",
+    "title": "PT Timah Q1 锡矿产量 6,312 吨（+96%），净利增 11 倍",
+    "summary": "Timah Q1 2026：锡矿产量 6,312 吨 Sn（+96%），精炼锡 5,630 吨（+82%），销量 6,009 吨（+113%）；平均售价 49,221 美元/吨（+51%），净利 1.5 万亿印尼盾（+1,184%）。2026 年锡矿产量目标 3 万吨。",
+    "source": "PT Timah 官网 Q1 2026 新闻稿",
+    "url": "https://timah.com/userfiles/post/26043069F3497D531E9.pdf",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-04-29",
+    "commodity": "镍",
+    "category": "供应",
+    "title": "Nickel Industries Q1：RKEF 镍 30,264 吨（-4.4%，品位下降），ENC HPAL 二季度投料",
+    "summary": "NIC 1Q26：RKEF 镍金属 30,264 吨（环比 -3.8%，NPI 品位下降但实物量 +2%）；HNC MHP 21,526 吨镍，超设计产能 44% 运行；ENC HPAL（7.2 万吨镍/年，权益 46% 拟升 55%）26Q2 开始投料、目标 10 月底达产；Hengjaya 矿 RKAB 1,900 万 wmt 获批。NPI 合同价环比 +19% 至 13,201 美元/吨。Q2 季报已定 7/29。",
+    "source": "Nickel Industries Q1 2026 季报（ASX）",
+    "url": "https://www.mysteel.net/news/5122037-flash-nickel-industries-q1-2026-nickel-production-down-441-year-on-year",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-04-26",
+    "commodity": "铜",
+    "category": "供应",
+    "impact": "low",
+    "title": "【传言】抖音热议 Grasberg 复产不及预期对供需平衡表的冲击",
+    "summary": "财经创作者测算全球第二大铜矿复产不及预期对 2026 年供需平衡表的影响，叠加「铜矿四降产量」等供给收缩叙事发酵；作为市场情绪指标参考，具体数据以 FreePort 季报为准。传言·情绪指标。",
+    "source": "抖音@姜姜的财经世界",
+    "url": "https://www.douyin.com/video/7632572221927525682"
+  },
+  {
+    "date": "2026-04-01",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "high",
+    "title": "Nyrstar Hobart 减产 25%「无限期」：低 TC+能源成本最典型受害者",
+    "summary": "Nyrstar Hobart（28 万吨/年）2025/4 起减产约 25%（约 6-7 万吨/年）至今超 15 个月无恢复公告，靠澳联邦/州政府两轮共 2.4 亿澳元注资续命；Port Pirie 救助谈判仍在拉锯。持续性支撑欧美现货升水，是本轮冶炼端出清的标志性事件。",
+    "source": "Nyrstar/SMM/Batteries International",
+    "url": "https://www.batteriesinternational.com/2025/06/06/australia-lead-and-zinc-processing-under-pressure-nyrstar-warns/"
+  },
+  {
+    "date": "2026-03-31",
+    "commodity": "锌",
+    "category": "供应",
+    "impact": "high",
+    "title": "Toho Zinc Annaka 永久退出锌冶炼（约 11 万吨），本周期唯一明确产能出清",
+    "summary": "日本 Toho Zinc 事业振兴计划落地：Annaka 冶炼厂 2025/3 停主要设施、FY2025 末（2026/3）完成锌冶炼全面撤退，约 11 万吨产能永久退出；主因长期亏损+TC 低迷。叠加 Glencore Portovesme 二次锌线关闭，坐实中国以外精炼锌 2025 年 -1.6% 的减量叙事。",
+    "source": "Toho Zinc 官方公告/SMM",
+    "url": "https://www.toho-zinc.co.jp/eng/news/pdf/news_20250627.pdf"
+  },
+  {
+    "date": "2026-08-03",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "high",
+    "title": "【调研】印尼电解铝投产节奏全面后移：小K 73万吨延期、国企160万吨停滞",
+    "summary": "实地调研验证：小K（纬达贝）在镍铁不减产前提下电力不足，预期投产73万吨电解铝需延期；大K（莫罗瓦利）新建机组进展慢，第二个60万吨推至2028年后；印尼国企合计160万吨规划全部未开工、至少2029年后——Inalum西加60万吨电解铝今年才开工、29H2投产，配套火电还在可研+招标阶段；博赛项目PLN称泗水大区4座电站不确定够用、需自建输电线，进度没新闻传的快。近端亮点是Adaro KAI爬坡超预期：今年1-7月已产13万吨、8月满产50万吨/年run-rate、全年预计37万吨，成本2300美元/吨（不含折旧摊销）、半自备电力租赁约7美分/度，二三期无具体规划、水电只赶得上三期。西加项目从「150万吨27-28全投」修正为「明年底先投50万吨」；孤网工程规律——机组必须从小到大爬坡（Adaro 380MW跳档调试失败回头补150MW，南山工程师质疑哈利达孤网直上380MW可行性），系统性解释了印尼项目延期。调研方将27/28年产量指引下调62.5/37.4万吨至3224.5/3591.6万吨。供应悲观预期过分计价后进一步下修。",
+    "source": "印尼实地调研纪要（2026-08）",
+    "url": "https://amiya866.github.io/yafco-tracker/indonesia-power.html"
+  },
+  {
+    "date": "2026-08-03",
+    "commodity": "铝",
+    "category": "公司",
+    "impact": "mid",
+    "title": "南山铝业宾坦项目：电力瓶颈松动但产量节奏略晚，27年13万吨/28年35万吨",
+    "summary": "宾坦氧化铝400万吨+电解铝一期25万吨2026-07建成，二期25万吨已公告；现有2×150MW电力只够7-8万吨电解铝，后两台150MW预计27年6-7月建成、350MW争取27年底，电力瓶颈开始松动；两项目合计产量2027年12-13万吨、2028年约35万吨，略晚于市场预期。氧化铝今年指引330-350万吨、完全成本约1900元/吨、售价350-360美元/吨。",
+    "source": "印尼实地调研纪要（2026-08）",
+    "url": "https://amiya866.github.io/yafco-tracker/indonesia-power.html"
+  },
+  {
+    "date": "2026-08-03",
+    "commodity": "镍",
+    "category": "供应",
+    "impact": "high",
+    "title": "【调研】印尼镍配额不会回到去年宽松状态；湿法硫磺成本700-800美元成最大尾部风险",
+    "summary": "调研多家公司一致判断：镍政策反复源于印尼财政紧张而非营商环境恶化，RKAB配额不会回到去年宽松状态——Vale现有配额约2200万吨（Pomalaa+Bah 810万、Sorowako 1400万），7月补充申请1200万吨有信心，政府财政压力大、目标镍价1.7万美元/吨、价跌配额不松，补充配额预计只有Vale和纬达贝等少数能拿到，成本支撑目标价1.7万美元以上；湿法项目建设符合预期但因硫磺原因投产大概率拖后，若中东战争常态化致硫磺计价抬升，需防范湿法亏现金——硫磺700-800美元/吨成最大尾部风险。HPAL进度：Pomalaa（华友）26Q3争取投产、Sorowako 27Q2、IGIP（格林美）26底-27H1。Harita火法现金成本16美元/吨矿、自备电3.5美分/度（煤70美元/吨），为印尼火法成本曲线下沿锚。6月NPI月产13.44万吨环比-3.4%，IWIP开炉率仅66%。",
+    "source": "印尼实地调研纪要（2026-08）",
+    "url": "https://amiya866.github.io/yafco-tracker/indonesia-power.html"
+  },
+  {
+    "date": "2026-08-07",
+    "commodity": "镍",
+    "category": "政策",
+    "impact": "high",
+    "title": "印尼RKAB补充配额逐企审批落地：ESDM优先高特许权费率企业，镍价周内剧烈震荡",
+    "summary": "印尼能矿部长巴赫利尔8/3表态：RKAB补充配额优先批准缴纳高比例特许权使用费（19% vs 11%）的矿企，且增量仅限供应短缺的一体化冶炼厂、规模有限。消息周内反复扰动：8/4镍价大幅拉升、8/6盘中跳水、8/7 ESDM声明后反弹。2026年全国配额已从2025年3.79亿湿吨压至约2.6亿吨，无全面上调计划。",
+    "source": "SMM/Mysteel镍早读",
+    "url": "https://hq.smm.cn/nickel/content/104049048"
+  },
+  {
+    "date": "2026-08-06",
+    "commodity": "锂",
+    "category": "供应",
+    "impact": "mid",
+    "title": "锂盐厂检修范围扩大，国内锂盐产量持续下降、去库加速，锂价反弹",
+    "summary": "同花顺有色早评（8/6）：近期锂盐厂检修不断、范围扩大，国内锂盐产量持续下降，去库随之加速，锂价有所反弹；但当前锂盐库存压力或限制旺季需求扩张带来的上行空间。",
+    "source": "同花顺有色早评",
+    "url": "https://news.10jqka.com.cn/20260806/c678708233.shtml"
+  },
+  {
+    "date": "2026-07-17",
+    "commodity": "铝",
+    "category": "公司",
+    "impact": "mid",
+    "title": "美铝Alcoa 26Q2：氧化铝220万吨(环比-6%，Pinjarra气旋/天然气供应中断)，电解铝63.6万吨(环比+5%，San Ciprián重启/Alumar/Lista/Portland爬坡)",
+    "summary": "美铝Q2营收39.7亿美元创季度新高，调整后净利润5.62亿美元(环比+51%)，调整后EBITDA 9.01亿(铝板块利润率32.3%创纪录)。下调2026氧化铝产量指引至950-960万吨(Pinjarra生产问题+高能源成本致氧化铝EBITDA转负-9600万)。收购South32铝资产(41亿+7.5亿或有)预计2027H1完成。",
+    "source": "阿拉丁(ALD)/上海金属网/财报原文",
+    "url": "https://www.aladdiny.com/",
+    "affects": [
+      {
+        "company": "美铝 Alcoa",
+        "note": "氧化铝供需偏紧(产量下调)"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "commodity": "铝",
+    "category": "公司",
+    "impact": "mid",
+    "title": "力拓Rio Tinto 26Q2：铝土矿1520万吨(环比+14%恢复)，氧化铝200万吨(同比+10%，QAL权益80%→100%)，电解铝84.1万吨(环比+1%，Kitimat/NZAS/AP60爬坡)",
+    "summary": "力拓Q2铝土矿受Q1气旋影响后明显恢复(Weipa/Gove提效)，氧化铝同比+10%(QAL并表口径扩大)，电解铝持平(Kitimat向满负荷/NZAS满产/Arvida关停完成AP60过渡)。Yarwun赤泥库制约2026年10月起减产40%(年影响约120万吨)。全年指引不变：铝土矿5800-6100万/氧化铝760-800万/电解铝325-345万吨。",
+    "source": "阿拉丁(ALD)/SMM/财报原文",
+    "url": "https://www.aladdiny.com/",
+    "affects": [
+      {
+        "company": "力拓 Rio Tinto",
+        "note": "海外氧化铝边际(减量)"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "commodity": "铝",
+    "category": "公司",
+    "impact": "mid",
+    "title": "海德鲁Hydro 26Q2：原铝49.7万吨(环比-4%，Qatalum减产)，氧化铝150.8万吨(环比持平)，业绩好于预期(EBITDA 89.2亿克朗同比+14.5%)",
+    "summary": "海德鲁Q2原铝产量受卡塔尔Qatalum减产影响(Qatalum权益产量环比-39%至4.5万吨，产能利用率约55.6%)，挪威冶炼厂爬坡恢复但增量有限。调整后EBITDA同比+14.5%好于预期，铝金属业务EBITDA同比+165%(铝价3268美元/吨+12%、产品溢价+32%)。Slovalco计划2026H2重启7.5万吨/年产能。",
+    "source": "爱择咨询/财报原文/Mysteel",
+    "url": "https://www.azchina-cn.com/",
+    "affects": [
+      {
+        "company": "海德鲁 Norsk Hydro",
+        "note": "海外电解铝供给(Qatalum减产)"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "commodity": "铝",
+    "category": "行情",
+    "impact": "mid",
+    "title": "8月中旬铝价高位震荡：伦铝3238美元(获利了结+地缘溢价降温)，国内铝锭库存降至89.8万吨(去库3.5万吨)",
+    "summary": "8/14伦铝大跌2.28%至3238美元领跌基本金属(获利了结+避险溢价降温)，长江现货A00回落240元至24130元/吨。国内电解铝锭持续去库(89.8万吨环比-3.5万，出库12.42万吨近四年同期高位)，LME铝库存25万吨/上期所44万吨均低。EGA塔韦拉227台电解槽重启(产能恢复至事故前18%)，2027Q1恢复战前水平。",
+    "source": "爱择咨询（独家调研）/MEP Middle East/国信期货/SMM",
+    "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=54&id=306118",
+    "affects": [
+      {
+        "company": "*",
+        "note": "海外复产压制外盘铝价"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "Hydro Alunorte因天然气短缺降至50%负荷，8月13日供气恢复后启动复产",
+    "summary": "8/11巴西Alunorte氧化铝厂因天然气供应中断，将产出降至名义产能约50%；8/13供气恢复后启动复产。市场估算短期减量约10-12万吨，扰动持续时间有限但一度推升海外氧化铝与铝价风险溢价；国内氧化铝库存仍处727.5万吨高位，供需宽松格局未被扭转。",
+    "source": "爱择咨询（独家调研）/Hydro/Kitco",
+    "url": "https://www.azchina-cn.com/e/action/ShowInfo.php?classid=290&id=305606",
+    "affects": [
+      {
+        "company": "*",
+        "note": "海外氧化铝短期减量后恢复"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "commodity": "铝",
+    "category": "行业",
+    "impact": "mid",
+    "title": "国内再生铝：反向开票税务严查致废铝紧缺，全行业主动减产(永茂泰-10%/新太月产2.3万→1.3万吨)，ADC12反累库",
+    "summary": "安徽再生铝调研(8/17)：全国税务票据严查→带票废铝极度紧张、采购价高→全行业减产(永茂泰优先保铝水业务-10%，新太合金月产从2.3万吨缩至1.3万吨、ADC12从2000吨累库至3700吨)。马鞍山反向开票管控全省最严一刀切限额度，顺博合金被行政处罚警示。减产是成本/税票挤压非需求驱动，下游压铸需求弱(汽车透支)。",
+    "source": "安徽再生铝调研/爱择咨询",
+    "url": "",
+    "affects": [
+      {
+        "company": "*",
+        "note": "再生铝供给收缩但ADC12累库"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "high",
+    "title": "海德鲁巴西Alunorte氧化铝厂已开始提高产量(此前因事故减产),海外氧化铝供应扰动修复",
+    "summary": "阿拉丁(8/14)：Alunorte氧化铝厂开始提升产量，此前巴西减产氧化铝企业也开始恢复——海外氧化铝短暂供应干扰后快速修复，减产期间损失约10-12万吨、影响有限。8/14海外氧化铝以牙买加FOB 400美元/吨成交3万吨。",
+    "source": "阿拉丁(ALD)",
+    "url": "https://www.aladdiny.com/news/article/20260814256",
+    "affects": [
+      {
+        "company": "海德鲁 Norsk Hydro",
+        "note": "Alunorte复产，氧化铝海外供应修复"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "high",
+    "title": "阿联酋EGA Al Taweelah电解铝厂复产227台电解槽(产能恢复至事故前18%),供应担忧缓解",
+    "summary": "爱择独家调研(8/13)+阿拉丁早评：EGA公布复产计划，Al Taweelah已有227台电解槽重启、三条生产线全部通电，产能恢复至事故前18%，预计2027Q1恢复战前水平——全球铝供应端复产预期升温，给外盘铝价直接压制。",
+    "source": "爱择咨询/阿拉丁(ALD)",
+    "url": "https://www.azchina-cn.com/",
+    "affects": [
+      {
+        "company": "*",
+        "note": "EGA复产压制外盘铝价"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "氧化铝压减产初露苗头但运行产能仍接近阶段高位；澳铝厂获财政支持化解停产",
+    "summary": "阿拉丁(8/13)氧化铝早评：压减产初露苗头，但运行产能仍不断接近阶段高位；澳洲铝厂获财政支持化解停产风险。8/17氧化铝早评：南北价差走阔、海外成交活跃、出口可能性增强。",
+    "source": "阿拉丁(ALD)",
+    "url": "https://www.aladdiny.com/news/article/20260813256",
+    "affects": [
+      {
+        "company": "*",
+        "note": "氧化铝压减产苗头vs运行产能高位"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commodity": "铝",
+    "category": "供应",
+    "impact": "mid",
+    "title": "几内亚铝土矿发运回升(此前雨季/政策扰动),国产矿供应恢复仍缓慢、进口矿成本支撑",
+    "summary": "阿拉丁(8/12)：几内亚铝土矿发运回升；周评(8/14)国产矿山建设有新进展但进口矿价区间博弈。国产矿供应恢复缓慢、进口矿成本支撑仍存(7/31)。贵州播州213矿厂铝土矿启动扩能招标(产能升至80万吨/年)。",
+    "source": "阿拉丁(ALD)",
+    "url": "https://www.aladdiny.com/news/article/20260812256",
+    "affects": [
+      {
+        "company": "*",
+        "note": "几内亚发运回升/国产矿恢复慢"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "commodity": "锡",
+    "category": "行情",
+    "impact": "high",
+    "title": "LME锡站上57,000美元领涨金属(8/6)，佤邦复产悬而未决+禁矿延续，沪锡42.2-43.97万高位震荡",
+    "summary": "佤邦复产进度明显慢于预期：月度产能仅恢复禁矿前40-50%，全面复产推迟至2027，6月自缅甸进口锡精矿仅6,393实物吨。LME锡8/6站上57,000美元领涨伦敦基本金属；云南40%加工费18,000元维持低位；银漫矿业事故短停影响约1,000吨。库存低位(LME 5,850-6,330吨/上期所5,286吨)，但8月中旬三地社库连续两周回升。",
+    "source": "长江有色/上海有色网/SMM",
+    "url": "https://sn.ccmn.cn/news/ZX018/202608/"
+  },
+  {
+    "date": "2026-08-14",
+    "commodity": "锂",
+    "category": "供需",
+    "impact": "high",
+    "title": "碳酸锂8月反弹逾17%：多家中矿/天华/九岭停产检修(8月影响9,000-9,500吨)，库存连续去化至9.4万吨年内最低",
+    "summary": "8月碳酸锂从最低13.4万涨至最高15.7万(+17%)。中矿资源/天华新能/江西九岭等产线集中停产检修，SMM测算8月影响产量9,000-9,500吨；8月电池企业排产311.85GWh(环比+5.71%)，9月或增6-8%。SMM大样本库存降至9.4万吨(连续7周去库、年内最低)，8月全月预计去库2.5万吨。8/17主力最高157,540元/吨。",
+    "source": "SMM/中信建投/证券之星",
+    "url": "https://news.smm.cn/",
+    "affects": [
+      {
+        "company": "*",
+        "note": "供给检修+旺季备货驱动锂价反弹"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "commodity": "镍",
+    "category": "政策",
+    "impact": "high",
+    "title": "印尼APNI建议2026镍矿RKAB配额2.7亿吨+3000万吨缓冲额度(选择性发放)，WBN配额传闻反转，镍价12.5-13万弱势震荡",
+    "summary": "印尼镍矿商协会(APNI)建议维持RKAB基础配额2.7亿湿吨并增设3,000万吨战略缓冲(选择性授予原料低库存冶炼厂)，潜在供应约3亿吨；WBN追加2,500万吨配额传闻遭ESDM否认。2026基础配额2.6-2.7亿吨(较2025年3.79亿吨降30%)，全球镍盈余从26.1万吨压缩至8.9万吨。沪镍8月中旬12.5-13万元弱势震荡。",
+    "source": "Mysteel/瑞达期货/中国有色网",
+    "url": "https://nie.mysteel.com/",
+    "affects": [
+      {
+        "company": "*",
+        "note": "印尼配额放松预期压制镍价"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "commodity": "铜",
+    "category": "供需",
+    "impact": "high",
+    "title": "铜逼近11万历史高位：COMEX库存暴增至66.7万吨百年新高(美国抢铜潮)，LME骤降至20.5万吨42日连降，TC深度-175美元",
+    "summary": "沪铜主连109,500元逼近11万，LME铜破14,100美元。COMEX-LME价差621美元驱动全球铜大搬家：COMEX库存从40万吨暴增至66.7万吨(百年新高)、美国7月进口20万吨创纪录；LME库存连续42日降至20.5万吨(2014年来最长连降)、现货升水434美元五年最高。TC深度-175美元(冶炼每吨倒亏)。美国232关税(2027年起精炼铜15%)是最大催化。",
+    "source": "东财/经济日报/五矿期货",
+    "url": "https://qhweb.eastmoney.com/",
+    "affects": [
+      {
+        "company": "*",
+        "note": "COMEX挤仓+关税预期,全球铜供应紧张"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "commodity": "锌",
+    "category": "供需",
+    "impact": "high",
+    "title": "LME锌库存降至9.75万吨+0-3 Back扩大至106美元，挤仓向09合约转移；国内社库26.43万吨现货贴水",
+    "summary": "LME锌库存8/7降至9.75万吨(近年低位)，0-3 Back从56美元扩大至106美元(8/16当周)，08合约交仓仅约1,000吨不足以化解逼仓、大概率向09合约转移。国内SMM七地锌锭社库26.43万吨(周减0.74万)仍偏高，现货贴水40-120元，镀锌/压铸/氧化锌订单偏弱。国产矿TC跌至-1,550元/金属吨(负值倒逼冶炼减产)。",
+    "source": "长江有色/广州期货/SMM",
+    "url": "https://zn.ccmn.cn/news/ZX018/202608/",
+    "affects": [
+      {
+        "company": "*",
+        "note": "伦锌挤仓延续,国内高库存压顶"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-14",
+    "commodity": "硅",
+    "category": "政策",
+    "impact": "high",
+    "title": "硅料反内卷落地：8/6八大龙头签署倡议书(售价不低于完全成本)，多晶硅主力39,030(+2.4%)、工业硅8,770，美国232设最低价21美元/kg",
+    "summary": "8/6通威/协鑫/大全/新特/亚洲硅业/东方希望/青海丽豪/戈恩斯签署《反内卷倡议书》(覆盖>90%产能)，市场监管总局价格合规指导；美国8/6签署232总统公告(12/4生效，多晶硅最低价21美元/kg+15%关税)。多晶硅8月产量11.1-11.3万吨(爬产)，工业硅8月降约9%至35万吨(电价上涨+停炉)。多晶硅主力39,030元(+2.4%)、工业硅8,770(+2.2%)，但库存仍高、终端弱。",
+    "source": "东方财富/中财网/SMM",
+    "url": "https://finance.eastmoney.com/",
+    "affects": [
+      {
+        "company": "*",
+        "note": "反内卷政策+232关税驱动硅系反弹,基本面仍过剩"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "美联储三年来首次加息25bp至3.75%-4.00%",
+    "summary": "北京时间9月17日凌晨，FOMC以12-0一致票型加息25个基点，联邦基金利率目标区间升至3.75%-4.00%，为2023年7月以来首次加息，此前已连续5次会议按兵不动。声明强调通胀仍然高企，主席沃什未给出明确前瞻指引，点阵图偏鹰，市场预计12月可能再加息一次，下一次会议为10月28日。利率决议公布后美元指数走强，有色金融属性承压。",
+    "source": "中证网",
+    "url": "https://www.cs.com.cn/hw2020/2026/09/18/detail_2026091810039980.html",
+    "impact": "high"
+  },
+  {
+    "date": "2026-10-02",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "美国9月非农仅增2.9万大爆冷，10月加息预期骤降至20%",
+    "summary": "美国劳工部10月2日公布，9月非农新增就业仅2.9万人，远低于预期约9万；失业率升至4.2%，7月、8月合计下修6万人（7月转为-1.0万）。就业扩散指数跌破50至49.0，时薪环比放缓至0.13%。数据被市场解读为\"杀死\"10月加息预期，加息押注从近70%高位骤降至约20%，美股反弹、美元小幅走低，对金属金融属性构成边际利多。",
+    "source": "新浪财经（中信证券固收点评）",
+    "url": "https://finance.sina.com.cn/money/bond/market/2026-10-03/doc-initxwvx3887494.shtml",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-11",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "美国8月CPI环比0.4%创6月以来新高，核心环比超预期",
+    "summary": "美国劳工部9月11日公布，8月CPI环比上涨0.4%（为6月以来新高），同比上涨3.4%持平预期与前值；核心CPI环比涨0.3%高于预期的0.2%，同比降至2.4%、连续3个月回落、为2021年3月以来最低。同日8月PPI同比升至5.4%。数据总体强化通胀黏性叙事，交易员将9月FOMC加息概率推至70%上方，直接铺垫了9月16日的加息落地。",
+    "source": "财联社",
+    "url": "https://www.cls.cn/detail/2481259",
+    "impact": "high"
+  },
+  {
+    "date": "2026-10-02",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "G7宣布4个月释放至多1亿桶油储，原油单日跌约5%",
+    "summary": "10月2日马克龙召集G7领导人视频会议后宣布，七国集团将经IEA协调在4个月内释放至多1亿桶柴油和原油战略储备，前20天集中投放柴油，并承诺成员国间不实施能源出口禁令（今年3月IEA已协调释放4亿桶、已投放超3.2亿桶）。消息落地后原油跌约5%至88.50美元/桶、欧洲柴油一度暴跌逾8%，冶炼能源成本预期明显降温，利多金属成本端。",
+    "source": "联合早报",
+    "url": "https://www.zaobao.com/news/world/story20261002-9774366",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-10",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "美伊冲突升级，美油突破100美元关口创5月以来新高",
+    "summary": "9月10日美伊在霍尔木兹海峡的攻防持续升级，市场对\"战事拖长—能源涨价—通胀重燃\"链条定价加深：美国原油收涨6.7%至102.48美元/桶，自5月19日以来首次站上100美元；欧洲柴油零售价突破每升2.41欧元创历史新高、约11%加油站断供；同期10年期美债收益率一度触及约4.9%的三年高位。能源价格飙升直接抬高有色金属冶炼成本并推升通胀与加息预期。",
+    "source": "每日新闻简报（stock.ppap.biz）",
+    "url": "https://stock.ppap.biz/news/news-2026-09-11.html",
+    "impact": "high"
+  },
+  {
+    "date": "2026-10-01",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "美债收益率飙升：10年期触及5.34%、30年期5.68%创24年新高",
+    "summary": "截至10月2日当周，受通胀担忧与大规模国债发行推动，美债遭遇大幅抛售：10年期收益率盘中一度升至5.34%、30年期触及5.68%，均为2002年以来最高水平；随后因9月非农爆冷（仅增2.9万人）出现显著逆转，收益率走V。实际利率大幅抬升阶段压制贵金属与有色估值，非农后的回落则缓解金融条件，是本月金属价格波动的核心宏观驱动之一。",
+    "source": "Gate Ventures",
+    "url": "https://medium.com/@gate_ventures/gate-ventures-%E6%9C%AC%E5%91%A8%E5%8A%A0%E5%AF%86%E5%B8%82%E5%9C%BA%E5%8A%A8%E6%80%81-2026%E5%B9%B410%E6%9C%885%E6%97%A5-115debb4c7b8",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-18",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "全球加息潮：欧央行、英央行、日本央行10天内接连加息",
+    "summary": "9月10日欧洲央行上调存款机制利率25个基点至2.50%（年内第二次，欧元区8月通胀同比3.3%为三年来最快）；9月16日美联储加息25bp；9月17日英国央行加息；9月18日日本央行将政策利率从1.0%上调至1.25%，为1995年以来31年新高、年内二度加息。本轮全球同步收紧源自中东战局长期化引发的能源通胀，全球流动性预期收紧对有色金属金融属性形成系统性压制。",
+    "source": "财新周刊",
+    "url": "https://weekly.caixin.com/2026-09-26/102488795.html",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-26",
+    "commodity": "宏观",
+    "category": "宏观",
+    "title": "美伊就霍尔木兹海峡展开接触，原油单日跌超3%",
+    "summary": "9月26日市场传出美伊就霍尔木兹海峡问题展开接触，地缘风险溢价快速回落：布伦特原油日内跌幅达3.04%，报97.16美元/桶，盘中一度下探97.05美元。这是9月10日美油破100美元后局势首次明显缓和信号，叠加此后中东原油出口恢复至接近战前水平，为高油价驱动的通胀与加息交易降温，金属成本端压力边际缓解。",
+    "source": "淘AI·通义千问助手",
+    "url": "https://bot.taobao.com/tool-today_discovery/detail/cfa875f768582b69402d2219b0ae7455.html",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-10",
+    "commodity": "镍",
+    "category": "供应",
+    "title": "Eramet旗下WBN获批重启采矿，结束4个月停产维护",
+    "summary": "Eramet公告PT Weda Bay Nickel获印尼主管部门批准逐步重启采矿作业，此前因2026年RKAB配额（1200万湿吨，较2025年4200万吨砍约70%）耗尽停产约4个月。本次获批涉及2026年下半年RKAB补充配额（此前市场报道约2500万湿吨），Eramet未披露具体额度，称复产渐进推进、暂无法预估全年产销量，将后续更新2026年镍矿外售指引。",
+    "source": "Eramet官网/路透社",
+    "url": "https://www.eramet.com/en/news/pt-weda-bay-nickel-restarts-its-mining-operations/",
+    "impact": "high",
+    "affects": [
+      {
+        "company": "Eramet",
+        "note": "WBN 9/10获批重启采矿（RKAB补充配额落地），渐进复产，2026镍矿外售指引待更新"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "commodity": "镍",
+    "category": "政策",
+    "title": "印尼部长令363号修订HPM：1.2%镍矿基准价腰斩45%",
+    "summary": "ESDM发布Kepmen No.363.K/MB.01/MEM.B/2026并于9月15日生效，修订4月144号令的HPM公式：下调低品位褐铁矿镍修正系数及钴系数，1.2%品位镍矿HPM从44.97美元/湿吨降至24.89美元/湿吨（-45%），1.6%品位不变。距4月刚把该品位从约16美元拉至40美元上方仅5个月即政策反转，直接降低HPAL湿法原料成本、减轻矿山税负，落地后沪镍创年内新低。",
+    "source": "上海有色网SMM",
+    "url": "https://news.smm.cn/news/104117793",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-17",
+    "commodity": "镍",
+    "category": "政策",
+    "title": "ESDM收紧RKAB审核：欠税/未复垦企业配额申请叫停，2027年维持年度制",
+    "summary": "ESDM矿产煤炭总司长Tri Winarno明确：存在未结清财务义务或未完成复垦的矿企无法推进RKAB申请；约50家企业2026年配额修订申请仍排队（7月31日截止已过）。政府确认2027年RKAB维持年度审批制（否决Perhapi恢复三年制建议），申请窗口2026年10月1日-11月15日开启。截至8月31日镍贡献非税收入21万亿印尼盾，同比翻倍（去年同期10万亿）。",
+    "source": "搜狐/阳光创译（据SMM及行业媒体）",
+    "url": "https://www.sohu.com/a/1077362479_121123881",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-25",
+    "commodity": "镍",
+    "category": "供应",
+    "title": "LME镍跌至16,050美元创2026年新低，库存升至28.5万吨",
+    "summary": "9月25日LME镍现金收盘16,050美元/吨为年内最低，月跌约4.4%；LME库存升至284,946吨，LME+SHFE合计9月22日达47.8万吨（约7周全球消费量），曲线维持contango。驱动：印尼HPM基准价大幅下调、WBN等大矿陆续获批补充配额、菲律宾进口矿放量补缺。跌势延续至10月7日约15,648美元（月跌6.6%）。INSG此前预测2026年缺口3.2万吨被高库存对冲。",
+    "source": "Tacto/Crux Investor",
+    "url": "https://www.tacto.ai/en/commodities/nickel-price",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-29",
+    "commodity": "镍",
+    "category": "政策",
+    "title": "印尼战略矿产与商品交易所框架落定，2027年元旦生效争夺镍定价权",
+    "summary": "印尼战略矿产与商品交易所运营框架将于2027年1月1日生效，目标建立国内基准价、提升镍（尤其NPI等Class II产品，占全球矿镍供应约2/3但无法交割LME 99.8%纯度合约）定价影响力，受OJK监管，细则原定2026年9月17日出台。分析认为其将与LME互补而非替代，影响力取决于流动性与商业采纳度；Platts 8月14日印尼10%NPI FOB评估价145.40美元/吨。",
+    "source": "Crux Investor",
+    "url": "https://www.cruxinvestor.com/posts/indonesias-nickel-exchange-could-shift-pricing-across-two-thirds-of-global-supply",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-14",
+    "commodity": "镍",
+    "category": "公司",
+    "title": "格林美：IGIP项目2026年底竣工、2027上半年投产，EcoPro持BNSI 39%",
+    "summary": "格林美在互动平台答复：印尼IGIP镍项目为国家级战略产业项目，核心HPAL高压反应器已于2026年7月就位，建设按计划推进，目标2026年底竣工、2027年上半年投产（产能6.6万吨镍/年，合作方含Vale，远期迈向20万吨级）。同时确认韩国EcoPro通过SPV持有BNSI项目39%股权，股权稀释后格林美出资规模相应减少，持股细节将在定期报告披露。",
+    "source": "同花顺金融研究中心",
+    "url": "https://yuanchuang.10jqka.com.cn/20260914/c679884611.shtml",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-05",
+    "commodity": "镍",
+    "category": "供应",
+    "title": "菲律宾镍矿补缺：印尼1-7月进口1140万吨同比增67%",
+    "summary": "印尼统计部门数据：2026年1-7月自菲律宾进口镍矿1140万吨，同比增约67%（去年同期682万吨），金额6.965亿美元，部分填补RKAB收紧的内矿缺口。FINI年初预计印尼2026年镍矿进口量或升至5000万吨、其中约3000万吨来自菲律宾。同期8月LME镍库存约26.83万吨，9月1日三个月期镍约16,570美元/吨，较5月2万美元高点明显回落。",
+    "source": "维度网（wedoany）",
+    "url": "https://www.wedoany.com/shortnews/467397.html",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-30",
+    "commodity": "铝",
+    "category": "供应",
+    "title": "几内亚雨季扰动到港：8月铝土矿进口环比降18.9%，9月起发运回升",
+    "summary": "海关总署数据：2026年8月中国进口铝土矿1545.1万吨，环比减少359.3万吨（-18.87%）、同比-15.52%，其中几内亚1155.1万吨（占74.76%，环比-22.37%），雨季+海运费高企（8月34→37.5美元、9月升至43.5美元）压制6-7月发运后传导至到港。但7月下旬至9月下旬几内亚周均发运回升至447万吨（较6-7月高约100万吨），雨季影响消退，预计9-10月进口增量体现；几矿10月长协CIF涨至78美元/吨（环比+4-5美元）。",
+    "source": "银河期货铝系10月报（新浪财经）",
+    "url": "https://finance.sina.com.cn/wm/2026-09-30/doc-initqzmc2059086.shtml?froms=ggmp",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-30",
+    "commodity": "铝",
+    "category": "供应",
+    "title": "9月氧化铝产量环比提升0.7%，山西赤泥库问题解决，10月供应压力增大",
+    "summary": "SMM统计：2026年9月国内冶金级氧化铝产量环比+0.7%、同比-0.1%；截至9月末全国建成产能约11962万吨/年，运行产能环比增长4%。增量来自山西前期受赤泥库限制企业问题解决后复产，叠加广西新投产能释放；此前9月24日周评显示运行产能9197万吨/年、开工率76.89%续升，累库格局短期难改。SMM预计10月供应压力持续增大；另据银河期货，9月下旬全国氧化铝运行产能9925万吨（开工率81.4%），约300万吨边际产能触碰现金成本，氧化铝期货主力9月中旬一度跌至2683元/吨。",
+    "source": "SMM（上海有色网）",
+    "url": "https://hq.smm.cn/aluminum/content/104141557",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-30",
+    "commodity": "铝",
+    "category": "公司",
+    "title": "巴林Alba受损产线修复完毕重启，中东铝厂复产推进但运输存溢价",
+    "summary": "银河期货10月报披露：巴林铝业（Alba）8月铝产品年化产量130万吨，4-6号生产线正常运行；3月底伊朗袭击受损的第1-3号生产线（约31万吨）设施损坏已修复完毕，后续电解槽将逐渐启动。斯洛伐克铝业（7.5万吨）复产略推迟但8月底已启动，预计2027年2月达产。中东冲突未影响当地铝厂复产节奏，但物流运输及情绪面仍受影响，欧美铝现货升水近期反弹，海外现货供给整体偏紧。",
+    "source": "银河期货铝系10月报（新浪财经）",
+    "url": "https://finance.sina.com.cn/wm/2026-09-30/doc-initqzmc2059086.shtml?froms=ggmp",
+    "impact": "high"
+  },
+  {
+    "date": "2026-10-02",
+    "commodity": "铝",
+    "category": "需求",
+    "title": "伦铝周跌5.46%至3098.5美元，创两至三个月低点",
+    "summary": "截至2026年10月2日当周，伦铝期货收于3098.5美元/吨，全周累计下跌5.46%，周内最高3275美元、最低3095.5美元，周均价3169.8美元。9月30日LME期铝单日下跌44.5美元至3169.5美元，跌破55日均线并触及约12周低点，技术面卖压扩大。国内沪铝主力9月30日收23950元/吨（-1.2%），长江现货A00铝均价24030元/吨；节前国内电解铝社会库存降至64.2万吨。宏观不确定性（美国政府停摆、美联储政策预期）为主要压制因素。",
+    "source": "搜狐财经（伦铝周报）",
+    "url": "https://m.sohu.com/a/1083755769_122014422",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-23",
+    "commodity": "铝",
+    "category": "供应",
+    "title": "氧化铝新产能节奏：2026年国内计划新增1150万吨，印尼200万吨，印度Nalco延期",
+    "summary": "一德期货四季报：2025年国内氧化铝实际新投830万吨，2026年计划新增1150万吨且集中于二季度、核心区域为广西；海外明确增量为印尼200万吨，印度Nalco项目存在延期风险。产量方面，1-8月国内冶金级氧化铝产量5809万吨（累计同比-1.7%），海外3988万吨（+0.6%）；7-8月广西、山西逐步复产叠加新投产能释放，国内供应回升。报告判断电解铝缺口预期收敛，铝价运行中枢或维持高位震荡。",
+    "source": "一德期货四季报（新浪财经）",
+    "url": "https://finance.sina.com.cn/money/future/2026-09-23/doc-inisvcpx6044258.shtml",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-08",
+    "commodity": "铝",
+    "category": "供应",
+    "title": "8月中国氧化铝产量786.4万吨环比回升，月度过剩14.75万吨",
+    "summary": "百川盈孚统计：2026年8月中国氧化铝产量786.4万吨，同比+0.91%，平均日产25.37万吨（较7月+0.62万吨）。广西某大型氧化铝企业恢复正常生产，山西停产企业推进复产并于月末实现第一条线出料。当月进口到港26.75万吨、出口26.1万吨，按电解铝产量387.72万吨、吨铝单耗1.93吨计算，8月氧化铝供应过剩14.75万吨，供应稍显富余。",
+    "source": "百川盈孚/世铝网",
+    "url": "https://news.cnal.com/2026/09-08/1788834337669228.shtml",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-07",
+    "commodity": "铝",
+    "category": "供应",
+    "title": "8月电解铝运行产能高位持平：云南668万吨满负荷，枯水期临近待观察",
+    "summary": "卓创资讯2026年8月电解铝产能运行分析：云南建成/运行产能均为668万吨、产能运行率100%，内蒙古692万吨、甘肃306.2万吨、四川107.5万吨、陕西90万吨均满负荷，青海296万吨建成、294.7万吨运行（99.56%）。另据银河期货，截至9月下旬国内电解铝建成产能4575.2万吨、运行4548.1万吨，开工率99.4%；10月河南-新疆/内蒙置换约8万吨及山西省内置换7万吨净增有望释放，此后年内公开变动仅置换、几无增量。云南水电铝11月进入枯水期，限产风险待跟踪。",
+    "source": "卓创资讯",
+    "url": "https://www.sci99.com/info/3_1000002_45506524.html",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-30",
+    "commodity": "铝",
+    "category": "公司",
+    "title": "俄铝封存220万吨氧化铝产能暂无下文；EGA-美铝美国75万吨项目暂缓",
+    "summary": "银河期货10月报：8月28日报道的俄铝（RUSAL）向俄总理申请临时封存境内三座氧化铝厂（合计建成产能约220万吨/年）一事暂无下文，产能未出现变动。新投方面：越南多农15万吨电解铝项目9月已达产，较原计划提前近两个月；阿联酋环球铝业（EGA）与美铝计划2030年在美国合资投产的75万吨电解铝厂因当地居民持续反对处于暂缓状态，若2027年4月公投通过禁铝条例，项目面临调整或取消风险。8月全球原铝产量617.2万吨（IAI，同比-1.7%），海湾地区产量仍处低位。",
+    "source": "银河期货铝系10月报（新浪财经）",
+    "url": "https://finance.sina.com.cn/wm/2026-09-30/doc-initqzmc2059086.shtml?froms=ggmp",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-28",
+    "commodity": "锌",
+    "category": "公司",
+    "title": "Nyrstar启动荷兰Budel锌冶炼厂战略评估",
+    "summary": "Nyrstar宣布对荷兰Budel锌冶炼业务（年产能31.5万吨）启动战略评估，预计2026年底前完成，评估期间维持正常运营。公司称Budel持续面临高能源成本及历史低位加工费压力，连年亏损，且荷兰2027年预算未纳入高耗能行业电网成本减免。若评估后减产或关停，将进一步收紧欧洲精炼锌供应。",
+    "source": "上海有色网SMM",
+    "url": "https://hq.smm.cn/zinc?_track=price",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-25",
+    "commodity": "锌",
+    "category": "供应",
+    "title": "LME锌现货结算价升至4060美元 站上4000美元关口",
+    "summary": "9月25日LME现货锌结算价升至4060美元/吨（周涨1.2%），三个月期锌3952美元/吨；LME锌库存增加6300吨至12.16万吨（周增5.5%），但现货对三个月升水由97美元扩大至108美元/吨，现货端仍偏紧。矿端持续收缩：Boliden锌精矿产量环比降16.8%至7.42万吨，嘉能可上半年自有矿山锌产量同比降21%至36.56万吨。",
+    "source": "维度网wedoany",
+    "url": "https://www.wedoany.com/shortnews/482906.html",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-21",
+    "commodity": "锌",
+    "category": "供应",
+    "title": "中国有色网：全球锌精矿供应进入收缩周期",
+    "summary": "中国有色网报道，全球锌精矿供应正在进入收缩周期，矿端减产压力沿产业链持续向冶炼端传导，加工费深度承压：2026年年初国产锌精矿TC在1400-1500元/吨，9月初进口锌精矿TC已跌至-120美元/吨。海外主要矿企下调2026年产量指引，矿端收紧预期持续强化，低TC格局将持续约束冶炼端产量释放。",
+    "source": "中国有色网",
+    "url": "https://www.cnmn.com.cn/ShowNews1.aspx?id=474168",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-18",
+    "commodity": "铜",
+    "category": "供应",
+    "title": "进口铜精矿现货TC跌至-221.89美元/干吨创历史新低",
+    "summary": "9月18日SMM进口铜精矿现货TC指数跌至-221.89美元/干吨，创历史新低；2026年进口铜精矿长单基准加工费为零。阳极铜加工费同处历史低位，副产品硫酸价格连续回落约两个半月，冶炼环节压力加大，部分冶炼厂释放减产意向。10-11月国内多家铜冶炼厂将开展计划检修，电解铜供应趋紧。",
+    "source": "SMM/搜狐财经",
+    "url": "https://www.sohu.com/a/1077835115_114984",
+    "impact": "high"
+  },
+  {
+    "date": "2026-10-02",
+    "commodity": "铜",
+    "category": "需求",
+    "title": "伦铜周跌2.5%收14266美元 高位回落仍同比涨逾30%",
+    "summary": "截至10月2日当周，伦铜期货收于14266.5美元/吨，全周累计下跌2.50%，周内最高14586、最低14213.5美元/吨，自8月25日历史收盘新高14273美元（盘中14396美元）后高位震荡。10月6日COMEX铜报6.61美元/磅，近一月回落约2%但仍较一年前高出30.8%，高价对消费的抑制与矿端紧缺（现货TC深负）形成拉锯。",
+    "source": "金投网/TradingEconomics",
+    "url": "https://m.cngold.org/futures/jg10794528.html",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-23",
+    "commodity": "锡",
+    "category": "供应",
+    "title": "8月中国锡矿进口1.93万吨同比增88% 缅甸增量显著",
+    "summary": "海关总署数据：2026年8月中国锡矿砂及精矿进口量19332吨，环比上升14.0%，同比上升88.4%。分来源看，缅甸仍为第一大来源地，8月自缅甸进口7395吨，环比大增61.8%、同比增253.6%，据Mysteel调研佤邦进口增量明显；刚果（金）居第二，进口3763吨，环比增46.5%。矿端供应恢复对锡价形成压制预期。",
+    "source": "瑞达期货/新浪财经",
+    "url": "https://finance.sina.com.cn/money/future/wemedia/2026-09-23/doc-inisunsi8509474.shtml",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-14",
+    "commodity": "锡",
+    "category": "公司",
+    "title": "兴业银锡：银漫矿业采区全力推进整改 争取早日复产",
+    "summary": "兴业银锡9月14日在投资者互动平台回应：银漫矿业选厂已于9月3日复产（选矿尾矿系统获西乌旗应急局复工复产批复），采区正在全力推进各项整改工作，争取早日实现采区复工复产。银漫矿业为国内最大银锡矿山之一（7/26井下事故致采区停产），采区复产时点直接关系到国内锡矿增量释放节奏。",
+    "source": "同花顺财经",
+    "url": "https://m.10jqka.com.cn/20260914/c679876227.shtml",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-04",
+    "commodity": "锂",
+    "category": "需求",
+    "title": "碳酸锂期货单日重挫7.41% 主力流出超14亿元",
+    "summary": "9月4日碳酸锂期货主力合约收报141940元/吨，单日下跌11360元、跌幅7.41%，盘中一度跌超8%触及140540元/吨，当日主力资金流出超14亿元。现货同步跟跌：富宝电池级碳酸锂报149300元/吨（单日跌5600元），工业级146700元/吨，优质电池级150200元/吨。市场对高位价格的分歧与获利了结情绪集中释放。",
+    "source": "富宝资讯/淘江湖",
+    "url": "https://bot.taobao.com/tool-today_discovery/detail/8564fbd4b8bc93a714a520bd0276ce5f.html",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-23",
+    "commodity": "锂",
+    "category": "需求",
+    "title": "碳酸锂仓单连续大降 10月锂电排产预计环比增3.9%",
+    "summary": "截至9月22日广期所碳酸锂注册仓单35858吨，单日减少2447吨，连续大幅下降；主力2701合约收134400元/吨（涨2.53%），SMM电碳现货130300-138600元/吨，基差2410元。据TD月度数据，10月中国锂电全市场（储能+动力+消费）总排产约345GWh，环比增长3.9%；磷酸铁锂周度产量135250吨环比续增，旺季需求兑现支撑现货。",
+    "source": "华泰期货/新浪财经",
+    "url": "https://finance.sina.cn/futuremarket/qsyw/2026-09-23/detail-inisunsi8591516.d.html",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-28",
+    "commodity": "硅",
+    "category": "政策",
+    "title": "多晶硅重回4万元/吨一线 产业链陷有价无市博弈",
+    "summary": "9月光伏产业链经历'有价无市'博弈：多晶硅价格触底回升，4万元/吨一线初步站稳，反内卷政策下报价政策性推涨，但终端接受度有限、成交清淡。产能整合平台光和谦成推进下行业协同限产，叠加能耗标准执行预期，供给收缩逻辑支撑价格修复，但需求端装机节奏仍是制约涨价落地的关键变量。",
+    "source": "中国能源产业发展网",
+    "url": "https://www.ccedia.com/newenergy_detail/c-_detailId=1554197866264064000.html",
+    "impact": "high"
+  },
+  {
+    "date": "2026-09-25",
+    "commodity": "硅",
+    "category": "需求",
+    "title": "财新：光伏装机首超煤电 产业链报价政策性推涨",
+    "summary": "财新周刊报道，中国光伏装机首次超过煤电，产业链报价在反内卷政策推动下上涨。出口结构向中间品倾斜：2026年上半年组件出口额占比首次跌破80%至76.8%，电池片占比由12.1%升至18.6%，反映海外组件产能扩张带动电池片需求，全球制造格局变化。终端对上游涨价的传导仍是产业链博弈焦点。",
+    "source": "财新网",
+    "url": "https://database.caixin.com/2026-09-25/102488672.html",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-09-20",
+    "commodity": "铅",
+    "category": "供应",
+    "title": "9月原生铅集中检修减量超2万吨 再生复产不及预期",
+    "summary": "首创期货指出，9月国内原生铅冶炼企业迎来集中检修周期，整体供应减量规模超2万吨；再生铅冶炼复产进度不及预期，叠加铅价回落挤压利润，9月18日当周再生铅四省综合开工率回落至32.9%。库存方面，SMM铅锭五地社会库存降至7.19万吨，原料约束下铅现货偏强运行，市场关注旺季需求对沪铅的支撑。",
+    "source": "首创期货/新浪财经",
+    "url": "https://finance.sina.com.cn/money/future/fmnews/2026-09-20/doc-inismzux1612037.shtml",
+    "impact": "mid"
+  },
+  {
+    "date": "2026-10-08",
+    "commodity": "硅",
+    "category": "供应",
+    "title": "通威 7 月起多晶硅全面复产，26Q3 产量 11 万吨；全国月度产量三连升至 12.13 万吨",
+    "summary": "铁合金在线分企业月度明细：全国多晶硅产量 7/8/9 月=10.97/11.95/12.13 万吨（环比逐月上升）。通威 7 月起复产、月度 3/4/4 万吨（Q3=11.0 万吨，同比 -30%），此前 2026-01 起全面停产；新特 Q3=5.2 万吨（同比 +117%）、大全 4.35 万吨（+67%）；东方希望 7 月起归零、弘元 9 月恢复 0.2 万吨。供给端增量主要来自内蒙/新疆基地，减产执行进度慢于预期。",
+    "source": "铁合金在线（cnfeol）白金专栏 7/8/9 月多晶硅企业产量明细",
+    "url": "https://pvip.cnfeol.com/PVIP/PContentDetail/10/176462.html",
+    "impact": "high",
+    "affects": [
+      {
+        "company": "通威股份有限公司",
+        "note": "26Q3=11.0 万吨（7 月起复产，月度 3/4/4 万吨）"
+      },
+      {
+        "company": "上海东方希望",
+        "note": "7 月起产量归零"
+      },
+      {
+        "company": "弘元能源科技",
+        "note": "9 月恢复 0.2 万吨"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "commodity": "锌",
+    "category": "供应",
+    "title": "【传言】紫金旗下厄立特里亚碧沙(Bisha)锌铜矿停产——柴油断供所致",
+    "summary": "贸易商渠道调研报告(2026-10-08)佐证：Bisha因柴油供应中断停产——矿区无市电、22MW柴油电站+全柴油设备，全球柴油危机(伊朗战争致霍尔木兹航运几近中断、红海补给线被切、埃塞俄比亚燃油配给减半)下燃料耗尽。量级：2025年锌8.3万吨+铜2.3万吨(100%权益)，约占全球锌矿0.7%；月均锌0.7万吨。可信度上调：柴油依赖运营模式与公开披露吻合，且厄立特里亚10月与埃塞俄比亚断交、燃料全赖进口。风险在持续期：红海航运结构性受阻，若停1-3个月叠加油价高企，TC赤峰(-1500元/吨已钉死三周)有进一步下行压力。盯：紫金公告、红海航运恢复、厄国燃油配给、紫金是否对Bisha启动光储替代(9月已在苏里南/圭亚那投15.58亿)、周边Asmara铜矿燃料竞争。传言·未经官方证实，调研报告佐证",
+    "source": "贸易商渠道调研报告(用户微信转)",
+    "url": "",
+    "impact": "mid",
+    "affects": [
+      {
+        "company": "紫金矿业",
+        "note": "旗下碧沙(Bisha)锌铜矿(55%)传因柴油断供停产——2025年产量锌8.3万吨/铜2.3万吨；红海航运受阻下补给恢复时间不明，公司2026年锌铅40万吨目标存风险。未经官方证实"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-14",
+    "commodity": "铜",
+    "category": "供应",
+    "impact": "mid",
+    "title": "力拓集团铜产量保持稳定 铁矿石销量增长",
+    "summary": "力拓集团第三季度铜产量保持稳定，其蒙古铜矿的强劲表现抵消了其他地区产量下滑的影响；与此同时，铁矿石销量小幅增长。铜业务在力拓今年上半年盈利中占比超过三分之一，是该集团把握能源转型和数据中心推动的电气化需求增长的重要抓手。截至9月的三个月内，…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-14",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "中信证券：金价底部或抬升 黄金板块有望先行",
+    "summary": "中信证券研报称，9月以来，超预期的ETF、央行买盘对于期货端的流动性卖盘形成较为充分的对冲作用，近两周的金价呈现企稳迹象，未来有望较6月底的底部出现抬升。类比7月黄金板块较金价率先反弹，当前金价若企稳将成为黄金板块反弹的重要信号。重视黄金板…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-14",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "mid",
+    "title": "沙特阿美总裁：全球原油库存逼近“危险低位”",
+    "summary": "沙特阿拉伯国家石油公司（沙特阿美公司）总裁兼首席执行官阿明·纳赛尔12日在第二十五届世界石油理事会能源大会（世界石油大会）上表示，全球原油库存正逼近“极度危险”的低位，可能需要两年时间才能恢复至正常水平。受霍尔木兹海峡局势影响，全球能源供应…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-14",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "mid",
+    "title": "DWS：美债收益率近期上升后吸引力增强，未来12个月收益率或小幅下行",
+    "summary": "金十数据10月14日讯，德国资管公司DWS表示，随着近期美国国债收益率明显上升，美债当前的投资吸引力正在增强。DWS投资组合经理萨布丽娜·雷赫表示，市场目前计入的美联储进一步收紧货币政策幅度，高于此前经济前景所暗示的水平。与此同时，经济增长…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-14",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "罗素投资：美联储可能在10月会议上暂停加息 但预计将在12月再次提高利率",
+    "summary": "罗素投资高级投资策略师BeiChenLin表示，美联储可能在10月会议上暂停加息，但预计将在12月再次提高利率。如果通胀意外高于预期，而市场本身已经对物价压力感到担忧，那么这可能促使市场重新评估美联储10月加息的概率，以及本轮紧缩周期的终端…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-15",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "low",
+    "title": "WTI原油期货跌幅扩大至1%",
+    "summary": "WTI原油期货跌幅扩大至1%，报94.129美元/桶。…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-15",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "澳大利亚失业率上升，市场下调澳洲联储加息预期",
+    "summary": "金十数据10月15日讯，澳大利亚失业率上升，9月就业岗位意外减少，表明劳动力市场可能正在降温，促使交易员下调对澳洲联储进一步加息的预期。澳大利亚统计局周四公布的数据显示，9月份失业率为4.7%（8月份数据也向上修正至该水平），高于此前4.6…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-15",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "中信证券：仍预计美联储10月按兵不动后于12月加息",
+    "summary": "中信证券研报称，美国9月CPI超预期，核心环比再度偏热，涨价的细项范围较宽，通胀率未能“以足够快的速度向目标回落”。我们仍预计美联储年内再加息一次，即10月按兵不动后于12月进一步加息25bps。在油价居高不下、通胀粘性犹存的环境下，美国金…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-15",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "low",
+    "title": "国家发改委：2026年10月15日国内成品油价格不作调整",
+    "summary": "据国家发改委，9月24日国内成品油价格调整以来，中东地缘局势复杂多变，国际市场原油价格短暂回落后又出现较大幅度上涨。根据国际市场油价变化情况，本次汽、柴油价格不作调整。…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-15",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "low",
+    "title": "股市走低叠加收益率吸引 美债“避险交易”卷土重来",
+    "summary": "美国国债领涨全球债券市场，因股市抛售加剧了避险情绪且引发了对避险资产的需求。周四亚洲早盘交易时段，基准10年期美债收益率一度下跌10个基点至5.09%，其他期限收益率亦下跌。“市场终于回到了追求优质资产的老路，即在抛售股票时买入国债，”IT…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-16",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "low",
+    "title": "中金财富期货：美元回落，黄金明显反弹",
+    "summary": "昨日公布的美国PPI数据与消费数据依旧偏热，但避险情绪主推美债走强，黄金同样激发了避险因素，叠加美元回落，黄金明显反弹。我们维持之前的观点，虽然当前的宏观环境对黄金仍有明显压力，但是黄金具备避险功能和配置价值，我们仍建议关注金价回落后的做多…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-16",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "德国央行行长Nagel：欧洲央行可能不得不再次加息",
+    "summary": "德国央行行长JoachimNagel表示，欧洲央行可能不得不再次加息。Nagel在曼谷出席国际货币基金组织(IMF)年会时对记者表示：“我们已经两次上调政策利率。如果当前形势没有改变，我们不排除可能还需要再次行动。”欧洲央行在本轮紧缩周期中…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-16",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "日本央行行长：将继续根据经济和物价情况加息",
+    "summary": "日本央行行长植田和男表示，将继续根据经济和物价情况加息，把价格走势稳定在2%左右变得越来越重要。…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-17",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "黄金年内恐再承压，凯投宏观点出两项原因",
+    "summary": "金十数据10月17日讯，凯投宏观气候与大宗商品经济学家哈马德·侯赛因在10月16日判断，今年剩余时间金价可能逐步走低。他列出的原因有两项：美联储继续加息，以及市场对人工智能热潮结束的担忧最终只是暂时现象。这意味着，他对金价的判断同时涉及利率…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-17",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "欧洲央行官员倾向12月加息，政策权衡日趋复杂",
+    "summary": "金十数据10月17日讯，欧洲央行官员正准备在2026年内第三次加息，这也可能是明年日益复杂的局势给货币政策决策带来更大挑战之前的最后一次加息。本周在曼谷发表讲话的政策制定者仍未排除10月加息的可能性，但他们指出，12月加息的可能性更大。交易…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-17",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "国际海事组织秘书长：霍尔木兹海峡通行风险仍高",
+    "summary": "国际海事组织秘书长阿塞尼奥·多明格斯16日表示，霍尔木兹海峡及周边海域安全形势持续恶化，船舶通行风险并未降低。他强调，航运不应被用作冲突中的施压工具，冲突各方只有着手解决危机根源，才能为该地区航运安全恢复创造条件。（新华社）…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-17",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "high",
+    "title": "伊朗革命卫队：又一超级油轮在霍尔木兹海峡触雷起火",
+    "summary": "伊朗伊斯兰革命卫队海军17日在社交媒体发表声明说，“第二艘超级油轮”当天在霍尔木兹海峡触雷后发生剧烈爆炸并起火。声明说，该油轮载有超过200万桶原油，在关闭所有导航和雷达系统后，试图在美军的支持下通过霍尔木兹海峡。伊朗革命卫队海军17日早些…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-17",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "low",
+    "title": "马斯克：解决美债问题的唯一办法是依靠人工智能和机器人",
+    "summary": "金十数据10月17日讯，据AXIOS报道，马斯克表示，他曾领导的政府效率部（DOGE）改革试验最终无果而终，证明“我们根本不可能从政府内部解决财政赤字问题”。马斯克表示：“解决美国国债问题的唯一办法是依靠人工智能和机器人。”他补充说：“我们…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  },
+  {
+    "date": "2026-10-17",
+    "commodity": "宏观",
+    "category": "宏观",
+    "impact": "low",
+    "title": "美元指数16日下跌",
+    "summary": "衡量美元对六种主要货币的美元指数当天下跌0.21%，在汇市尾市收于101.837。截至纽约汇市尾市，1欧元兑换1.1233美元，高于前一交易日的1.1212美元；1英镑兑换1.3319美元，高于前一交易日的1.3272美元。1美元兑换158…（⚙️快讯自动收录·CS财经）",
+    "source": "CS财经快讯",
+    "url": ""
+  }
 ]
