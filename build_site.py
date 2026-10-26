@@ -2099,6 +2099,10 @@ def main():
     index_file = BASE_DIR / "index.html"
     try:
         html = index_file.read_text(encoding="utf-8")
+        css_text = (BASE_DIR / "assets" / "style.css").read_text(encoding="utf-8")
+        html = re.sub(r'<style id="caibao-style">.*?</style>',
+                      lambda _: '<style id="caibao-style">\n' + css_text + '\n</style>',
+                      html, flags=re.S)
         for src_dir, stem, ext in ((BASE_DIR / "assets", "app", "js"),
                                    (BASE_DIR / "assets", "style", "css"),
                                    (BASE_DIR / "data", "data", "js")):
