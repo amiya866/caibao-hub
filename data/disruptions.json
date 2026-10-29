@@ -1,6 +1,6 @@
 {
   "_说明": "近3个月供应扰动梳理（各品种页信息速递下方表格）。手工维护，随财报节点/突发事件更新；字段：commodity=品种名（锡/锌/铝/镍/铜/锂）、date=事件时间、ongoing=true 表示更早发生但影响仍在持续（表格置顶标「持续」）、company=公司/资产、country=国家/地区、type=事件类型、dir=down(减量)/up(复产或增量)、capacity=产能规模、impact=影响量级、recovery=恢复进展与2027预期、source/url=来源。重建后自动上线。",
-  "updated": "2026-10-17",
+  "updated": "2026-10-29",
   "items": [
     {
       "commodity": "锡",
@@ -358,9 +358,9 @@
       "dir": "down",
       "capacity": "2025 配额 42Mwmt",
       "impact": "2026 初始配额仅批 12Mwmt（-70%），外销 9Mwmt 4 月中用完，矿山 5 月转保养",
-      "recovery": "NPI 厂靠矿石库存维持；补充配额 7 月申报待批（ESDM 定调不全面上调）；2027 配额续批量是最大变量",
-      "source": "Eramet Q1 季报/ESDM",
-      "url": "https://www.investegate.co.uk/announcement/gnw/eramet-sa--0mgv/eramet-strong-turnover-momentum-in-q1-2026-d-/9532623"
+      "recovery": "印尼政府授权后，PT WBN于2026-09-10宣布矿山恢复运营；后续产量与配额执行仍待Q3/Q4披露验证",
+      "source": "Eramet：PT Weda Bay Nickel restarts its mining operations（2026-09-10）",
+      "url": "https://www.eramet.com/en/news/pt-weda-bay-nickel-restarts-its-mining-operations/"
     },
     {
       "commodity": "镍",
@@ -463,10 +463,10 @@
       "type": "事故·泥石流",
       "dir": "down",
       "capacity": "全球第二大铜矿",
-      "impact": "2025/9 事故后停产爬产，26H2 约 65% 产能",
-      "recovery": "全面复产维持 2027 年底（「复产提前」传言已落空）；2027 为恢复大年、年底近满产",
-      "source": "FreePort 季报口径",
-      "url": "https://www.freeport.com/"
+      "impact": "2025/9事故后爬产，26Q3磨矿处理量14.1万吨/日=正常产能67%；集团Q3铜832M lbs",
+      "recovery": "PTFI冶炼厂2026年8月底重启；GBC预计2027年中80%、2027年底接近满产；2027为恢复大年",
+      "source": "FreePort 3Q26 8-K EX-99.1（2026-10-27）",
+      "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000045/a3q2026exhibit991.htm"
     },
     {
       "commodity": "铜",
@@ -490,9 +490,10 @@
       "type": "复产推进",
       "dir": "up",
       "capacity": "约 35 万吨/年（停产前）",
-      "impact": "停产矿山堆存矿处理获批，向重启迈进一步",
-      "recovery": "重启时间未定；若重启为 2027 供应上行期权",
-      "source": "公司公告/平台整理"
+      "impact": "重启调试取得实质进展，Q3三条产线已陆续恢复运行；集团Q3铜108,959吨",
+      "recovery": "三条产线恢复运行；政府间委员会建议获公司积极评价，持久解决方案仍待与政府推进",
+      "source": "First Quantum Q3 2026 Results（2026-10-28）",
+      "url": "https://www.first-quantum.com/news/first-quantum-minerals-reports-third-quarter-2026-results/"
     },
     {
       "commodity": "铜",
@@ -570,6 +571,137 @@
       "impact": "2025Q4 停产，2026 重启爬坡（26Q1 未披露产量）",
       "recovery": "2027 恢复至约 24 万吨精矿年化（视二期融资）",
       "source": "公司公告/平台整理"
+    },
+    {
+      "commodity": "镍",
+      "date": "2026-10-22",
+      "ongoing": true,
+      "company": "Nickel Industries RKEF / ENC HPAL",
+      "country": "印尼",
+      "type": "天气·干旱缺水",
+      "dir": "down",
+      "capacity": "RKEF约12.5万吨镍/年；ENC HPAL 7.2万吨镍/年",
+      "impact": "Hengjaya地区8月至10月下旬降雨仅7mm（十年均值474mm）；Q3 RKEF镍27,822吨，10月仅约75%铭牌负荷，ENC爬产亦受限",
+      "recovery": "等待雨季回归，管理层预计12月季缓解；恢复以实际降雨、RKEF负荷和ENC产量验证",
+      "source": "Nickel Industries Q3 2026 Quarterly Activities Report",
+      "url": "https://nickelindustries.com/"
+    },
+    {
+      "commodity": "铜",
+      "date": "2026-10-20",
+      "company": "Anglo American（智利铜矿）",
+      "country": "智利",
+      "type": "天气·创纪录降雪",
+      "dir": "down",
+      "capacity": "2026铜指引700-760kt",
+      "impact": "Q3铜174.9kt（同比-5%）：智利暴雪及非计划检修，Collahuasi处理低品位库存矿",
+      "recovery": "Q4计划品位改善，全年指引维持；需以Q4实际产量验证恢复",
+      "source": "Anglo American Q3 2026 Production Report",
+      "url": "https://www.angloamerican.com/media/press-releases/2026/20-10-2026"
+    },
+    {
+      "commodity": "铜",
+      "date": "2026-10-20",
+      "company": "BHP（智利/Carrapateena）",
+      "country": "智利/澳大利亚",
+      "type": "天气+设备故障",
+      "dir": "down",
+      "capacity": "FY27铜指引1650-1800kt",
+      "impact": "FY27Q1铜400.7kt（同比-19%）：计划品位下降与检修，叠加暴雪、安全停产和Carrapateena输送带故障",
+      "recovery": "天气与设备为阶段性扰动，品位下降为结构性；后续看Q2 FY27修复",
+      "source": "BHP Operational Review September 2026",
+      "url": "https://www.bhp.com/news/media-centre/releases/2026/10/bhp-operational-review-for-the-quarter-ended-30-september-2026"
+    },
+    {
+      "commodity": "锌",
+      "date": "2026-10-19",
+      "company": "South32 Cannington",
+      "country": "澳大利亚",
+      "type": "设备·回填问题",
+      "dir": "down",
+      "capacity": "FY27锌当量指引20.47万吨",
+      "impact": "临时paste backfill问题导致九月季度产量同比-27%；Q3应付锌0.88万吨、铅1.6万吨",
+      "recovery": "公司维持FY27指引，后续看回填修复和Q2产量恢复",
+      "source": "South32 September 2026 Quarterly Report",
+      "url": "https://www.south32.net/news-media/latest-news/quarterly-report-september-2026"
+    },
+    {
+      "commodity": "锌",
+      "date": "2026-10-14",
+      "company": "MMG Rosebery（X-South）",
+      "country": "澳大利亚",
+      "type": "事故·地震",
+      "dir": "down",
+      "capacity": "原2026锌指引4.5-5.5万吨",
+      "impact": "X-South地震影响，Rosebery 2026锌指引下调至3.2-3.7万吨；Q3锌0.813万吨、铅0.2969万吨",
+      "recovery": "按新指引和矿山恢复进度跟踪，暂不假设年内恢复至原指引",
+      "source": "MMG Q3 2026 Production Report",
+      "url": "https://www.mmg.com/content/uploads/2026/10/e_2026-10-14_3QTR-Production-Report.pdf"
+    },
+    {
+      "commodity": "锌",
+      "date": "2026-10-08",
+      "company": "Ivanhoe Kipushi",
+      "country": "刚果(金)",
+      "type": "爬产·季度纪录",
+      "dir": "up",
+      "capacity": "高品位锌矿",
+      "impact": "Q3锌精矿77,147吨（环比+10%）创季度纪录",
+      "recovery": "持续爬产，后续看稳态运行与回收率",
+      "source": "Ivanhoe Mines Q3 2026 Production Update",
+      "url": "https://www.ivanhoemines.com/"
+    },
+    {
+      "commodity": "锡",
+      "date": "2026-10-06",
+      "company": "Alphamin Bisie",
+      "country": "刚果(金)",
+      "type": "天气·雨季物流风险",
+      "dir": "down",
+      "capacity": "约2万吨锡/年",
+      "impact": "Q3含锡5,030吨持稳；El Niño或令Q4雨季运输更具扰动，属于前瞻风险而非已发生减产",
+      "recovery": "已预增卡车运力与燃料储备；Q4发运和道路状况待验证",
+      "source": "Alphamin Q3 2026 Operational Update",
+      "url": "https://www.alphaminresources.com/2026/10/06/alphamin-announces-cad0-13-per-share-interim-fy2026-dividend-q3-guidance-exploration-update/"
+    },
+    {
+      "commodity": "锂",
+      "date": "2026-09-08",
+      "company": "Core Lithium Finniss",
+      "country": "澳大利亚",
+      "type": "复产·首批精矿",
+      "dir": "up",
+      "capacity": "重启目标约214ktpa精矿",
+      "impact": "重启后首批锂精矿产出，Grants露天矿供料；官方尚未披露Q3吨位",
+      "recovery": "Q4目标首批发运，BP33地下开发继续，后续看稳定产量",
+      "source": "Core Lithium Finniss restart update",
+      "url": "https://www.corelithium.com.au/"
+    },
+    {
+      "commodity": "锂",
+      "date": "2026-10-23",
+      "company": "MinRes Bald Hill",
+      "country": "澳大利亚",
+      "type": "复产爬坡",
+      "dir": "up",
+      "capacity": "设计约140ktpa SC6（Q2 FY27目标）",
+      "impact": "FY27Q1精矿27k dmt、销量21k dmt SC6，回收率63%，重启增量开始兑现",
+      "recovery": "DMS厂向设计产能爬坡，FY27成本与产量仍处爬坡期",
+      "source": "MinRes Q1 FY27 Quarterly Activity Report",
+      "url": "https://www.mineralresources.com.au/news/company-updates/q1-fy27-quarterly-activity-report/"
+    },
+    {
+      "commodity": "锂",
+      "date": "2026-10-29",
+      "company": "IGO Greenbushes（CGP3）",
+      "country": "澳大利亚",
+      "type": "扩产·季度纪录",
+      "dir": "up",
+      "capacity": "CGP3扩产项目",
+      "impact": "FY27Q1精矿435kt（环比+12%）创纪录，CGP3达到铭牌产能；折LCE 54,375吨",
+      "recovery": "扩产已兑现，后续关注矿石品位、回收率与稳定运行",
+      "source": "IGO Q1 FY27 Quarterly Activities Report",
+      "url": "https://www.igo.com.au/"
     }
   ]
 }
