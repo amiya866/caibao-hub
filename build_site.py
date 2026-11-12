@@ -2134,7 +2134,8 @@ def main():
     checks.append(("锌 Dugald River 26Q2 = 4.61", dugald["data"].get("2026Q2") if dugald else None, 4.61))
     # 2026-07-29 起锌矿表新增16家公司、总计行改为全公司行求和，26Q1 总计口径随之变化
     # 2026-08-23 Nexa 2Q26 入库+新增 El Porvenir/Atacocha/Aripuanã 三行（EDGAR 6-K），总计 143.3153→145.8053
-    checks.append(("锌矿总计行 26Q1 = 145.8053", zinc_sec_mine["total"]["data"].get("2026Q1"), 145.8053))
+    checks.append(("锌矿总计行 26Q1 = 149.1688", zinc_sec_mine["total"]["data"].get("2026Q1"), 149.1688))
+    checks.append(("锌矿总计行 26Q3 = 152.5965", zinc_sec_mine["total"]["data"].get("2026Q3"), 152.5965))
     zijin = next((c for c in zinc_sec_mine["companies"] if c["name"] == "紫金矿业"), None)
     checks.append(("锌 紫金矿业 25总计 = 35.7453", zijin["data"].get("2025") if zijin else None, 35.7453))
     fres = next((c for c in zinc_sec_mine["companies"] if c["name"] == "Fresnillo"), None)
