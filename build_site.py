@@ -665,31 +665,35 @@ def section_stats(companies, quarters, title="矿山"):
 # 锡抽取
 # ---------------------------------------------------------------------------
 def _read_tin_std_sheet(ws, is_mine):
-    """读锡标准 26 列+扩展 sheet → company 列表。
-    列: 1公司 2国家 3口径 4-7 23Q1-4 8 23总计 9-12 24Q1-4 13 24总计
-       14-17 25Q1-4 18 25总计 19 25同比 20 26Q1 21 26Q1同比 22 26Q2 23 26Q2同比
-       24变化原因 25 FY2026/25指引 26备注 27 2021 28 2022 29数据性质(est 判定来源)"""
-    QCOLS = [(4, "2023Q1"), (5, "2023Q2"), (6, "2023Q3"), (7, "2023Q4"),
-             (9, "2024Q1"), (10, "2024Q2"), (11, "2024Q3"), (12, "2024Q4"),
-             (14, "2025Q1"), (15, "2025Q2"), (16, "2025Q3"), (17, "2025Q4"),
-             (20, "2026Q1"), (22, "2026Q2")]
-    YCOLS = [(27, "2021"), (28, "2022"), (8, "2023"), (13, "2024"), (18, "2025")]
+    """读锡标准季度 sheet；季度和说明列均按表头定位，开新季插列不影响抽取。"""
+    hdr = {txt(ws.cell(row=1, column=c).value): c for c in range(1, ws.max_column + 1)
+           if txt(ws.cell(row=1, column=c).value)}
+    QCOLS = []
+    for y in ("23", "24", "25", "26"):
+        for q in (1, 2, 3, 4):
+            h = f"{y}Q{q}"
+            if h in hdr:
+                QCOLS.append((hdr[h], f"20{y}Q{q}"))
+        h = f"{y}总计"
+        if h in hdr:
+            QCOLS.append((hdr[h], f"20{y}"))
+    YCOLS = [(hdr[h], h) for h in ("2021", "2022") if h in hdr]
+    reason_c = hdr.get("变化原因", 24)
+    guide_c = hdr.get("FY2026指引", 25)
+    memo_c = hdr.get("备注", 26)
+    nature_c = hdr.get("数据性质", 29)
     companies = []
     for r in range(2, ws.max_row + 1):
         name = txt(ws.cell(row=r, column=1).value)
         if not name:
             continue
         data = {}
-        for c, per in QCOLS:
+        for c, per in QCOLS + YCOLS:
             v = num(ws.cell(row=r, column=c).value)
             if v is not None:
                 data[per] = v
-        for c, yr in YCOLS:
-            v = num(ws.cell(row=r, column=c).value)
-            if v is not None:
-                data[yr] = v
-        nature = txt(ws.cell(row=r, column=29).value) or ""
-        memo = txt(ws.cell(row=r, column=26).value)
+        nature = txt(ws.cell(row=r, column=nature_c).value) or ""
+        memo = txt(ws.cell(row=r, column=memo_c).value)
         est = bool(re.search(r"估算|推算|拟合|反推|相减", nature))
         note = None
         if is_mine and name == "兴业银锡":
@@ -701,10 +705,10 @@ def _read_tin_std_sheet(ws, is_mine):
             "country": txt(ws.cell(row=r, column=2).value),
             "data": data,
             "yoy": compute_yoy(data),
-            "guide": txt(ws.cell(row=r, column=25).value),
-            "guide_label": "2025 全年指引",
-            "guide_progress_periods": ["2025"],
-            "reason": txt(ws.cell(row=r, column=24).value),
+            "guide": txt(ws.cell(row=r, column=guide_c).value),
+            "guide_label": "FY2026 指引",
+            "guide_progress_periods": ["2026Q1", "2026Q2", "2026Q3"],
+            "reason": txt(ws.cell(row=r, column=reason_c).value),
             "note": note,
             "est": est,
             "est_note": memo,
@@ -1536,8 +1540,7 @@ def parse_guide_value(text, unit_kind):
 
 
 def build_guide_progress(entry):
-    """为品种生成「2026 指引 vs 年化进度」：逐板块逐公司解析指引、汇总 2026 已完成
-    （26Q1 实际，如有 26Q2 则累计）、年化对比（仅 Q1 → ×4，注明季节性风险；含 Q2 → ×2）、
+    """为品种生成「2026 指引 vs 年化进度」：按最新已披露季累计并年化，剔除预填拟合值。
     状态标签（>=100% 超出 / >=90% 符合 / 否则不及；季节性名单不年化）。
     结果挂到 entry['guide_progress']，并把每股进度回写 company['guide2026'] 供卡片渲染。"""
     rows = []
@@ -1547,27 +1550,26 @@ def build_guide_progress(entry):
         for c in sec["companies"]:
             raw = c.get("guide")
             if is_tin:
-                # 锡 Sheet1 T 列为 2025 指引；2026 指引用常量（仅矿山板块）
                 raw = TIN_FY2026_GUIDE.get(c["name"]) if sec["key"] == "mine" else None
             parsed = parse_guide_value(raw, unit_kind) if raw else None
             lo = hi = mid = None
             if parsed:
                 lo, hi = parsed
                 mid = (lo + hi) / 2
-            completed_periods = [p for p in ("2026Q1", "2026Q2")
-                                 if c["data"].get(p) is not None and not c.get("est_q", {}).get(p)]  # 预填拟合格不算完成量
+            completed_periods = [p for p in ("2026Q1", "2026Q2", "2026Q3")
+                                 if c["data"].get(p) is not None and not c.get("est_q", {}).get(p)]
             completed = sum(c["data"][p] for p in completed_periods) if completed_periods else None
             annualized = pct = status = note = None
             full_key = c["name"] + "·" + (c.get("project") or "")
             if c["name"] in NO_ANNUALIZE_GUIDE or full_key in NO_ANNUALIZE_GUIDE:
                 status = "季节性，不年化" if c["name"] in NO_ANNUALIZE_GUIDE else "事件年，不年化"
             elif completed is not None and mid:
-                factor = 2 if "2026Q2" in completed_periods else 4
+                latest_q = max(int(p[-1]) for p in completed_periods)
+                factor = 4 / latest_q
                 annualized = completed * factor
                 pct = annualized / mid * 100
                 status = "超出" if pct >= 100 else ("符合" if pct >= 90 else "不及")
-                note = ("按 H1 年化，含季节性风险" if factor == 2
-                        else "按 Q1 年化，含季节性风险")
+                note = f"按 Q1-Q{latest_q} 累计年化，含季节性风险" if latest_q > 1 else "按 Q1 年化，含季节性风险"
             c["guide2026"] = None
             if raw and (parsed or completed is not None):
                 c["guide2026"] = {
@@ -2128,14 +2130,17 @@ def main():
     checks = []
     alphamin = next(c for c in tin_sec_mine["companies"] if c["name"] == "Alphamin")
     checks.append(("锡 Alphamin 2026Q2 产量 = 5013", alphamin["data"].get("2026Q2"), 5013))
+    checks.append(("锡 Alphamin 2026Q3 产量 = 5030", alphamin["data"].get("2026Q3"), 5030))
     xyst = next(c for c in tin_sec_mine["companies"] if c["name"] == "兴业银锡")
     checks.append(("锡 Sheet1 兴业银锡 2023 = 7769", xyst["data"].get("2023"), 7769))
     dugald = next((c for c in zinc_sec_mine["companies"] if c["project"] == "Dugald River"), None)
     checks.append(("锌 Dugald River 26Q2 = 4.61", dugald["data"].get("2026Q2") if dugald else None, 4.61))
-    # 2026-07-29 起锌矿表新增16家公司、总计行改为全公司行求和，26Q1 总计口径随之变化
-    # 2026-08-23 Nexa 2Q26 入库+新增 El Porvenir/Atacocha/Aripuanã 三行（EDGAR 6-K），总计 143.3153→145.8053
+    # 2026-11-13 全面复核：Q3 总计含 KAZ/Hudbay 两个待披露拟合值；总览只计实际披露
     checks.append(("锌矿总计行 26Q1 = 149.1688", zinc_sec_mine["total"]["data"].get("2026Q1"), 149.1688))
-    checks.append(("锌矿总计行 26Q3 = 152.5965", zinc_sec_mine["total"]["data"].get("2026Q3"), 152.5965))
+    checks.append(("锌矿总计行 26Q3 = 137.766", zinc_sec_mine["total"]["data"].get("2026Q3"), 137.766))
+    zinc_q3_real = sum(c["data"]["2026Q3"] for c in zinc_sec_mine["companies"]
+                       if c["data"].get("2026Q3") is not None and not c.get("est_q", {}).get("2026Q3"))
+    checks.append(("锌矿 26Q3 实际披露合计 = 135.999105", zinc_q3_real, 135.999105))
     zijin = next((c for c in zinc_sec_mine["companies"] if c["name"] == "紫金矿业"), None)
     checks.append(("锌 紫金矿业 25总计 = 35.7453", zijin["data"].get("2025") if zijin else None, 35.7453))
     fres = next((c for c in zinc_sec_mine["companies"] if c["name"] == "Fresnillo"), None)
